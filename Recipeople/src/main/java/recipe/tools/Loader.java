@@ -19,7 +19,6 @@ public class Loader {
 		usersDao.loadUsersFromCSV(userFildPath);
 //		Users user =  new Users(123, "d", Users.HealthGoal.GainMuscle);
 //		System.out.println(user.getUserId() + user.getUserName() + user.getHealthGoal().name());
-//		usersDao.create(user);
 //		
 	}
 }

@@ -90,7 +90,7 @@ public class UsersDao {
 		}
 	}
 
-	public Users getUserByUserId(int userId) throws SQLException {
+	public Users getUserById(int userId) throws SQLException {
 		String selectUser = "SELECT UserName,HealthGoal FROM Users WHERE UserId=?;";
 		Connection connection = null;
 		PreparedStatement selectStmt = null;
@@ -120,7 +120,7 @@ public class UsersDao {
 		return null;
 	}
 
-	public List<Users> getUsersByHealthGoal(Users.HealthGoal healthGoal) throws SQLException {
+	public List<Users> getUserByHealthGoal(Users.HealthGoal healthGoal) throws SQLException {
 		List<Users> Users = new ArrayList<>();
 		String selectUsers = "SELECT UserId,UserName FROM Users WHERE HealthGoal=?;";
 		Connection connection = null;

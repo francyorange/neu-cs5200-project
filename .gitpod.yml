@@ -1,6 +1,5 @@
 tasks:
-  - before: sudo apt update && sudo apt install mariadb-server -y && sudo service mariadb start
-    command: sudo service mariadb start
+  - before: bash gitpod-init.sh
 vscode:
   extensions:
     - cweijan.vscode-mysql-client2

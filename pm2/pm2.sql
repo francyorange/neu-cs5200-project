@@ -228,8 +228,8 @@ TABLE RecipeTag FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n
 SELECT 'Users' AS table_name, COUNT(*) AS row_count
 FROM Users
 UNION ALL
-SELECT 'Followings', COUNT(*)
-FROM Followings
+SELECT 'Follow', COUNT(*)
+FROM Follows
 UNION ALL
 SELECT 'Recipes', COUNT(*)
 FROM Recipes

@@ -1,5 +1,0 @@
-tasks:
-  - before: bash gitpod-init.sh
-vscode:
-  extensions:
-    - cweijan.vscode-mysql-client2

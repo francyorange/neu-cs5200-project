@@ -16,7 +16,6 @@ import java.util.Properties;
 public class ConnectionManager {
 
 	private final String user = "root";
-	// I remove my password and set it to the default value
 	private final String password = "123456";
 	private final String hostName = "localhost";
 	private final int port= 3306;

@@ -1,6 +1,10 @@
 package recipe.dal;
 
 import recipe.model.*;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -187,4 +191,40 @@ public class FollowsDao {
 				deleteStmt.close();
 		}
 	}
+	
+	public void loadFollowsFromCSV(String csvFilePath) throws SQLException, IOException {
+	    String insertFollowSQL = "INSERT INTO Follows (FollowingId,FollowerId) VALUES (?,?)";
+
+	    try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath));
+	         Connection connection = connectionManager.getConnection();
+	         PreparedStatement insertStmt = connection.prepareStatement(insertFollowSQL);) {
+
+	        br.readLine(); // Skip the header row
+	        String line;
+
+	        while ((line = br.readLine()) != null) {
+	            String[] fields = line.split(",");
+	            if (fields.length != 2) {
+	                System.err.println("Skipping invalid line: " + line);
+	                continue;
+	            }
+
+	            try {
+	                int followingId = Integer.parseInt(fields[0]);
+	                int followerId = Integer.parseInt(fields[1]);
+	                insertStmt.setInt(1, followingId);
+	                insertStmt.setInt(2, followerId);
+	                insertStmt.executeUpdate();
+	            } catch (NumberFormatException e) {
+	                System.err.println("Invalid line (non-integer values): " + line);
+	                e.printStackTrace();
+	            }
+	        }
+
+	    } catch (SQLException | IOException e) {
+	        e.printStackTrace();
+	        throw e;
+	    }
+	}
+
 }

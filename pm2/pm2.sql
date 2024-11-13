@@ -83,13 +83,18 @@ CREATE TABLE Ingredients (
     IngredientId INT PRIMARY KEY,
     IngredientName VARCHAR(255) NOT NULL,
     IngredientType ENUM(
-        'Vegetable',
-        'Fruit',
-        'Meat',
         'Dairy',
+        'Fruit',
         'Grain',
+        'Liquid',
+        'Meat',
+        'Miscellaneous',
+        'Nut',
+        'Oil',
+        'Seafood',
         'Spice',
-        'Other'
+        'Sweetener',
+        'Vegetable'
     ) NOT NULL
 );
 
@@ -120,12 +125,17 @@ CREATE TABLE Tags (
     TagId INT PRIMARY KEY,
     TagName VARCHAR(255) NOT NULL,
     Category ENUM(
-        'Cuisine',
-        'DietaryRestriction',
-        'MealType',
-        'Difficulty',
-        'Occasion',
-        'Other'
+        'condiment',
+        'course',
+        'cuisine',
+        'diet',
+        'feature',
+        'flavor_mood',
+        'ingredient',
+        'occasion',
+        'prep_method',
+        'specific_date',
+        'time'
     ) NOT NULL
 );
 

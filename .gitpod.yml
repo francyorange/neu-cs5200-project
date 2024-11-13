@@ -1,5 +1,5 @@
 tasks:
-  - init: sudo apt update && sudo apt install mariadb-server -y && sudo service mariadb start
+  - before: sudo apt update && sudo apt install mariadb-server -y && sudo service mariadb start
     command: sudo service mariadb start
 vscode:
   extensions:

@@ -1,4 +1,4 @@
-package review.dal;
+package recipe.dal;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,10 +8,13 @@ import java.util.Properties;
 /**
  * Use ConnectionManager to connect to your database instance.
  * 
- * ConnectionManager uses the MySQL Connector/J driver to connect to your local MySQL instance.
+ * ConnectionManager uses the MySQL Connector/J driver to connect to your local
+ * MySQL instance.
  * 
- * We will create a DAO (data access object) java class to interact with each MySQL table. 
- * The DAO java classes will use ConnectionManager to open and close connections.
+ * We will create a DAO (data access object) java class to interact with each
+ * MySQL table.
+ * The DAO java classes will use ConnectionManager to open and close
+ * connections.
  */
 public class ConnectionManager {
 
@@ -19,7 +22,7 @@ public class ConnectionManager {
 	// I remove my password and set it to the default value
 	private final String password = "cxx123456";
 	private final String hostName = "localhost";
-	private final int port= 3306;
+	private final int port = 3306;
 	private final String schema = "ReviewApplication";
 	private final String timezone = "UTC";
 
@@ -37,8 +40,9 @@ public class ConnectionManager {
 				throw new SQLException(e);
 			}
 			connection = DriverManager.getConnection(
-			    "jdbc:mysql://" + this.hostName + ":" + this.port + "/" + this.schema + "?useSSL=false&allowPublicKeyRetrieval=true",
-			    connectionProperties);
+					"jdbc:mysql://" + this.hostName + ":" + this.port + "/" + this.schema
+							+ "?useSSL=false&allowPublicKeyRetrieval=true",
+					connectionProperties);
 		} catch (SQLException e) {
 			e.printStackTrace();
 			throw e;

@@ -223,13 +223,6 @@ TABLE Tags FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGN
 LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/RecipeTag.csv' INTO
 TABLE RecipeTag FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (RecipeId, TagId);
 
--- Update missing HealthGoal values
-UPDATE Users
-SET
-    HealthGoal = 'Unknown'
-WHERE
-    HealthGoal IS NULL
-    OR HealthGoal = '';
 
 -- Query to check row counts
 SELECT 'Users' AS table_name, COUNT(*) AS row_count

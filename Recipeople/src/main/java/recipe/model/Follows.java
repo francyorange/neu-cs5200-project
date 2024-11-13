@@ -10,6 +10,11 @@ public class Follows {
 		this.following = following;
 		this.follower = follower;
 	}
+	
+	public Follows(Users following, Users follower) {
+		this.following = following;
+		this.follower = follower;
+	}
 
 	public Follows(int followId) {
 		this.followId = followId;

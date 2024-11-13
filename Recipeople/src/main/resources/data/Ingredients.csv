@@ -1,0 +1,5355 @@
+IngredientID,IngredientName,Type
+0,olive oil,Oil
+1,green bell pepper,Vegetable
+2,yellow onion,Vegetable
+3,salt,Spice
+4,pepper,Vegetable
+5,chicken,Meat
+6,heavy cream,Dairy
+7,buffalo,Miscellaneous
+8,blue cheese,Dairy
+9,cheez whiz,Miscellaneous
+10,rolls,Miscellaneous
+11,green onion,Vegetable
+12,parsley,Miscellaneous
+13,devil's food cake mix,Miscellaneous
+14,eggs,Miscellaneous
+15,buttermilk,Dairy
+16,red food coloring,Miscellaneous
+17,peppermint candies,Vegetable
+18,red candy melts,Miscellaneous
+19,peppermint oil,Oil
+20,fondant,Miscellaneous
+21,food coloring,Miscellaneous
+22,candy sprinkles,Miscellaneous
+23,icing,Miscellaneous
+24,white frosting,Miscellaneous
+25,unsalted butter,Dairy
+26,applesauce,Fruit
+27,egg,Miscellaneous
+28,unsulphured molasses,Sweetener
+29,golden syrup,Sweetener
+30,ground ginger,Spice
+31,ground cinnamon,Spice
+32,ground cloves,Spice
+33,all-purpose flour,Grain
+34,crystallized ginger,Spice
+35,pillsbury sugar cookie dough,Sweetener
+36,caramel topping,Miscellaneous
+37,coarse sea salt,Spice
+38,pecans,Miscellaneous
+39,baileys irish cream,Dairy
+40,chocolate liqueur,Miscellaneous
+41,vodka,Miscellaneous
+42,yukon gold potatoes,Vegetable
+43,cream cheese,Dairy
+44,butter,Dairy
+45,sour cream,Dairy
+46,heavy whipping cream,Dairy
+47,fresh chives,Miscellaneous
+48,fresh parsley,Miscellaneous
+49,garlic cloves,Vegetable
+50,fresh thyme,Miscellaneous
+51,ribs,Miscellaneous
+52,salt & freshly ground black pepper,Vegetable
+53,dry red wine,Liquid
+54,carrots,Vegetable
+55,celery,Miscellaneous
+56,leeks,Miscellaneous
+57,garlic,Vegetable
+58,bay leaf,Miscellaneous
+59,red pepper flakes,Vegetable
+60,low sodium beef broth,Meat
+61,fingerling potatoes,Vegetable
+62,mixed herbs,Spice
+63,chicken breasts,Meat
+64,long grain and wild rice blend,Grain
+65,cream of celery soup,Dairy
+66,cream of mushroom soup,Dairy
+67,garlic powder,Vegetable
+68,water,Liquid
+69,lipton onion soup mix,Vegetable
+70,pickle juice,Liquid
+71,whole milk,Dairy
+72,lemon juice,Fruit
+73,hot sauce,Liquid
+74,onion powder,Vegetable
+75,skinless chicken thighs,Meat
+76,peanut oil,Oil
+77,powdered sugar,Sweetener
+78,baking powder,Miscellaneous
+79,kosher salt,Spice
+80,paprika,Spice
+81,cayenne pepper,Vegetable
+82,fresh ground black pepper,Vegetable
+83,hamburger buns,Meat
+84,green leaf lettuce,Vegetable
+85,tomatoes,Vegetable
+86,monterey jack pepper cheese,Dairy
+87,cut green beans,Miscellaneous
+88,campbell's cream of mushroom soup,Dairy
+89,milk,Dairy
+90,shredded cheddar cheese,Dairy
+91,french's french fried onions,Vegetable
+92,biscuit dough,Miscellaneous
+93,honey,Sweetener
+94,brown sugar,Sweetener
+95,vanilla extract,Miscellaneous
+96,pumpkin spice,Spice
+97,vegetable oil,Oil
+98,old fashioned oats,Grain
+99,golden raisins,Miscellaneous
+100,granulated sugar,Sweetener
+101,fresh orange juice,Fruit
+102,baking soda,Miscellaneous
+103,cinnamon,Spice
+104,ground nutmeg,Miscellaneous
+105,zucchini,Vegetable
+106,apple,Fruit
+107,orange juice,Fruit
+108,confectioners' sugar,Sweetener
+109,almond extract,Nut
+110,flour,Grain
+111,sugar,Sweetener
+112,dry yeast,Miscellaneous
+113,warm water,Liquid
+114,salted butter,Dairy
+115,egg whites,Miscellaneous
+116,vanilla,Miscellaneous
+117,cake flour,Grain
+118,fine salt,Spice
+119,frosting,Miscellaneous
+120,lemon extract,Fruit
+121,corn syrup,Grain
+122,cornstarch,Grain
+123,green food coloring,Miscellaneous
+124,jumbo shrimp,Seafood
+125,fennel bulb,Miscellaneous
+126,crushed red pepper flakes,Vegetable
+127,orzo pasta,Grain
+128,chickpeas,Miscellaneous
+129,cherry tomatoes,Vegetable
+130,kalamata olive,Miscellaneous
+131,dill,Miscellaneous
+132,"lemon, zest of",Fruit
+133,dry white wine,Liquid
+134,low sodium chicken broth,Meat
+135,feta,Miscellaneous
+136,yellow onions,Vegetable
+137,bacon,Meat
+138,cheese,Dairy
+139,thyme leaves,Miscellaneous
+140,chives,Miscellaneous
+141,ground turkey,Meat
+142,poblano pepper,Vegetable
+143,chili powder,Miscellaneous
+144,cumin,Spice
+145,coriander,Miscellaneous
+146,tomato paste,Vegetable
+147,molasses,Sweetener
+148,san marzano tomatoes,Vegetable
+149,adobo seasoning,Miscellaneous
+150,sweet potato,Vegetable
+151,fresh corn,Grain
+152,dried beans,Miscellaneous
+153,cilantro,Miscellaneous
+154,lime wedge,Fruit
+155,avocado,Miscellaneous
+156,seasoned stuffing mix,Miscellaneous
+157,onion,Vegetable
+158,carrot,Vegetable
+159,rosemary,Spice
+160,sage,Miscellaneous
+161,black pepper,Vegetable
+162,cranberries,Miscellaneous
+163,ketchup,Miscellaneous
+164,cheese wheel,Dairy
+165,puff pastry,Miscellaneous
+166,prosciutto,Miscellaneous
+167,black olives,Miscellaneous
+168,thyme,Miscellaneous
+169,basil,Spice
+170,onions,Vegetable
+171,apple cider vinegar,Fruit
+172,soy sauce,Liquid
+173,chicken thighs,Meat
+174,long-grain white rice,Grain
+175,bok choy,Miscellaneous
+176,scallions,Miscellaneous
+177,bratwursts,Miscellaneous
+178,celery ribs,Miscellaneous
+179,beer,Miscellaneous
+180,soft pretzels,Miscellaneous
+181,fresh thyme leave,Miscellaneous
+182,chicken stock,Meat
+183,dijon mustard,Miscellaneous
+184,worcestershire sauce,Liquid
+185,ground chicken,Meat
+186,plain breadcrumbs,Grain
+187,garam masala,Miscellaneous
+188,fresh cilantro,Miscellaneous
+189,ghee,Miscellaneous
+190,chilies,Miscellaneous
+191,ginger,Spice
+192,ground turmeric,Miscellaneous
+193,curry powder,Miscellaneous
+194,ground cardamom,Miscellaneous
+195,ground coriander,Miscellaneous
+196,ground cumin,Spice
+197,fresh coarse ground black pepper,Vegetable
+198,crushed tomatoes,Vegetable
+199,cilantro leaf,Miscellaneous
+200,basmati rice,Grain
+201,naan bread,Grain
+202,buffalo wing sauce,Liquid
+203,monterey jack cheese,Dairy
+204,pizza dough,Miscellaneous
+205,carrot sticks,Vegetable
+206,celery rib,Miscellaneous
+207,ranch dressing,Miscellaneous
+208,pectin,Miscellaneous
+209,red peppers,Vegetable
+210,white vinegar,Liquid
+211,fresh tarragon,Miscellaneous
+212,sea salt,Spice
+213,powdered milk,Dairy
+214,ground allspice,Spice
+215,white sugar,Sweetener
+216,light brown sugar,Sweetener
+217,canned pumpkin,Miscellaneous
+218,coffee,Miscellaneous
+219,cocoa powder,Miscellaneous
+220,vanilla frosting,Miscellaneous
+221,white chocolate,Miscellaneous
+222,cake,Miscellaneous
+223,limes,Fruit
+224,taco seasoning mix,Miscellaneous
+225,buttermilk ranch dressing,Dairy
+226,lime juice,Fruit
+227,iceberg lettuce,Vegetable
+228,roma tomatoes,Vegetable
+229,flour tortillas,Grain
+230,italian seasoning,Miscellaneous
+231,parmesan cheese,Dairy
+232,small red potato,Vegetable
+233,fresh rosemary,Spice
+234,fresh mozzarella cheese,Dairy
+235,fresh basil leaf,Spice
+236,lemon zest,Fruit
+237,baguette,Miscellaneous
+238,shrimp,Seafood
+239,rice,Grain
+240,lemon,Fruit
+241,flaked sea salt,Spice
+242,caster sugar,Sweetener
+243,vanilla bean paste,Miscellaneous
+244,free-range eggs,Miscellaneous
+245,gelatin powder,Miscellaneous
+246,flavoring,Miscellaneous
+247,desiccated coconut,Miscellaneous
+248,powdered sugar icing,Sweetener
+249,raspberry jam,Fruit
+250,lemon curd,Fruit
+251,marshmallows,Miscellaneous
+252,fresh green beans,Miscellaneous
+253,cajun seasoning,Miscellaneous
+254,prawns,Miscellaneous
+255,spaghetti,Miscellaneous
+256,dried chili pepper flakes,Vegetable
+257,flat leaf parsley,Miscellaneous
+258,cracked black pepper,Vegetable
+259,tahini sesame butter,Dairy
+260,tamari,Miscellaneous
+261,nutritional yeast flakes,Miscellaneous
+262,seedless watermelon,Nut
+263,blueberries,Miscellaneous
+264,feta cheese,Dairy
+265,creole seasoning,Miscellaneous
+266,pearl barley,Grain
+267,swiss chard,Miscellaneous
+268,extra virgin olive oil,Oil
+269,chicken broth,Meat
+270,turkey cutlets,Meat
+271,wheat,Grain
+272,chili,Miscellaneous
+273,spring onions,Vegetable
+274,capsicums,Miscellaneous
+275,button mushrooms,Miscellaneous
+276,broccoli,Vegetable
+277,cabbage,Vegetable
+278,light soy sauce,Liquid
+279,vinegar,Liquid
+280,oil,Oil
+281,oats,Grain
+282,whole wheat flour,Grain
+283,croissants,Miscellaneous
+284,chicken bouillon,Meat
+285,macaroni,Miscellaneous
+286,1% low-fat milk,Dairy
+287,half-and-half,Miscellaneous
+288,cheddar cheese,Dairy
+289,dried parsley,Miscellaneous
+290,salt & fresh ground pepper,Vegetable
+291,panko breadcrumbs,Grain
+292,sharp cheddar cheese,Dairy
+293,boneless pork shoulder,Meat
+294,fresh lime juice,Fruit
+295,dried mexican oregano,Spice
+296,dried ancho chile powder,Miscellaneous
+297,corn tortilla,Grain
+298,green curry paste,Miscellaneous
+299,coriander powder,Miscellaneous
+300,cumin powder,Spice
+301,coconut milk,Dairy
+302,fish sauce,Seafood
+303,green beans,Miscellaneous
+304,bamboo shoots,Miscellaneous
+305,fresh lime leaves,Fruit
+306,thai basil,Spice
+307,cold water,Liquid
+308,cauliflower,Vegetable
+309,red onion,Vegetable
+310,jalapeno,Miscellaneous
+311,tortilla chips,Miscellaneous
+312,gnocchi,Miscellaneous
+313,ham steaks,Meat
+314,shallot,Miscellaneous
+315,peas,Miscellaneous
+316,salt and pepper,Vegetable
+317,breadcrumbs,Grain
+318,fresh corn kernels,Grain
+319,large shrimp,Seafood
+320,yellow cornmeal,Grain
+321,coconut oil,Oil
+322,unsweetened flaked coconut,Miscellaneous
+323,tomato ketchup,Vegetable
+324,tabasco sauce,Liquid
+325,bananas,Fruit
+326,greek yogurt,Dairy
+327,boneless ribs,Miscellaneous
+328,yellow peppers,Vegetable
+329,"limes, juice of",Fruit
+330,sweet potatoes,Vegetable
+331,ciabatta rolls,Miscellaneous
+332,mayonnaise,Miscellaneous
+333,pork ribs,Meat
+334,sweet onion,Vegetable
+335,cooked egg noodles,Grain
+336,lean ground beef,Meat
+337,dried chipotle powder,Miscellaneous
+338,dried oregano,Spice
+339,smoked paprika,Spice
+340,ale,Miscellaneous
+341,beef stock,Meat
+342,black beans,Miscellaneous
+343,pinto beans,Miscellaneous
+344,chipotle hot sauce,Liquid
+345,nonstick cooking spray,Miscellaneous
+346,french vanilla cake mix,Miscellaneous
+347,strawberry cake mix,Fruit
+348,chocolate cake mix,Miscellaneous
+349,malt drink powder,Miscellaneous
+350,strawberry extract,Fruit
+351,yellow candy melts,Miscellaneous
+352,orange candy melts,Fruit
+353,white fondant,Miscellaneous
+354,pistachios,Miscellaneous
+355,salmon fillets,Seafood
+356,asparagus,Miscellaneous
+357,ground black pepper,Vegetable
+358,rice krispies,Grain
+359,strawberry gelatin,Fruit
+360,cocoa,Miscellaneous
+361,mini marshmallows,Miscellaneous
+362,buttercream frosting,Dairy
+363,semi-sweet chocolate chips,Miscellaneous
+364,cool whip,Miscellaneous
+365,ice cream cones,Dairy
+366,maraschino cherry,Miscellaneous
+367,sweetened flaked coconut,Miscellaneous
+368,small shrimp,Seafood
+369,canola oil,Oil
+370,mozzarella cheese,Dairy
+371,red fresno chile,Miscellaneous
+372,pineapple,Fruit
+373,shredded hash brown potatoes,Vegetable
+374,granulated garlic,Vegetable
+375,red chili pepper flakes,Vegetable
+376,pineapple juice,Fruit
+377,sriracha sauce,Liquid
+378,chicken tenders,Meat
+379,sweetened coconut,Miscellaneous
+380,salted peanuts,Nut
+381,broccoli florets,Vegetable
+382,creamy peanut butter,Dairy
+383,fresh cilantro stem,Miscellaneous
+384,coconut,Miscellaneous
+385,jasmine rice,Grain
+386,whole milk ricotta cheese,Dairy
+387,yellow food coloring,Miscellaneous
+388,semisweet mini chocolate chips,Miscellaneous
+389,sugar ice cream cones,Dairy
+390,pineapple chunks,Fruit
+391,dried basil,Spice
+392,bow tie pasta,Grain
+393,frozen chopped spinach,Vegetable
+394,yogurt,Dairy
+395,fresh lemon juice,Fruit
+396,ground beef,Meat
+397,cornmeal,Grain
+398,persian cucumbers,Miscellaneous
+399,beets,Miscellaneous
+400,oranges,Fruit
+401,lemons,Fruit
+402,mint leaf,Miscellaneous
+403,white sesame seeds,Nut
+404,baby spinach leaves,Vegetable
+405,grapeseed oil,Oil
+406,fresh oregano,Spice
+407,red wine,Liquid
+408,fresh basil,Spice
+409,quick-cooking oats,Grain
+410,beef sirloin steaks,Meat
+411,french baguettes,Miscellaneous
+412,butter lettuce,Dairy
+413,red wine vinegar,Liquid
+414,hot red pepper,Vegetable
+415,avocados,Miscellaneous
+416,cream of tartar,Dairy
+417,baking potatoes,Vegetable
+418,sweet red pepper,Vegetable
+419,orange sweet bell pepper,Fruit
+420,green sweet pepper,Vegetable
+421,mushroom,Miscellaneous
+422,green onions,Vegetable
+423,boneless skinless chicken breast halves,Meat
+424,ice water,Liquid
+425,hamburger meat,Meat
+426,red potatoes,Vegetable
+427,onion soup mix,Vegetable
+428,lime,Fruit
+429,garlic clove,Vegetable
+430,jalapeno pepper,Vegetable
+431,corn tortillas,Grain
+432,fresh tomatoes,Vegetable
+433,gruyere cheese,Dairy
+434,bacon bits,Meat
+435,egg yolks,Miscellaneous
+436,nutmeg,Miscellaneous
+437,granny smith apples,Fruit
+438,balsamic vinegar,Liquid
+439,maple syrup,Sweetener
+440,peanut butter,Dairy
+441,marshmallow cream,Dairy
+442,lean ground sirloin,Miscellaneous
+443,chorizo sausage,Meat
+444,chili peppers,Vegetable
+445,sweet paprika,Spice
+446,oreo cookies,Miscellaneous
+447,short-grain rice,Grain
+448,salmon,Seafood
+449,toasted sesame seeds,Nut
+450,toasted sesame oil,Oil
+451,rice vinegar,Grain
+452,chili sauce,Liquid
+453,greens,Miscellaneous
+454,pickled daikon,Miscellaneous
+455,pink grapefruit juice,Fruit
+456,"grapefruit, zest of",Fruit
+457,champagne,Meat
+458,fleur de sel,Miscellaneous
+459,fresh mint leaves,Miscellaneous
+460,white cake mix,Miscellaneous
+461,butterscotch extract,Dairy
+462,butterscotch syrup,Dairy
+463,beef chuck,Meat
+464,beef broth,Meat
+465,potato,Vegetable
+466,brown lentils,Miscellaneous
+467,beef bouillon,Meat
+468,elbow macaroni,Miscellaneous
+469,evaporated milk,Dairy
+470,extra-sharp cheddar cheese,Dairy
+471,butter flavored cracker,Dairy
+472,chicken thigh,Meat
+473,potatoes,Vegetable
+474,ranch dressing mix,Miscellaneous
+475,cooked white rice,Grain
+476,cooked brown rice,Grain
+477,coleslaw,Miscellaneous
+478,red bell pepper,Vegetable
+479,macadamia nuts,Miscellaneous
+480,sesame oil,Oil
+481,pineapple tidbits,Fruit
+482,rib eye steaks,Miscellaneous
+483,kohlrabi,Miscellaneous
+484,broad bean,Miscellaneous
+485,strawberries,Miscellaneous
+486,eggplants,Miscellaneous
+487,margarine,Miscellaneous
+488,salt & pepper,Vegetable
+489,wakame seaweed,Miscellaneous
+490,hijiki seaweed,Miscellaneous
+491,tuna,Seafood
+492,sweet onions,Vegetable
+493,sesame seeds,Nut
+494,tahini,Miscellaneous
+495,roasted almonds,Nut
+496,raw shrimp,Seafood
+497,"lemons, juice of",Fruit
+498,ice,Miscellaneous
+499,pineapple vodka,Fruit
+500,white wine,Liquid
+501,club soda,Miscellaneous
+502,pasta,Grain
+503,egg yolk,Miscellaneous
+504,seasoning,Miscellaneous
+505,rice wine vinegar,Grain
+506,orange,Fruit
+507,gingerroot,Spice
+508,ricotta cheese,Dairy
+509,cubed ham,Meat
+510,scallion,Miscellaneous
+511,macaroni noodles,Grain
+512,velveeta cheese,Dairy
+513,white pepper,Vegetable
+514,ginger powder,Spice
+515,cod,Miscellaneous
+516,skewers,Miscellaneous
+517,ginger paste,Spice
+518,turmeric,Miscellaneous
+519,dried chili,Miscellaneous
+520,of fresh mint,Miscellaneous
+521,yoghurt,Miscellaneous
+522,nutella,Miscellaneous
+523,shortening,Miscellaneous
+524,white chocolate chips,Miscellaneous
+525,green creme de menthe,Miscellaneous
+526,unflavored gelatin,Miscellaneous
+527,green candy melts,Miscellaneous
+528,pudding mix,Miscellaneous
+529,light rum,Miscellaneous
+530,crushed pineapple,Fruit
+531,coconut flakes,Miscellaneous
+532,whipped cream,Dairy
+533,poultry seasoning,Miscellaneous
+534,boneless skinless chicken breast,Meat
+535,frozen peas and carrots,Vegetable
+536,vanilla wafers,Miscellaneous
+537,cream,Dairy
+538,pie crusts,Miscellaneous
+539,yeast,Miscellaneous
+540,corn muffin mix,Grain
+541,hot dogs,Miscellaneous
+542,vanilla ice cream,Dairy
+543,chocolate sandwich style cookies,Miscellaneous
+544,blue food coloring,Miscellaneous
+545,graham cracker,Meat
+546,candy,Miscellaneous
+547,gummy ring,Miscellaneous
+548,sweet corn,Grain
+549,heirloom tomatoes,Vegetable
+550,fresh thyme sprigs,Miscellaneous
+551,rib eye,Miscellaneous
+552,provolone cheese,Dairy
+553,tomato sauce,Vegetable
+554,sweet chili sauce,Liquid
+555,hot chili sauce,Liquid
+556,beef brisket,Meat
+557,kosher salt & freshly ground black pepper,Vegetable
+558,"lemon, juice and zest of",Fruit
+559,parmigiano-reggiano cheese,Dairy
+560,anjou pear,Miscellaneous
+561,red cabbage,Vegetable
+562,tortilla,Miscellaneous
+563,head cauliflower,Vegetable
+564,boneless skinless chicken breasts,Meat
+565,lemon wedge,Fruit
+566,brown basmati rice,Grain
+567,fennel seed,Nut
+568,broccolini,Vegetable
+569,natural-style peanut butter,Dairy
+570,pudding,Miscellaneous
+571,french vanilla flavored coffee creamer,Dairy
+572,strawberry,Fruit
+573,mandarin oranges,Fruit
+574,kiwi,Miscellaneous
+575,mangoes,Fruit
+576,banana,Fruit
+577,"lemon, juice of",Fruit
+578,corn,Grain
+579,cotija cheese,Dairy
+580,candies,Miscellaneous
+581,pie crust,Miscellaneous
+582,strawberry pie filling,Fruit
+583,liquor,Miscellaneous
+584,strawberry jam,Fruit
+585,pomegranate juice,Liquid
+586,chocolate mousse mix,Miscellaneous
+587,graham crackers,Meat
+588,brownies,Miscellaneous
+589,dark chocolate,Miscellaneous
+590,coconut flour,Grain
+591,gluten free baking powder,Miscellaneous
+592,sourdough bread,Grain
+593,spring onion,Vegetable
+594,habanero,Miscellaneous
+595,black peppercorns,Grain
+596,allspice berry,Fruit
+597,distilled white vinegar,Liquid
+598,seasoning salt,Spice
+599,hot smoked paprika,Spice
+600,lager beer,Miscellaneous
+601,cider vinegar,Liquid
+602,salsa,Miscellaneous
+603,vegetables,Miscellaneous
+604,tomatillos,Miscellaneous
+605,serranos,Miscellaneous
+606,mascarpone,Miscellaneous
+607,shallots,Miscellaneous
+608,long-grain rice,Grain
+609,dark soy sauce,Liquid
+610,shaoxing wine,Liquid
+611,"lime, juice of",Fruit
+612,baby bok choy,Miscellaneous
+613,scallops,Miscellaneous
+614,mexican oregano,Spice
+615,mustard,Miscellaneous
+616,whole tomato,Vegetable
+617,white onion,Vegetable
+618,jalapenos,Miscellaneous
+619,arbol chile,Miscellaneous
+620,mild cheddar cheese,Dairy
+621,filet mignon,Miscellaneous
+622,oyster sauce,Liquid
+623,romaine lettuce,Vegetable
+624,pork chops,Meat
+625,coriander seeds,Nut
+626,mustard seeds,Nut
+627,coriander seed,Nut
+628,dried cherries,Miscellaneous
+629,peach,Miscellaneous
+630,peaches,Miscellaneous
+631,bourbon,Miscellaneous
+632,vanilla bean,Miscellaneous
+633,lemon pepper seasoning,Fruit
+634,lemon slices,Fruit
+635,diced tomatoes with juice,Vegetable
+636,diced green chilies,Miscellaneous
+637,oregano,Spice
+638,bisquick,Miscellaneous
+639,deli ham,Meat
+640,boneless chicken breasts,Meat
+641,minced ginger,Spice
+642,soya sauce,Liquid
+643,white potatoes,Vegetable
+644,hard-boiled eggs,Oil
+645,yellow mustard,Miscellaneous
+646,celery seeds,Nut
+647,fresh ground pepper,Vegetable
+648,almond flour,Grain
+649,walnut oil,Oil
+650,pork belly,Meat
+651,star anise pods,Miscellaneous
+652,msg,Miscellaneous
+653,sliced mushrooms,Miscellaneous
+654,spinach,Vegetable
+655,potato dinner rolls,Vegetable
+656,bread and butter pickles,Grain
+657,fresno chile pepper,Vegetable
+658,gochujang,Miscellaneous
+659,baby back ribs,Miscellaneous
+660,barbecue sauce,Liquid
+661,boneless beef chuck roast,Meat
+662,cayenne,Miscellaneous
+663,pita bread,Grain
+664,plum tomatoes,Vegetable
+665,cucumber,Miscellaneous
+666,hummus,Miscellaneous
+667,unsweetened cocoa powder,Miscellaneous
+668,caramel sauce,Liquid
+669,chocolate chips,Miscellaneous
+670,portabella mushrooms,Miscellaneous
+671,pizza sauce,Liquid
+672,pepperoni,Vegetable
+673,basil leaves,Spice
+674,prepared pizza crust,Miscellaneous
+675,salami,Miscellaneous
+676,mortadella,Miscellaneous
+677,marinara sauce,Liquid
+678,pure vanilla extract,Miscellaneous
+679,icing sugar,Sweetener
+680,tea,Miscellaneous
+681,bay leaves,Miscellaneous
+682,clove,Spice
+683,pork tenderloin,Meat
+684,cornbread,Grain
+685,red pepper,Vegetable
+686,andouille sausages,Meat
+687,arugula leaf,Miscellaneous
+688,simple syrup,Sweetener
+689,gin,Miscellaneous
+690,cinnamon syrup,Spice
+691,fresh pineapple juice,Fruit
+692,grapefruit juice,Fruit
+693,cinnamon sticks,Spice
+694,vanilla instant pudding mix,Miscellaneous
+695,fine sea salt,Spice
+696,fat free greek yogurt,Dairy
+697,instant yeast,Miscellaneous
+698,peach preserves,Miscellaneous
+699,peach juice,Liquid
+700,orange zest,Fruit
+701,pickled jalapeno pepper,Vegetable
+702,boneless skinless chicken thighs,Meat
+703,fruit loops cereal,Fruit
+704,linguine,Miscellaneous
+705,baby spinach,Vegetable
+706,mushrooms,Miscellaneous
+707,seltzer water,Liquid
+708,dark brown sugar,Sweetener
+709,chocolate,Miscellaneous
+710,unsweetened cocoa,Miscellaneous
+711,banana chips,Fruit
+712,unsweetened chocolate squares,Miscellaneous
+713,walnuts,Nut
+714,phyllo dough,Miscellaneous
+715,frozen strawberries,Miscellaneous
+716,liquid glucose,Miscellaneous
+717,condensed milk,Dairy
+718,graham cracker crumbs,Meat
+719,oreo cookie crumbs,Miscellaneous
+720,chipotle chiles in adobo,Miscellaneous
+721,cheese pizza,Dairy
+722,guacamole,Miscellaneous
+723,fresh cilantro leaves,Miscellaneous
+724,orange extract,Fruit
+725,active dry yeast,Miscellaneous
+726,pretzels,Miscellaneous
+727,pretzel,Miscellaneous
+728,swiss cheese,Dairy
+729,dry mustard,Miscellaneous
+730,white cheddar cheese,Dairy
+731,asiago cheese,Dairy
+732,bocconcini,Miscellaneous
+733,hamburger,Meat
+734,taco seasoning,Miscellaneous
+735,garlic salt,Vegetable
+736,baby carrots,Vegetable
+737,frozen spinach,Vegetable
+738,top sirloin steak,Miscellaneous
+739,portabella mushroom,Miscellaneous
+740,frozen chopped broccoli,Vegetable
+741,extra lean ground beef,Meat
+742,tomato puree,Vegetable
+743,dry pasta,Grain
+744,mixed italian herbs,Spice
+745,guar gum,Miscellaneous
+746,hot italian sausage link,Meat
+747,chicken breast,Meat
+748,cannellini beans,Miscellaneous
+749,monterey jack and cheddar cheese blend,Dairy
+750,frozen mixed vegetables,Miscellaneous
+751,egg noodles,Grain
+752,rotini pasta,Grain
+753,russet potatoes,Vegetable
+754,bread flour,Grain
+755,maple sugar,Sweetener
+756,dates,Miscellaneous
+757,brown rice flour,Grain
+758,xanthan gum,Miscellaneous
+759,quick oats,Grain
+760,fruit,Fruit
+761,star fruit,Fruit
+762,beef round steak,Meat
+763,pecorino romano cheese,Dairy
+764,fresh flat-leaf parsley,Miscellaneous
+765,fresh basil leaves,Spice
+766,ziti pasta,Grain
+767,cauliflower florets,Vegetable
+768,penne rigate,Miscellaneous
+769,dry white vermouth,Miscellaneous
+770,chicken base,Meat
+771,dried rosemary leaves,Spice
+772,dried parsley flakes,Miscellaneous
+773,dried thyme,Miscellaneous
+774,rubbed sage,Miscellaneous
+775,celery seed,Nut
+776,dehydrated onion,Vegetable
+777,thick slab bacon,Meat
+778,whole tomatoes,Vegetable
+779,purple sweet potato,Vegetable
+780,pumpkin pie spice,Spice
+781,caramels,Miscellaneous
+782,sweetened condensed milk,Dairy
+783,miniature marshmallows,Miscellaneous
+784,toasted rice cereal,Grain
+785,cooking spray,Miscellaneous
+786,chocolate candy melts,Miscellaneous
+787,candied orange peel,Fruit
+788,white chocolate candy melts,Miscellaneous
+789,peppermint extract,Vegetable
+790,candy cane,Miscellaneous
+791,puree,Miscellaneous
+792,rum,Miscellaneous
+793,bitters,Miscellaneous
+794,fresh brussels sprout,Miscellaneous
+795,ritz crackers,Miscellaneous
+796,black truffles,Miscellaneous
+797,brown gravy mix,Miscellaneous
+798,white rice,Grain
+799,yams,Miscellaneous
+800,shiitake mushrooms,Miscellaneous
+801,fresh lime zest,Fruit
+802,apples,Fruit
+803,turbinado sugar,Sweetener
+804,italian parsley,Miscellaneous
+805,jumbo pasta shells,Grain
+806,coconut cream,Dairy
+807,pumpkin puree,Miscellaneous
+808,plain yogurt,Dairy
+809,orange food coloring,Fruit
+810,dried sage,Miscellaneous
+811,turkey,Meat
+812,white mushrooms,Miscellaneous
+813,crabmeat,Seafood
+814,soft breadcrumbs,Grain
+815,ground cayenne pepper,Vegetable
+816,milk chocolate chips,Dairy
+817,country ham,Meat
+818,collard greens,Miscellaneous
+819,smoked gouda cheese,Dairy
+820,pesto sauce,Liquid
+821,roasted green chilies,Miscellaneous
+822,poppy seed,Nut
+823,dried onion flakes,Vegetable
+824,dried garlic flakes,Vegetable
+825,egg white,Miscellaneous
+826,eggnog,Miscellaneous
+827,hot water,Liquid
+828,smooth peanut butter,Dairy
+829,slivered almonds,Nut
+830,white bread,Grain
+831,apricot jam,Miscellaneous
+832,diced onion,Vegetable
+833,fresh sage,Miscellaneous
+834,parmigiano,Miscellaneous
+835,unsweetened chocolate,Miscellaneous
+836,pastry shells,Miscellaneous
+837,almond meal,Nut
+838,apple cider,Fruit
+839,doughnut,Miscellaneous
+840,licorice,Grain
+841,sour apple,Fruit
+842,italian sausage,Meat
+843,parsley sprig,Miscellaneous
+844,pecan halves,Miscellaneous
+845,brie round,Miscellaneous
+846,pure maple syrup,Sweetener
+847,boiling water,Oil
+848,hersheys chocolate syrup,Sweetener
+849,light corn syrup,Grain
+850,cheese tortellini,Dairy
+851,frozen peas,Miscellaneous
+852,pepperoni slices,Vegetable
+853,cooked bacon,Meat
+854,diced pimentos,Miscellaneous
+855,jamaican jerk spice,Spice
+856,scotch bonnet pepper,Vegetable
+857,red stripe beer,Miscellaneous
+858,browning sauce,Liquid
+859,cooking oil,Oil
+860,dried cranberries,Miscellaneous
+861,pork shoulder,Meat
+862,chicken livers,Meat
+863,curing salt,Spice
+864,old bay seasoning,Miscellaneous
+865,garlic granules,Vegetable
+866,hot paprika,Spice
+867,file powder,Miscellaneous
+868,ground fennel,Miscellaneous
+869,ground mace,Miscellaneous
+870,cooked rice,Grain
+871,cuban bread,Grain
+872,beef,Meat
+873,potato sticks,Vegetable
+874,beef stew meat,Meat
+875,polish kielbasa,Miscellaneous
+876,spanish onion,Vegetable
+877,turnip,Miscellaneous
+878,frozen corn,Grain
+879,frozen green pea,Miscellaneous
+880,extra-large shrimp,Seafood
+881,fresh asparagus,Miscellaneous
+882,white balsamic vinegar,Liquid
+883,honey mustard,Sweetener
+884,wooden skewers,Miscellaneous
+885,splenda granular,Miscellaneous
+886,fresh dill,Miscellaneous
+887,table salt,Spice
+888,crackers,Miscellaneous
+889,green pepper,Vegetable
+890,cooked quinoa,Miscellaneous
+891,english muffin,Miscellaneous
+892,almond butter,Dairy
+893,breakfast sausage links,Meat
+894,white corn tortillas,Grain
+895,chili flakes,Miscellaneous
+896,berries,Miscellaneous
+897,vanilla greek yogurt,Dairy
+898,granola cereal,Miscellaneous
+899,skim milk,Dairy
+900,lard,Miscellaneous
+901,ground flax seeds,Nut
+902,vital wheat gluten flour,Grain
+903,dried yeast,Miscellaneous
+904,ground pork,Meat
+905,leek,Miscellaneous
+906,gelatin,Miscellaneous
+907,semolina,Miscellaneous
+908,superfine sugar,Sweetener
+909,cream of coconut,Dairy
+910,rose water,Liquid
+911,unsweetened dried shredded coconut,Miscellaneous
+912,lemon slice,Fruit
+913,mango,Fruit
+914,star anise,Miscellaneous
+915,cardamom,Miscellaneous
+916,red lentil,Miscellaneous
+917,cumin seed,Nut
+918,liqueur,Miscellaneous
+919,brown rice,Grain
+920,radishes,Miscellaneous
+921,edamame,Miscellaneous
+922,pickle,Miscellaneous
+923,parsley flakes,Miscellaneous
+924,bell pepper,Vegetable
+925,fresh okra,Miscellaneous
+926,andouille sausage,Meat
+927,kidney beans,Miscellaneous
+928,roux,Miscellaneous
+929,gumbo file,Miscellaneous
+930,angostura bitters,Miscellaneous
+931,rib eye steak,Miscellaneous
+932,garbanzo beans,Miscellaneous
+933,yellow pepper,Vegetable
+934,baby calamari,Miscellaneous
+935,red chicory,Miscellaneous
+936,coconut butter,Dairy
+937,instant espresso powder,Miscellaneous
+938,bittersweet chocolate,Miscellaneous
+939,rose petal,Miscellaneous
+940,phyllo pastry,Miscellaneous
+941,fresh thyme leaves,Miscellaneous
+942,full-fat milk,Dairy
+943,plain flour,Grain
+944,bicarbonate of soda,Miscellaneous
+945,dark chocolate chips,Miscellaneous
+946,cider,Miscellaneous
+947,sunflower oil,Oil
+948,black treacle,Miscellaneous
+949,fresh gingerroot,Spice
+950,chinese five spice powder,Spice
+951,dried apricots,Miscellaneous
+952,cardamom pods,Miscellaneous
+953,ground almonds,Nut
+954,polenta,Miscellaneous
+955,rose petals,Miscellaneous
+956,quinoa,Miscellaneous
+957,bouillon cube,Miscellaneous
+958,radish,Miscellaneous
+959,mint,Miscellaneous
+960,sirloin steak,Miscellaneous
+961,summer squash,Miscellaneous
+962,salt and black pepper,Vegetable
+963,coconut aminos,Miscellaneous
+964,real maple syrup,Sweetener
+965,za'atar spice mix,Spice
+966,bread dough,Grain
+967,labneh,Miscellaneous
+968,fresh tomato,Vegetable
+969,semisweet chips,Miscellaneous
+970,whole cloves,Spice
+971,curry leaf,Miscellaneous
+972,lemon wedges,Fruit
+973,pitted dates,Miscellaneous
+974,strong black coffee,Miscellaneous
+975,rainbow trout,Miscellaneous
+976,fontina cheese,Dairy
+977,nigella seeds,Nut
+978,red sweet bell pepper,Vegetable
+979,yellow sweet bell pepper,Vegetable
+980,tarragon vinegar,Liquid
+981,whipping cream,Dairy
+982,pork loin roast,Meat
+983,sea bass,Miscellaneous
+984,chopped tomatoes,Vegetable
+985,green peppers,Vegetable
+986,chili pepper flakes,Vegetable
+987,vermicelli,Miscellaneous
+988,cardamom pod,Miscellaneous
+989,fenugreek seeds,Nut
+990,stock,Miscellaneous
+991,habanero pepper,Vegetable
+992,butternut squash,Dairy
+993,berbere,Miscellaneous
+994,ground fenugreek,Miscellaneous
+995,edam cheese,Dairy
+996,blackberry,Fruit
+997,lean ground lamb,Meat
+998,pecorino cheese,Dairy
+999,sambal oelek,Miscellaneous
+1000,red chili pepper,Vegetable
+1001,canned tomatoes,Vegetable
+1002,soft fresh goat cheese,Grain
+1003,chicken wings,Meat
+1004,fresh ginger,Spice
+1005,dry breadcrumbs,Grain
+1006,brussels sprouts,Miscellaneous
+1007,mixed mushrooms,Miscellaneous
+1008,red onions,Vegetable
+1009,cottage cheese,Dairy
+1010,gluten-free flour,Grain
+1011,chips,Miscellaneous
+1012,arugula,Miscellaneous
+1013,fig,Miscellaneous
+1014,potato starch,Vegetable
+1015,white beans,Miscellaneous
+1016,green apples,Fruit
+1017,allspice,Spice
+1018,fennel,Miscellaneous
+1019,rice bran oil,Oil
+1020,white miso,Miscellaneous
+1021,brown button mushrooms,Miscellaneous
+1022,chili paste,Miscellaneous
+1023,wheat noodles,Grain
+1024,black sesame seeds,Nut
+1025,colby cheese,Dairy
+1026,ground chuck,Miscellaneous
+1027,english cucumbers,Miscellaneous
+1028,cooked chicken,Meat
+1029,diced tomatoes,Vegetable
+1030,green chilies,Miscellaneous
+1031,taco shells,Miscellaneous
+1032,refried beans,Miscellaneous
+1033,mexican blend cheese,Dairy
+1034,arborio rice,Grain
+1035,raisins,Miscellaneous
+1036,baby bella mushrooms,Miscellaneous
+1037,dry sherry,Miscellaneous
+1038,boneless pork chops,Meat
+1039,fish fillets,Seafood
+1040,fish fillet,Seafood
+1041,dried apricot,Miscellaneous
+1042,toasted almond,Nut
+1043,pomegranate seeds,Nut
+1044,bread,Grain
+1045,fresh peach,Miscellaneous
+1046,peach sorbet,Miscellaneous
+1047,mustard powder,Miscellaneous
+1048,head of garlic,Vegetable
+1049,sazon goya,Miscellaneous
+1050,sofrito sauce,Liquid
+1051,white clam sauce,Liquid
+1052,hawaiian rolls,Miscellaneous
+1053,steak,Miscellaneous
+1054,celery root,Miscellaneous
+1055,parsley roots,Miscellaneous
+1056,smoked bacon,Meat
+1057,fresh bay leaves,Miscellaneous
+1058,whole wheat spaghetti,Grain
+1059,grana padano,Miscellaneous
+1060,pork,Meat
+1061,cooked ham,Meat
+1062,cake mix,Miscellaneous
+1063,fresh strawberries,Miscellaneous
+1064,fresh edible flowers,Miscellaneous
+1065,strawberry ice cream,Dairy
+1066,dried strawberries,Miscellaneous
+1067,roast,Miscellaneous
+1068,sliced almonds,Nut
+1069,cavatappi pasta,Grain
+1070,herbs,Spice
+1071,crunchy peanut butter,Dairy
+1072,almond milk,Dairy
+1073,english cucumber,Miscellaneous
+1074,snow peas,Miscellaneous
+1075,smoked salmon,Seafood
+1076,mirin,Miscellaneous
+1077,sake,Miscellaneous
+1078,fresh shiitake mushrooms,Miscellaneous
+1079,nori,Miscellaneous
+1080,wasabi,Miscellaneous
+1081,pumpkin,Miscellaneous
+1082,almonds,Nut
+1083,vegetable stock,Miscellaneous
+1084,curry,Miscellaneous
+1085,fresh cream,Dairy
+1086,fresh peaches,Miscellaneous
+1087,fresh blackberries,Miscellaneous
+1088,pickled red onions,Vegetable
+1089,serrano chili,Miscellaneous
+1090,low sodium soy sauce,Liquid
+1091,hoisin sauce,Liquid
+1092,pork spareribs,Meat
+1093,liquid smoke,Miscellaneous
+1094,ground oregano,Spice
+1095,navy beans,Miscellaneous
+1096,queso fresco,Miscellaneous
+1097,raspberries,Miscellaneous
+1098,baking mix,Miscellaneous
+1099,broccoli floret,Vegetable
+1100,red apples,Fruit
+1101,apricot preserves,Miscellaneous
+1102,pastry dough,Miscellaneous
+1103,accent seasoning,Miscellaneous
+1104,whole chickens,Meat
+1105,sharp white cheddar cheese,Dairy
+1106,skinless salmon fillet,Seafood
+1107,baby arugula,Miscellaneous
+1108,lemongrass,Fruit
+1109,madras curry powder,Miscellaneous
+1110,corn kernels,Grain
+1111,snap peas,Miscellaneous
+1112,corn kernel,Grain
+1113,cornbread mix,Grain
+1114,watermelon radishes,Liquid
+1115,serrano chilies,Miscellaneous
+1116,cloves,Spice
+1117,fennel seeds,Nut
+1118,beef shank,Meat
+1119,rice noodles,Grain
+1120,bean sprouts,Miscellaneous
+1121,thai rice noodles,Grain
+1122,sambal oelek chili paste,Miscellaneous
+1123,"lime, zest of",Fruit
+1124,roasted peanuts,Nut
+1125,lime slice,Fruit
+1126,flax seed meal,Nut
+1127,brewer's yeast,Miscellaneous
+1128,roma tomato,Vegetable
+1129,yellow zucchini,Vegetable
+1130,green zucchini,Vegetable
+1131,epazote,Miscellaneous
+1132,serrano pepper,Vegetable
+1133,turmeric powder,Miscellaneous
+1134,jeera powder,Miscellaneous
+1135,leg of lamb,Meat
+1136,green chili pepper,Vegetable
+1137,eggplant,Miscellaneous
+1138,rigatoni pasta,Grain
+1139,ricotta salata,Miscellaneous
+1140,rosemary sprigs,Spice
+1141,sugar snap pea,Sweetener
+1142,fresh ground white pepper,Vegetable
+1143,frozen baby peas,Miscellaneous
+1144,artichokes,Miscellaneous
+1145,grenadine,Miscellaneous
+1146,prosecco,Miscellaneous
+1147,crispy rice cereal,Grain
+1148,cereal,Miscellaneous
+1149,semisweet chocolate morsels,Miscellaneous
+1150,oat flour,Grain
+1151,boneless chicken breast,Meat
+1152,m&m',Miscellaneous
+1153,edible glitter,Miscellaneous
+1154,luster dust,Miscellaneous
+1155,dumpling wrappers,Miscellaneous
+1156,green chili,Miscellaneous
+1157,campbell's cream of chicken soup,Dairy
+1158,mini sweet peppers,Vegetable
+1159,herb seasoned stuffing mix,Spice
+1160,flat-leaf italian parsley,Miscellaneous
+1161,italian cheese blend,Dairy
+1162,olive,Miscellaneous
+1163,hard salami,Miscellaneous
+1164,skewer,Miscellaneous
+1165,kielbasa,Miscellaneous
+1166,fresh spinach,Vegetable
+1167,pine nuts,Miscellaneous
+1168,light butter,Dairy
+1169,caster,Miscellaneous
+1170,cinnamon stick,Spice
+1171,cornflour,Grain
+1172,vanilla essence,Miscellaneous
+1173,fresh sage leaves,Miscellaneous
+1174,kale,Miscellaneous
+1175,wonton wrappers,Miscellaneous
+1176,tart baking apples,Fruit
+1177,spaghetti squash,Miscellaneous
+1178,white whole wheat flour,Grain
+1179,minced garlic clove,Vegetable
+1180,hash browns,Miscellaneous
+1181,chunky salsa,Miscellaneous
+1182,flax seed,Nut
+1183,pumpkin seeds,Nut
+1184,sunflower seeds,Nut
+1185,penne,Miscellaneous
+1186,pasta sauce,Grain
+1187,red velvet cake mix,Miscellaneous
+1188,beans,Miscellaneous
+1189,stout beer,Miscellaneous
+1190,dutch-processed cocoa powder,Miscellaneous
+1191,light-brown sugar,Sweetener
+1192,coarse salt,Spice
+1193,irish cream,Dairy
+1194,green sprinkles,Miscellaneous
+1195,whiskey,Miscellaneous
+1196,french bread,Grain
+1197,refrigerated pie crust,Miscellaneous
+1198,canadian bacon,Meat
+1199,toast,Miscellaneous
+1200,refrigerated buttermilk biscuits,Dairy
+1201,blood orange juice,Fruit
+1202,meat,Miscellaneous
+1203,tomatoes with juice,Vegetable
+1204,olives,Miscellaneous
+1205,trix cereal,Miscellaneous
+1206,low-fat parmesan cheese,Dairy
+1207,fruity pebbles cereal,Fruit
+1208,kiwi fruits,Fruit
+1209,chocolate syrup,Sweetener
+1210,chuck roast,Miscellaneous
+1211,refrigerated sugar cookie dough,Sweetener
+1212,clementine,Miscellaneous
+1213,white cake layers,Miscellaneous
+1214,red gelatin,Miscellaneous
+1215,orange gelatin,Fruit
+1216,whipped topping,Miscellaneous
+1217,coleslaw dressing,Miscellaneous
+1218,celery salt,Spice
+1219,frank,Miscellaneous
+1220,clamato juice,Liquid
+1221,skinless chicken breast,Meat
+1222,kool-aid,Miscellaneous
+1223,chewing gum,Miscellaneous
+1224,flank steaks,Miscellaneous
+1225,thai sweet chili sauce,Liquid
+1226,pineapple chunk,Fruit
+1227,anise,Miscellaneous
+1228,whole kernel corn,Grain
+1229,cream of chicken soup,Dairy
+1230,chunk chicken,Meat
+1231,tomatoes and green chilies,Vegetable
+1232,lime wedges,Fruit
+1233,semisweet chocolate,Miscellaneous
+1234,italian plums,Miscellaneous
+1235,currants,Miscellaneous
+1236,shredded coconut,Miscellaneous
+1237,carob powder,Miscellaneous
+1238,stevia,Miscellaneous
+1239,chia seeds,Nut
+1240,psyllium,Miscellaneous
+1241,cashew milk,Dairy
+1242,spinach leaves,Vegetable
+1243,diced tomatoes in tomato puree,Vegetable
+1244,french style green beans,Miscellaneous
+1245,good seasons italian dressing,Miscellaneous
+1246,unsweetened pomegranate juice,Liquid
+1247,85% lean ground beef,Meat
+1248,raw cashews,Miscellaneous
+1249,whole canned tomatoes,Vegetable
+1250,dried rosemary,Spice
+1251,light olive oil,Oil
+1252,cooked pasta,Grain
+1253,orange bell pepper,Fruit
+1254,v8 vegetable juice,Liquid
+1255,watermelon radish,Liquid
+1256,beet,Miscellaneous
+1257,shiso leaf,Miscellaneous
+1258,rice paper,Grain
+1259,seasoned rice vinegar,Grain
+1260,ground mustard,Miscellaneous
+1261,alfredo sauce,Liquid
+1262,candied ginger,Spice
+1263,instant vanilla pudding,Miscellaneous
+1264,nuts,Miscellaneous
+1265,crescent rolls,Miscellaneous
+1266,plum tomato,Vegetable
+1267,dried blueberries,Miscellaneous
+1268,golden raisin,Miscellaneous
+1269,dried peaches,Miscellaneous
+1270,mushroom caps,Miscellaneous
+1271,vegetable broth,Liquid
+1272,fresh raspberry,Fruit
+1273,lime zest,Fruit
+1274,no-boil lasagna noodles,Oil
+1275,mint chips,Miscellaneous
+1276,sweet peppers,Vegetable
+1277,culantro,Miscellaneous
+1278,rolled oats,Grain
+1279,mini chocolate chips,Miscellaneous
+1280,peanuts,Nut
+1281,black food coloring,Miscellaneous
+1282,royal icing,Miscellaneous
+1283,parchment paper,Miscellaneous
+1284,gingerbread,Grain
+1285,baby bella mushroom,Miscellaneous
+1286,fresh ahi tuna,Seafood
+1287,veal chops,Miscellaneous
+1288,rib,Miscellaneous
+1289,truffle,Miscellaneous
+1290,double-acting baking powder,Miscellaneous
+1291,"lemons, zest of",Fruit
+1292,vanilla powder,Miscellaneous
+1293,jam,Miscellaneous
+1294,sandwich bread,Grain
+1295,gruyere,Miscellaneous
+1296,frozen vegetables,Miscellaneous
+1297,refrigerated biscuits,Miscellaneous
+1298,turkey breast,Meat
+1299,ground sage,Miscellaneous
+1300,dried breadcrumbs,Grain
+1301,ritz cracker,Miscellaneous
+1302,condensed mushroom soup,Miscellaneous
+1303,french-fried onions,Vegetable
+1304,pepitas,Miscellaneous
+1305,low-fat milk,Dairy
+1306,raw carrots,Vegetable
+1307,real vanilla extract,Miscellaneous
+1308,ground beef round,Meat
+1309,ground veal,Miscellaneous
+1310,emeril's original essence,Miscellaneous
+1311,puff pastry sheet,Miscellaneous
+1312,basil pesto,Spice
+1313,chicken wing sauce,Meat
+1314,eagle brand condensed milk,Dairy
+1315,paraffin wax,Miscellaneous
+1316,ground meat,Miscellaneous
+1317,italian breadcrumbs,Grain
+1318,frozen corn kernels,Grain
+1319,green chili peppers,Vegetable
+1320,rotel,Miscellaneous
+1321,jiffy cornbread mix,Grain
+1322,paint powder,Miscellaneous
+1323,balloons,Miscellaneous
+1324,oatnut bread,Grain
+1325,seedless raspberry jam,Fruit
+1326,chili oil,Oil
+1327,coconut sugar,Sweetener
+1328,unbleached white flour,Grain
+1329,sage sausage,Meat
+1330,boule,Miscellaneous
+1331,fresh sage leaf,Miscellaneous
+1332,sage leaf,Miscellaneous
+1333,grain alcohol,Miscellaneous
+1334,white wine vinegar,Liquid
+1335,thai fish sauce,Seafood
+1336,tamarind paste,Miscellaneous
+1337,chinkiang vinegar,Liquid
+1338,artichoke hearts,Miscellaneous
+1339,fresh jalapenos,Miscellaneous
+1340,pimento stuffed olives,Miscellaneous
+1341,self-rising flour,Grain
+1342,key lime juice,Fruit
+1343,white fish fillets,Seafood
+1344,diced tomato,Vegetable
+1345,ground lamb,Meat
+1346,green cabbage,Vegetable
+1347,9-inch pie shells,Miscellaneous
+1348,bamboo skewers,Miscellaneous
+1349,meatballs,Miscellaneous
+1350,red bell peppers,Vegetable
+1351,sweet and sour sauce,Liquid
+1352,cooked jasmine rice,Grain
+1353,buttered bread crumb,Grain
+1354,ice cream,Dairy
+1355,mini chocolate chip,Miscellaneous
+1356,dried thyme leaves,Miscellaneous
+1357,dried basil leaves,Spice
+1358,dried oregano leaves,Spice
+1359,dried mustard,Miscellaneous
+1360,whole wheat panko,Grain
+1361,dried italian seasoning,Miscellaneous
+1362,condensed golden mushroom soup,Miscellaneous
+1363,venison,Miscellaneous
+1364,glaze,Miscellaneous
+1365,sweet bell peppers,Vegetable
+1366,white cabbage,Vegetable
+1367,pastrami,Miscellaneous
+1368,lemon-pepper seasoning,Fruit
+1369,tortillas,Miscellaneous
+1370,tuna salad,Seafood
+1371,tarragon,Miscellaneous
+1372,splenda sugar substitute,Sweetener
+1373,crisco,Miscellaneous
+1374,tomato juice,Vegetable
+1375,long grain rice,Grain
+1376,macaroons,Miscellaneous
+1377,amaretto liqueur,Miscellaneous
+1378,walnut pieces,Nut
+1379,watermelon,Liquid
+1380,cognac,Miscellaneous
+1381,white rum,Miscellaneous
+1382,clams,Miscellaneous
+1383,red chile,Miscellaneous
+1384,meyer's dark rum,Miscellaneous
+1385,coconut rum,Miscellaneous
+1386,unsweetened pineapple juice,Fruit
+1387,orange slice,Fruit
+1388,papaya,Miscellaneous
+1389,ham,Meat
+1390,sweet pepper,Vegetable
+1391,hot pepper,Vegetable
+1392,whole chicken breasts,Meat
+1393,thai red curry paste,Miscellaneous
+1394,green plantain,Miscellaneous
+1395,french dressing,Miscellaneous
+1396,mango chutney,Fruit
+1397,masala,Miscellaneous
+1398,black cardamom pods,Miscellaneous
+1399,mace,Miscellaneous
+1400,red chili powder,Miscellaneous
+1401,saffron,Miscellaneous
+1402,ginger-garlic paste,Vegetable
+1403,port wine,Liquid
+1404,rump steak,Miscellaneous
+1405,oaxaca cheese,Dairy
+1406,tomatillo,Miscellaneous
+1407,2% low-fat milk,Dairy
+1408,lentils,Miscellaneous
+1409,brioche bread,Grain
+1410,pickled jalapeno peppers,Vegetable
+1411,gouda cheese,Dairy
+1412,clarified butter,Dairy
+1413,tahini paste,Miscellaneous
+1414,whole coriander seeds,Nut
+1415,chicken legs with thigh,Meat
+1416,sirloin steaks,Miscellaneous
+1417,cremini mushrooms,Miscellaneous
+1418,kalamansi juice,Liquid
+1419,dark rum,Miscellaneous
+1420,spring roll wrappers,Miscellaneous
+1421,thai red chili peppers,Vegetable
+1422,head lettuce,Vegetable
+1423,cointreau liqueur,Miscellaneous
+1424,yuzu juice,Liquid
+1425,sansho pepper,Vegetable
+1426,ground lean pork,Meat
+1427,ground red pepper,Vegetable
+1428,linguica sausage,Meat
+1429,artificial sweetener,Sweetener
+1430,smoked sausage,Meat
+1431,uncooked rice,Grain
+1432,ham fat,Meat
+1433,pigeon peas,Miscellaneous
+1434,sausage,Meat
+1435,hot red pepper sauce,Vegetable
+1436,roasting chickens,Meat
+1437,dried onion,Vegetable
+1438,solid shortening,Miscellaneous
+1439,blueberry jam,Fruit
+1440,yellow cake mix,Miscellaneous
+1441,chocolate icing,Miscellaneous
+1442,chocolate protein powder,Miscellaneous
+1443,ground walnuts,Nut
+1444,seeds,Nut
+1445,raw cacao powder,Miscellaneous
+1446,russet potato,Vegetable
+1447,canned white beans,Miscellaneous
+1448,lasagna noodles,Grain
+1449,orange liqueur,Fruit
+1450,frozen peaches,Miscellaneous
+1451,green tea powder,Miscellaneous
+1452,frozen raspberries,Miscellaneous
+1453,coca-cola,Miscellaneous
+1454,rice milk,Grain
+1455,poppy seeds,Nut
+1456,popcorn,Grain
+1457,bacon fat,Meat
+1458,dry roasted peanuts,Nut
+1459,prepared yellow mustard,Miscellaneous
+1460,lemon cake mix,Fruit
+1461,lemon twist,Fruit
+1462,chocolate piece,Miscellaneous
+1463,pillsbury refrigerated crescent dinner rolls,Miscellaneous
+1464,philadelphia cream cheese,Dairy
+1465,unsweetened almond milk,Dairy
+1466,remoulade sauce,Liquid
+1467,french rolls,Miscellaneous
+1468,pam cooking spray,Miscellaneous
+1469,dark molasses,Sweetener
+1470,real butter,Dairy
+1471,smoked kielbasa,Miscellaneous
+1472,instant pistachio pudding mix,Miscellaneous
+1473,wasabi paste,Miscellaneous
+1474,ponzu sauce,Liquid
+1475,frozen raspberries in light syrup,Sweetener
+1476,pork loin,Meat
+1477,capers,Miscellaneous
+1478,fresh parsley leaves,Miscellaneous
+1479,ground pepper,Vegetable
+1480,fresh thyme sprig,Miscellaneous
+1481,wine,Liquid
+1482,sweet pickle relish,Miscellaneous
+1483,white button mushrooms,Miscellaneous
+1484,cracked farro,Miscellaneous
+1485,medium shrimp,Seafood
+1486,oatmeal,Grain
+1487,whole green chilies,Miscellaneous
+1488,portabella mushroom caps,Miscellaneous
+1489,seitan,Miscellaneous
+1490,herbes de provence,Spice
+1491,wondra flour,Grain
+1492,jalapeno peppers,Vegetable
+1493,kalamata olives,Miscellaneous
+1494,bun,Miscellaneous
+1495,canned pineapple,Fruit
+1496,syrup,Sweetener
+1497,chicken fillets,Meat
+1498,hot chili peppers,Vegetable
+1499,dried red chili,Miscellaneous
+1500,frozen puff pastry,Miscellaneous
+1501,creme fraiche,Miscellaneous
+1502,milk chocolate,Dairy
+1503,black tea bags,Miscellaneous
+1504,gravy,Miscellaneous
+1505,garam masala powder,Miscellaneous
+1506,refined flour,Grain
+1507,carom seeds,Nut
+1508,coriander leaves,Miscellaneous
+1509,chat masala,Miscellaneous
+1510,dried lavender flowers,Miscellaneous
+1511,vegan butter,Dairy
+1512,tequila,Miscellaneous
+1513,juice,Liquid
+1514,sparkling wine,Liquid
+1515,rice flour,Grain
+1516,mashed banana,Fruit
+1517,frozen mini meatballs,Miscellaneous
+1518,wide rice noodles,Grain
+1519,flank steak,Miscellaneous
+1520,head broccoli,Vegetable
+1521,condensed tomato soup,Vegetable
+1522,japanese eggplant,Miscellaneous
+1523,firm tofu,Miscellaneous
+1524,rice wine,Grain
+1525,fresh mango,Fruit
+1526,baby red potatoes,Vegetable
+1527,lawry's seasoned salt,Spice
+1528,irish whiskey,Miscellaneous
+1529,dark corn syrup,Grain
+1530,pecan pieces,Miscellaneous
+1531,heath candy bar,Miscellaneous
+1532,hot italian sausage,Meat
+1533,rag pasta sauce,Grain
+1534,crusty bread,Grain
+1535,cauliflower floret,Vegetable
+1536,coarse black pepper,Vegetable
+1537,seasoned bread crumbs,Grain
+1538,stewed tomatoes,Vegetable
+1539,chili seasoning mix,Miscellaneous
+1540,hot italian sausage links,Meat
+1541,italian style breadcrumbs,Grain
+1542,diced onions,Vegetable
+1543,sausages,Meat
+1544,pizza crust,Miscellaneous
+1545,fried bacon,Meat
+1546,kosher dill pickles,Miscellaneous
+1547,anaheim chili,Miscellaneous
+1548,ground sausage,Meat
+1549,italian sausages,Meat
+1550,lasagna noodle,Grain
+1551,olive oil flavored cooking spray,Oil
+1552,fine breadcrumbs,Grain
+1553,fettuccine,Miscellaneous
+1554,fresh garlic cloves,Vegetable
+1555,goat cheese,Grain
+1556,romano cheese,Dairy
+1557,italian seasoned breadcrumbs,Grain
+1558,tortellini,Miscellaneous
+1559,italian bread,Grain
+1560,ear of corn,Grain
+1561,adzuki beans,Miscellaneous
+1562,ground szechuan peppercorns,Grain
+1563,yogurt starter,Dairy
+1564,chicken breast halve,Meat
+1565,cooked italian sausage,Meat
+1566,whole wheat bread crumbs,Grain
+1567,sun-dried tomatoes,Vegetable
+1568,whole milk mozzarella,Dairy
+1569,red grapes,Fruit
+1570,dried cilantro,Miscellaneous
+1571,mild italian sausage,Meat
+1572,ragu tomato sauce,Vegetable
+1573,sweet italian sausage,Meat
+1574,unbleached all-purpose flour,Grain
+1575,hot italian sausages,Meat
+1576,cabernet sauvignon wine,Liquid
+1577,crepes,Miscellaneous
+1578,tapioca flour,Grain
+1579,sweet rice flour,Grain
+1580,cream cheese spread,Dairy
+1581,pumpkin pie,Miscellaneous
+1582,pecan pie,Miscellaneous
+1583,corn oil,Oil
+1584,cooked shrimp,Seafood
+1585,lump crabmeat,Seafood
+1586,chive & onion cream cheese,Dairy
+1587,hash brown,Miscellaneous
+1588,quick-cooking rolled oats,Grain
+1589,mexican chili powder,Miscellaneous
+1590,poblano chile,Miscellaneous
+1591,chipotle chile in adobo,Miscellaneous
+1592,ground thyme,Miscellaneous
+1593,dried marjoram,Miscellaneous
+1594,clementine juice,Liquid
+1595,tapenade,Miscellaneous
+1596,half-and-half cream,Dairy
+1597,mixed salad greens,Miscellaneous
+1598,grape tomatoes,Fruit
+1599,jicama,Miscellaneous
+1600,cooked chicken breasts,Meat
+1601,fresh pineapple,Fruit
+1602,mini pita pockets,Miscellaneous
+1603,link sausage,Meat
+1604,fresh pineapple chunks,Fruit
+1605,chinese celery,Miscellaneous
+1606,bouillon cubes,Miscellaneous
+1607,light sour cream,Dairy
+1608,harissa,Miscellaneous
+1609,red kidney beans,Miscellaneous
+1610,apple jelly,Fruit
+1611,dijon-style mustard,Miscellaneous
+1612,boneless pork loin chops,Meat
+1613,unsalted chicken stock,Meat
+1614,boston lettuce,Vegetable
+1615,whole bay leaf,Miscellaneous
+1616,low-fat cream cheese,Dairy
+1617,low-sodium chickpeas,Miscellaneous
+1618,kale leaves,Miscellaneous
+1619,"fisher walnut halves and pieces, divided",Seafood
+1620,fisher walnut halves and pieces,Seafood
+1621,"medium heads bibb or red leaf lettuce, washed, dried* and torn into pieces",Vegetable
+1622,"head radicchio, cored, leaves separated and torn into pieces",Miscellaneous
+1623,seedless red grapes halves,Fruit
+1624,shaved parmesan cheese,Dairy
+1625,spiral shaped pasta,Grain
+1626,cupcake,Miscellaneous
+1627,spaghettini,Miscellaneous
+1628,soymilk,Dairy
+1629,canned chick-peas,Miscellaneous
+1630,truffle oil,Oil
+1631,cheese sticks,Dairy
+1632,egg beaters egg substitute,Miscellaneous
+1633,lamb,Meat
+1634,ras el hanout spice mix,Spice
+1635,lamb broth,Meat
+1636,pickled ginger,Spice
+1637,light coconut milk,Dairy
+1638,vanilla yogurt,Dairy
+1639,canned pumpkin puree,Miscellaneous
+1640,coconut water,Liquid
+1641,dark cocoa,Miscellaneous
+1642,whole green onions,Vegetable
+1643,bisquick baking mix,Miscellaneous
+1644,fritos corn chips,Grain
+1645,mozzarella string cheese,Dairy
+1646,escarole,Miscellaneous
+1647,broth,Liquid
+1648,roasted red pepper,Vegetable
+1649,pizza toppings,Miscellaneous
+1650,corn flakes,Grain
+1651,chow mein noodles,Grain
+1652,moroccan seasoning,Miscellaneous
+1653,mint leaves,Miscellaneous
+1654,jar (1 lb. 8 oz.) chunky tomato garlic and onion sauce,Vegetable
+1655,cooked basmati rice,Grain
+1656,cilantro leaves and stems,Miscellaneous
+1657,mango nectar,Fruit
+1658,plantains,Miscellaneous
+1659,head of cabbage,Vegetable
+1660,dried dill weed,Miscellaneous
+1661,blackberry liqueur,Fruit
+1662,agave nectar,Miscellaneous
+1663,erythritol,Miscellaneous
+1664,maple extract,Miscellaneous
+1665,kraft hickory smoked barbecue sauce,Liquid
+1666,kikkoman soy sauce,Liquid
+1667,powdered drink mix,Miscellaneous
+1668,peach jell-o,Miscellaneous
+1669,orange jell-o,Fruit
+1670,zatarain's yellow rice,Grain
+1671,yellow squash,Miscellaneous
+1672,fresh black pepper,Vegetable
+1673,hazelnuts,Miscellaneous
+1674,cacao,Miscellaneous
+1675,vanilla vodka,Miscellaneous
+1676,triple sec,Miscellaneous
+1677,yuzu,Miscellaneous
+1678,frozen dark sweet cherries,Miscellaneous
+1679,ginger ale,Spice
+1680,chocolate hazelnut spread,Miscellaneous
+1681,chocolate shavings,Miscellaneous
+1682,light cream,Dairy
+1683,pork liver,Meat
+1684,pork fat,Meat
+1685,miso,Miscellaneous
+1686,prepared mustard,Miscellaneous
+1687,kombu,Miscellaneous
+1688,sushi rice,Grain
+1689,wasabi powder,Miscellaneous
+1690,dashi,Miscellaneous
+1691,dried shrimp,Seafood
+1692,somen noodles,Grain
+1693,shichimi togarashi,Miscellaneous
+1694,ice cubes,Miscellaneous
+1695,medium-sized shrimp,Seafood
+1696,chili bean sauce,Liquid
+1697,bibb lettuce,Vegetable
+1698,watercress,Liquid
+1699,salad oil,Oil
+1700,cookies,Miscellaneous
+1701,frank's red hot sauce,Liquid
+1702,vegan mayonnaise,Miscellaneous
+1703,dark beer,Miscellaneous
+1704,dried pinto bean,Miscellaneous
+1705,smoked ham hock,Meat
+1706,brewed coffee,Miscellaneous
+1707,beef t-bone steaks,Meat
+1708,bell peppers,Vegetable
+1709,caraway seed,Nut
+1710,white onions,Vegetable
+1711,boneless beef roast,Meat
+1712,crushed pineapple in juice,Fruit
+1713,coleslaw mix,Miscellaneous
+1714,ice cream sandwiches,Dairy
+1715,chocolate chip cookie,Miscellaneous
+1716,root beer,Miscellaneous
+1717,dry onion soup mix,Vegetable
+1718,hamburger bun,Meat
+1719,wine vinegar,Liquid
+1720,tilapia fillets,Miscellaneous
+1721,wheat flour,Grain
+1722,bittersweet chocolate chips,Miscellaneous
+1723,bulgar wheat,Grain
+1724,fresh garlic,Vegetable
+1725,roll,Miscellaneous
+1726,mashed sweet potato,Vegetable
+1727,toothpicks,Miscellaneous
+1728,instant mashed potatoes,Vegetable
+1729,plain fat-free yogurt,Dairy
+1730,frozen orange juice concentrate,Fruit
+1731,sherry wine,Liquid
+1732,cayenne powder,Miscellaneous
+1733,chili-garlic sauce,Vegetable
+1734,fresh kale,Miscellaneous
+1735,fresh cracked pepper,Vegetable
+1736,rack of ribs,Miscellaneous
+1737,chocolate whey protein powder,Miscellaneous
+1738,daikon radish,Miscellaneous
+1739,whole chicken,Meat
+1740,dripping,Miscellaneous
+1741,split peas,Miscellaneous
+1742,soup,Miscellaneous
+1743,dried limes,Fruit
+1744,meat pieces,Miscellaneous
+1745,squash,Miscellaneous
+1746,picante sauce,Liquid
+1747,dried fenugreek leaves,Miscellaneous
+1748,biscuits,Miscellaneous
+1749,chocolate candy bars,Miscellaneous
+1750,ground turkey breast,Meat
+1751,lettuce,Vegetable
+1752,jumbo eggs,Miscellaneous
+1753,bangers,Miscellaneous
+1754,serrano peppers,Vegetable
+1755,irish farmhouse cheese,Dairy
+1756,green tea,Miscellaneous
+1757,boneless pork butt,Meat
+1758,mesquite wood chips,Miscellaneous
+1759,fresh salmon,Seafood
+1760,measuring cup,Miscellaneous
+1761,brown paper bag,Miscellaneous
+1762,back bacon,Meat
+1763,king oyster mushrooms,Miscellaneous
+1764,fusilli,Miscellaneous
+1765,cheddar cheese soup,Dairy
+1766,colby-monterey jack cheese,Dairy
+1767,truvia,Miscellaneous
+1768,five-spice powder,Spice
+1769,allspice berries,Spice
+1770,pickling spices,Spice
+1771,strawberry preserves,Fruit
+1772,chard leaves,Miscellaneous
+1773,egglands best eggs,Miscellaneous
+1774,fat-free half-and-half,Miscellaneous
+1775,brie cheese,Dairy
+1776,fresh spinach leaves,Vegetable
+1777,turkey bacon,Meat
+1778,refrigerated pie crusts,Miscellaneous
+1779,frozen tater tots,Miscellaneous
+1780,biscuit,Miscellaneous
+1781,pico de gallo,Miscellaneous
+1782,red curry paste,Miscellaneous
+1783,baby corn,Grain
+1784,ground buffalo meat,Miscellaneous
+1785,garlic-infused olive oil,Oil
+1786,thin spaghetti,Miscellaneous
+1787,sun-dried tomato,Vegetable
+1788,cooked sushi rice,Grain
+1789,baby shrimp,Seafood
+1790,tobiko,Miscellaneous
+1791,cabbage and carrot coleslaw mix,Vegetable
+1792,sweet white onion,Vegetable
+1793,red beans,Miscellaneous
+1794,dark red kidney beans,Miscellaneous
+1795,ditalini,Miscellaneous
+1796,pillsbury ready made pie dough,Miscellaneous
+1797,frozen peas and carrot,Vegetable
+1798,french baguette,Miscellaneous
+1799,fresh crabmeat,Seafood
+1800,grape jelly,Fruit
+1801,green tea bags,Miscellaneous
+1802,extra-large egg yolks,Miscellaneous
+1803,marsala wine,Liquid
+1804,ladyfingers,Miscellaneous
+1805,peas and carrots,Vegetable
+1806,ham bone,Meat
+1807,dried lentils,Miscellaneous
+1808,instant coffee powder,Miscellaneous
+1809,digestive biscuits,Miscellaneous
+1810,dried bay leaves,Miscellaneous
+1811,savoy cabbage,Vegetable
+1812,chicken legs,Meat
+1813,brussels sprout,Miscellaneous
+1814,hash brown potatoes,Vegetable
+1815,skirt steaks,Miscellaneous
+1816,green chili salsa,Miscellaneous
+1817,chicken tenderloins,Meat
+1818,refrigerated crescent dinner rolls,Miscellaneous
+1819,corned beef,Grain
+1820,sauerkraut,Miscellaneous
+1821,thousand island dressing,Miscellaneous
+1822,caraway seeds,Nut
+1823,chicken breast halves,Meat
+1824,young roasting chickens,Meat
+1825,sorghum flour,Grain
+1826,lemon pepper,Fruit
+1827,pink beans,Miscellaneous
+1828,tostitos scoops,Miscellaneous
+1829,dill seed,Nut
+1830,whole wheat bread,Grain
+1831,frosted flakes,Miscellaneous
+1832,boneless pork chop,Meat
+1833,mung bean sprouts,Miscellaneous
+1834,spring rolls,Miscellaneous
+1835,chicken bouillon cubes,Meat
+1836,butter flavored crackers,Dairy
+1837,spaghetti sauce,Liquid
+1838,fresh mushrooms,Miscellaneous
+1839,frozen cheese tortellini,Dairy
+1840,bouillon,Miscellaneous
+1841,nutritional yeast,Miscellaneous
+1842,great northern beans,Miscellaneous
+1843,raisin bran cereal,Miscellaneous
+1844,garlic pepper seasoning,Vegetable
+1845,whole wheat pastry flour,Grain
+1846,unrefined sugar,Sweetener
+1847,natural applesauce,Fruit
+1848,non-hydrogenated margarine,Miscellaneous
+1849,fresh pineapple chunk,Fruit
+1850,white corn syrup,Grain
+1851,fresh cherries,Miscellaneous
+1852,peppercorn,Grain
+1853,apple juice,Fruit
+1854,barley,Grain
+1855,whole chicken breast,Meat
+1856,semisweet vegan chocolate chips,Miscellaneous
+1857,low sodium vegetable broth,Liquid
+1858,rotel tomatoes & chilies,Vegetable
+1859,spinach linguine,Vegetable
+1860,sea scallops,Miscellaneous
+1861,fresh italian parsley,Miscellaneous
+1862,fresh lemon,Fruit
+1863,whole wheat pasta,Grain
+1864,yellow bell pepper,Vegetable
+1865,italian plum tomatoes,Vegetable
+1866,part-skim ricotta cheese,Dairy
+1867,whole wheat lasagna noodles,Grain
+1868,part-skim mozzarella cheese,Dairy
+1869,anchovies,Miscellaneous
+1870,veal scallopini,Miscellaneous
+1871,stuffed green olive,Miscellaneous
+1872,fettuccine pasta,Grain
+1873,minced garlic cloves,Vegetable
+1874,whipped cream cheese,Dairy
+1875,mango juice,Fruit
+1876,saffron thread,Miscellaneous
+1877,batter,Miscellaneous
+1878,beef consomme,Meat
+1879,frangelico,Miscellaneous
+1880,english muffins,Miscellaneous
+1881,best foods mayonnaise,Miscellaneous
+1882,yellow rice,Grain
+1883,liquid stevia,Miscellaneous
+1884,medium egg noodles,Grain
+1885,cinnamon toast crunch cereal,Spice
+1886,baking cocoa,Miscellaneous
+1887,instant tang orange drink,Fruit
+1888,lemonade mix,Fruit
+1889,sesame,Nut
+1890,dried brown lentils,Miscellaneous
+1891,fire-roasted tomatoes,Vegetable
+1892,bourbon whiskey,Miscellaneous
+1893,dry lentils,Miscellaneous
+1894,low-fat plain yogurt,Dairy
+1895,dried shiitake mushrooms,Miscellaneous
+1896,rice sticks,Grain
+1897,soft white bread cubes,Grain
+1898,peanut butter chips,Dairy
+1899,dill pickle,Miscellaneous
+1900,fresh blueberries,Miscellaneous
+1901,capicola,Miscellaneous
+1902,pepper rings,Vegetable
+1903,tater tots,Miscellaneous
+1904,scone,Miscellaneous
+1905,tapioca starch,Miscellaneous
+1906,cashews,Miscellaneous
+1907,teriyaki sauce,Liquid
+1908,steamed rice,Grain
+1909,turkey stock,Meat
+1910,parsnips,Miscellaneous
+1911,cooked turkey,Meat
+1912,golden seedless raisins,Nut
+1913,couscous,Miscellaneous
+1914,cumin seeds,Nut
+1915,peppermint leaf,Vegetable
+1916,creamed corn,Grain
+1917,vanilla flavoring,Miscellaneous
+1918,cheese whiz,Dairy
+1919,great northern bean,Miscellaneous
+1920,buttermilk biscuits,Dairy
+1921,hidden valley original ranch light dressing,Miscellaneous
+1922,spiral cut ham,Meat
+1923,cranberry sauce,Fruit
+1924,crescent roll dough,Miscellaneous
+1925,sifted flour,Grain
+1926,mashed sweet potatoes,Vegetable
+1927,peach slices,Miscellaneous
+1928,peach schnapps,Miscellaneous
+1929,fresh jalapeno,Miscellaneous
+1930,golden brown sugar,Sweetener
+1931,hot pepper sauce,Vegetable
+1932,seafood cocktail sauce,Liquid
+1933,lipton recipe secrets savory herb with garlic soup mix,Vegetable
+1934,arugula leaves,Miscellaneous
+1935,dry penne pasta,Grain
+1936,vital wheat gluten,Grain
+1937,whole oats,Grain
+1938,wheat germ,Grain
+1939,flax seeds,Nut
+1940,mixed cheeses,Dairy
+1941,distilled vinegar,Liquid
+1942,italian turkey sausage,Meat
+1943,whole wheat fusilli,Grain
+1944,nacho chips,Miscellaneous
+1945,corn tortilla chips,Grain
+1946,enchilada sauce,Liquid
+1947,spaghetti noodles,Grain
+1948,low-sodium black beans,Miscellaneous
+1949,red pasta sauce,Grain
+1950,frozen hash brown potatoes,Vegetable
+1951,catsup,Miscellaneous
+1952,kaffir lime leaf,Fruit
+1953,ground galangal,Miscellaneous
+1954,dried lemon grass,Fruit
+1955,stewing beef,Meat
+1956,dried mushroom,Miscellaneous
+1957,fine dry breadcrumb,Grain
+1958,seasoned pepper,Vegetable
+1959,condensed cheddar cheese soup,Dairy
+1960,american cheese,Dairy
+1961,fingerling potato,Vegetable
+1962,fresh white mushrooms,Miscellaneous
+1963,head of broccoli,Vegetable
+1964,chipotle pepper,Vegetable
+1965,poblano peppers,Vegetable
+1966,dried tarragon,Miscellaneous
+1967,bouquet garni,Miscellaneous
+1968,red enchilada sauce,Liquid
+1969,mountain dew soda,Miscellaneous
+1970,dry active yeast,Miscellaneous
+1971,instant minced onion,Vegetable
+1972,nestl toll house delightfulls mint filled morsels,Miscellaneous
+1973,garlic parmesan pretzel crisps,Vegetable
+1974,self raising flour,Grain
+1975,blackberries,Miscellaneous
+1976,sliced apples,Fruit
+1977,pork sausage,Meat
+1978,baby portabella mushrooms,Miscellaneous
+1979,banana pepper,Fruit
+1980,season-all salt,Spice
+1981,"orange, zest of",Fruit
+1982,smoked beef sausage,Meat
+1983,penne pasta,Grain
+1984,udon noodles,Grain
+1985,mixed sprouts,Miscellaneous
+1986,black sesame seed,Nut
+1987,toffee pieces,Miscellaneous
+1988,rainbow trout fillets,Miscellaneous
+1989,dried herbs,Spice
+1990,unsweetened baking chocolate,Miscellaneous
+1991,au jus mix,Miscellaneous
+1992,low-sodium condensed cream of chicken soup,Dairy
+1993,condensed french onion soup,Vegetable
+1994,cube steaks,Miscellaneous
+1995,sweet pickle,Miscellaneous
+1996,celery heart,Miscellaneous
+1997,iodized salt,Spice
+1998,sweet pickle juice,Liquid
+1999,green olives,Miscellaneous
+2000,red chili peppers,Vegetable
+2001,blackberry jam,Fruit
+2002,deli corned beef,Grain
+2003,fresh coriander,Miscellaneous
+2004,black vinegar,Liquid
+2005,sesame seed oil,Oil
+2006,balsamic vinaigrette,Miscellaneous
+2007,figs,Miscellaneous
+2008,madeira wine,Liquid
+2009,steak sauce,Liquid
+2010,cherries,Miscellaneous
+2011,a.1. original sauce,Liquid
+2012,mccormick pure vanilla extract,Miscellaneous
+2013,mccormick cinnamon,Spice
+2014,pineapple rings,Fruit
+2015,mccormick grill mates zesty herb marinade,Spice
+2016,"mccormick red pepper, crushed",Vegetable
+2017,red pepper jelly,Vegetable
+2018,brioche rolls,Miscellaneous
+2019,a.1. steak sauce,Liquid
+2020,sage leaves,Miscellaneous
+2021,boneless chicken thighs,Meat
+2022,jelly,Miscellaneous
+2023,jalapeno jelly,Miscellaneous
+2024,mint sprigs,Miscellaneous
+2025,chuck eye steak,Miscellaneous
+2026,boysenberry jam,Fruit
+2027,instant polenta,Miscellaneous
+2028,puff pastry sheets,Miscellaneous
+2029,black cherries,Miscellaneous
+2030,double cream brie cheese,Dairy
+2031,puff pastry shells,Miscellaneous
+2032,chocolate graham crackers,Meat
+2033,sugar substitute,Sweetener
+2034,fat free cream cheese,Dairy
+2035,raspberry low-fat yogurt,Dairy
+2036,fat-free whipped topping,Miscellaneous
+2037,frozen puff pastry shells,Miscellaneous
+2038,maraschino cherry juice,Liquid
+2039,chinese cabbage,Vegetable
+2040,cremini mushroom,Miscellaneous
+2041,pork loin chops,Meat
+2042,tiny peas,Miscellaneous
+2043,new potatoes,Vegetable
+2044,fried onions,Vegetable
+2045,spicy brown mustard,Miscellaneous
+2046,pasilla chile,Miscellaneous
+2047,top round steak,Miscellaneous
+2048,wraps,Miscellaneous
+2049,roasted potatoes,Vegetable
+2050,cubanelle pepper,Vegetable
+2051,anchovy paste,Miscellaneous
+2052,black coffee,Miscellaneous
+2053,sour orange juice,Fruit
+2054,rose essence,Miscellaneous
+2055,pate,Miscellaneous
+2056,cooking sherry,Miscellaneous
+2057,lipton beefy onion soup mix,Meat
+2058,green bell peppers,Vegetable
+2059,extra firm tofu,Miscellaneous
+2060,asian chili sauce,Liquid
+2061,romaine lettuce leaf,Vegetable
+2062,three-cheese tortellini,Dairy
+2063,mascarpone cheese,Dairy
+2064,broccoli slaw mix,Vegetable
+2065,chinese noodles,Grain
+2066,sweet cherries,Miscellaneous
+2067,lean ground turkey,Meat
+2068,whole allspice,Spice
+2069,instant chicken bouillon,Meat
+2070,pineapple chunks in juice,Fruit
+2071,fresh goat cheese,Grain
+2072,lean hamburger,Meat
+2073,season salt,Spice
+2074,limoncello,Miscellaneous
+2075,vermouth,Miscellaneous
+2076,ice cube,Miscellaneous
+2077,dinner rolls,Miscellaneous
+2078,"lime, juice and zest of",Fruit
+2079,beef steaks,Meat
+2080,unsifted all-purpose flour,Grain
+2081,tamari soy sauce,Liquid
+2082,sweet hungarian paprika,Spice
+2083,palm oil,Oil
+2084,virgin olive oil,Oil
+2085,cilantro leaves,Miscellaneous
+2086,baking potato,Vegetable
+2087,marinated tofu,Miscellaneous
+2088,french fries,Miscellaneous
+2089,cheese curds,Dairy
+2090,liquid pectin,Miscellaneous
+2091,cooked bow tie pasta,Grain
+2092,skirt steak,Miscellaneous
+2093,dried porcini mushrooms,Miscellaneous
+2094,dill relish,Miscellaneous
+2095,black tea,Miscellaneous
+2096,pear,Miscellaneous
+2097,extra large egg,Miscellaneous
+2098,hass avocado,Miscellaneous
+2099,angel hair pasta,Grain
+2100,vanilla beans,Miscellaneous
+2101,cherry juice,Liquid
+2102,red jalapeno chiles,Miscellaneous
+2103,habanero peppers,Vegetable
+2104,mexican cheese,Dairy
+2105,tomatillo salsa,Miscellaneous
+2106,cherry preserves,Miscellaneous
+2107,cucumbers,Miscellaneous
+2108,coffee liqueur,Miscellaneous
+2109,coffee beans,Miscellaneous
+2110,banana peppers,Fruit
+2111,hot chili powder,Miscellaneous
+2112,gluten-free chocolate chips,Miscellaneous
+2113,unsweetened applesauce,Fruit
+2114,dry pinto beans,Miscellaneous
+2115,pinto bean seasoning,Miscellaneous
+2116,ham hocks,Meat
+2117,tea bags,Miscellaneous
+2118,whole grain oatmeal,Grain
+2119,walnut halves,Nut
+2120,brown sugar cubes,Sweetener
+2121,mint sprig,Miscellaneous
+2122,condensed cream of mushroom soup,Dairy
+2123,top sirloin steaks,Miscellaneous
+2124,purple onion,Vegetable
+2125,small onion,Vegetable
+2126,unsweetened coconut,Miscellaneous
+2127,coconut extract,Miscellaneous
+2128,pork roast,Meat
+2129,top round beef,Meat
+2130,chili pepper,Vegetable
+2131,chopped tomato,Vegetable
+2132,beef jerky,Meat
+2133,aji panca chilies,Miscellaneous
+2134,acorn squash,Grain
+2135,frozen lima beans,Miscellaneous
+2136,pickles,Miscellaneous
+2137,fresh herb,Spice
+2138,farmer cheese,Dairy
+2139,ciabatta,Miscellaneous
+2140,tarragon leaf,Miscellaneous
+2141,okra,Miscellaneous
+2142,long grain white rice,Grain
+2143,rack of baby-back pork ribs,Meat
+2144,chicken pieces,Meat
+2145,head of celery,Miscellaneous
+2146,golden delicious apple,Fruit
+2147,dill pickles,Miscellaneous
+2148,sweet peas,Miscellaneous
+2149,fudge sauce,Liquid
+2150,light cream cheese,Dairy
+2151,dill weed,Miscellaneous
+2152,hickory liquid smoke,Miscellaneous
+2153,frozen edamame,Miscellaneous
+2154,dried sweetened cranberries,Miscellaneous
+2155,cashew pieces,Miscellaneous
+2156,roasted sunflower seeds,Nut
+2157,green tomatoes,Vegetable
+2158,self-rising cornmeal mix,Grain
+2159,yukon gold potato,Vegetable
+2160,ground sumac,Miscellaneous
+2161,pomegranate molasses,Sweetener
+2162,80% lean ground beef,Meat
+2163,tart apples,Fruit
+2164,red beet,Miscellaneous
+2165,medium raw shrimp,Seafood
+2166,mccormick taco seasoning mix,Miscellaneous
+2167,vidalia onions,Vegetable
+2168,garlic sauce,Vegetable
+2169,wooden skewer,Miscellaneous
+2170,condensed cream of chicken soup,Dairy
+2171,chicken flavor stuffing mix,Meat
+2172,hominy,Miscellaneous
+2173,cream of onion soup,Dairy
+2174,white corn,Grain
+2175,graham flour,Grain
+2176,fat-free cool whip,Miscellaneous
+2177,reduced fat graham cracker crust,Meat
+2178,powdered peanut butter,Dairy
+2179,sugar snap peas,Sweetener
+2180,fat-free sweetened condensed milk,Dairy
+2181,fast rising yeast,Miscellaneous
+2182,pastry for double-crust pie,Miscellaneous
+2183,vanilla pod,Miscellaneous
+2184,ham slices,Meat
+2185,grey poupon mustard,Miscellaneous
+2186,craisins,Miscellaneous
+2187,texas pete original hot sauce,Liquid
+2188,vinaigrette dressing,Miscellaneous
+2189,dark chocolate squares,Miscellaneous
+2190,steak spice,Spice
+2191,gorgonzola,Miscellaneous
+2192,flax seed oil,Oil
+2193,carbonated lemon-lime beverage,Fruit
+2194,popped popcorn,Grain
+2195,chocolate pieces,Miscellaneous
+2196,mixed nuts,Miscellaneous
+2197,wide egg noodles,Grain
+2198,tuna in water,Seafood
+2199,fresh broccoli,Vegetable
+2200,chicken liver,Meat
+2201,cooked corned beef,Grain
+2202,basil sprigs,Spice
+2203,semolina flour,Grain
+2204,cream of wheat,Grain
+2205,soft taco-size flour tortillas,Grain
+2206,low-fat cheese,Dairy
+2207,reduced sodium soy sauce,Liquid
+2208,mashed potatoes,Vegetable
+2209,white castle hamburgers,Meat
+2210,vidalia onion,Vegetable
+2211,bacon drippings,Meat
+2212,french vanilla pudding mix,Miscellaneous
+2213,lemonade,Fruit
+2214,white flour,Grain
+2215,frozen whipped topping,Miscellaneous
+2216,wafers,Miscellaneous
+2217,smucker's hot dark chocolate microwaveable topping,Miscellaneous
+2218,fresh fruit,Fruit
+2219,frozen pearl onions,Vegetable
+2220,brandy,Miscellaneous
+2221,campbell's tomato soup,Vegetable
+2222,lean beef,Meat
+2223,anaheim chilies,Miscellaneous
+2224,beef tenderloin,Meat
+2225,lettuce head,Vegetable
+2226,radicchio,Miscellaneous
+2227,fresh jalapeno pepper,Vegetable
+2228,pancetta,Miscellaneous
+2229,lemon peel,Fruit
+2230,whole black peppercorns,Grain
+2231,celery & leaves,Miscellaneous
+2232,birds eye chiles,Miscellaneous
+2233,red capsicum,Miscellaneous
+2234,texas toast thick bread,Grain
+2235,espresso powder,Miscellaneous
+2236,roasted pecan,Miscellaneous
+2237,protein powder,Miscellaneous
+2238,white chocolate baking bar,Miscellaneous
+2239,boneless chicken,Meat
+2240,quark,Miscellaneous
+2241,custard powder,Miscellaneous
+2242,lemon flavoring,Fruit
+2243,sirloin tip roast,Miscellaneous
+2244,minute tapioca,Miscellaneous
+2245,bacon piece,Meat
+2246,grey poupon dijon mustard,Miscellaneous
+2247,thai peppers,Vegetable
+2248,unsweetened coconut milk,Dairy
+2249,pickapeppa sauce,Liquid
+2250,jalapeno juice,Liquid
+2251,dry rub seasonings,Miscellaneous
+2252,purple onions,Vegetable
+2253,date syrup,Sweetener
+2254,winter squash,Miscellaneous
+2255,root vegetables,Miscellaneous
+2256,turnips,Miscellaneous
+2257,anise seed,Nut
+2258,button mushroom,Miscellaneous
+2259,unsweetened vanilla almond milk,Dairy
+2260,cherry pepper,Vegetable
+2261,brine,Miscellaneous
+2262,anchovy fillets,Miscellaneous
+2263,pepperoncini peppers,Vegetable
+2264,pepperoncini juice,Vegetable
+2265,heads cauliflower,Vegetable
+2266,mizuna,Miscellaneous
+2267,solid white tuna,Seafood
+2268,whole grain mustard,Miscellaneous
+2269,prepared horseradish,Miscellaneous
+2270,rye bread,Grain
+2271,havarti cheese,Dairy
+2272,mint tea bags,Miscellaneous
+2273,cooked couscous,Miscellaneous
+2274,stone ground dijon mustard,Miscellaneous
+2275,boneless pork loin roast,Meat
+2276,apple butter,Dairy
+2277,pie dough,Miscellaneous
+2278,mixed vegetables,Miscellaneous
+2279,mccormick's montreal brand steak seasoning,Miscellaneous
+2280,strawberry puree,Fruit
+2281,chipotle peppers,Vegetable
+2282,light vegetable oil cooking spray,Oil
+2283,quick-cooking grits,Miscellaneous
+2284,english pea,Miscellaneous
+2285,lettuce leaves,Vegetable
+2286,sweet smoked paprika,Spice
+2287,dill pickle relish,Miscellaneous
+2288,creole mustard,Miscellaneous
+2289,muenster cheese,Dairy
+2290,five cheese blend,Dairy
+2291,barbecue seasoning,Miscellaneous
+2292,wax beans,Miscellaneous
+2293,champagne vinegar,Meat
+2294,bone-in ham,Meat
+2295,pineapple slices in heavy syrup,Fruit
+2296,maraschino cherries,Miscellaneous
+2297,decaffeinated tea bag,Miscellaneous
+2298,herbal tea bags,Spice
+2299,italian cheese,Dairy
+2300,crawfish,Seafood
+2301,fish stock,Seafood
+2302,wood branch,Miscellaneous
+2303,candles,Miscellaneous
+2304,anchovies packed in oil,Oil
+2305,chicken drumsticks,Meat
+2306,chinese red peppers,Vegetable
+2307,smoked ham,Meat
+2308,"orange, juice of",Fruit
+2309,whole cardamom pods,Miscellaneous
+2310,ground espresso,Miscellaneous
+2311,anchovy fillet,Miscellaneous
+2312,romaine lettuce hearts,Vegetable
+2313,cracked pepper,Vegetable
+2314,apple pie filling,Fruit
+2315,garlic paste,Vegetable
+2316,orange peel,Fruit
+2317,roasted pistachios,Miscellaneous
+2318,bulk italian sausage,Meat
+2319,sausage and green pepper spaghetti sauce,Meat
+2320,yellow corn grits,Grain
+2321,pears,Miscellaneous
+2322,swai fillets,Miscellaneous
+2323,simply potatoes diced potatoes with onion,Vegetable
+2324,agave,Miscellaneous
+2325,mexican-style corn,Grain
+2326,cream-style corn,Grain
+2327,cornbread-muffin mix,Grain
+2328,simply potatoes shredded hash browns,Vegetable
+2329,cauliflower head,Vegetable
+2330,simply potatoes sour cream and chive mashed potatoes,Dairy
+2331,simply potatoes traditional mashed potatoes,Vegetable
+2332,fat-free chicken broth,Meat
+2333,sweet relish,Miscellaneous
+2334,honey-wheat bread,Grain
+2335,cream cheese with pineapple,Dairy
+2336,miniature phyllo cups,Miscellaneous
+2337,chicken gravy mix,Meat
+2338,simply potatoes garlic and herb hash browns,Vegetable
+2339,caribbean jerk seasoning,Miscellaneous
+2340,simply potatoes homestyle slices,Vegetable
+2341,sun-dried tomatoes packed in oil,Oil
+2342,fat-free low-sodium chicken broth,Meat
+2343,simply potatoes steakhouse seasoned diced potatoes,Vegetable
+2344,vanilla frozen yogurt,Dairy
+2345,orange juice concentrate,Fruit
+2346,orange soda,Fruit
+2347,maple sausage,Meat
+2348,chickpea flour,Grain
+2349,simply potatoes red potato wedges,Vegetable
+2350,simply potatoes mashed sweet potatoes,Vegetable
+2351,sweet butter,Dairy
+2352,frozen carrots,Vegetable
+2353,pepper bacon,Meat
+2354,simply potatoes rosemary & garlic red potato wedges,Vegetable
+2355,asparagus spear,Miscellaneous
+2356,beef gravy,Meat
+2357,simply potatoes southwest style hash browns,Vegetable
+2358,smoked turkey sausage,Meat
+2359,sun-dried tomato packed in oil,Oil
+2360,lobster meat,Seafood
+2361,lemon-infused olive oil,Oil
+2362,fat free sour cream,Dairy
+2363,free-range egg,Miscellaneous
+2364,pork butt,Meat
+2365,frozen green beans,Miscellaneous
+2366,squid,Miscellaneous
+2367,all purpose greek seasoning,Miscellaneous
+2368,soba noodles,Grain
+2369,reduced-sodium chicken broth,Meat
+2370,shiitake mushroom caps,Miscellaneous
+2371,reduced-fat cheddar cheese,Dairy
+2372,baked corn tortilla chips,Grain
+2373,skinless chicken breasts,Meat
+2374,breakfast sausage,Meat
+2375,kraft mexican style finely shredded four cheese,Dairy
+2376,simply macaroni & cheese,Dairy
+2377,whole wheat tortilla,Grain
+2378,blanched almond,Nut
+2379,dried garbanzo beans,Miscellaneous
+2380,mixed spice,Spice
+2381,thick & chunky salsa,Miscellaneous
+2382,nacho cheese soup,Dairy
+2383,dark sesame oil,Oil
+2384,rice vermicelli,Grain
+2385,shiitake mushroom,Miscellaneous
+2386,piquillo peppers,Vegetable
+2387,simply potatoes garlic mashed potatoes,Vegetable
+2388,burrito-size flour tortillas,Grain
+2389,caesar salad dressing,Miscellaneous
+2390,egg roll wraps,Miscellaneous
+2391,quick-cooking oatmeal,Grain
+2392,low-fat greek yogurt,Dairy
+2393,diced tomatoes with green pepper and onion,Vegetable
+2394,granulated onion,Vegetable
+2395,chimichurri sauce,Liquid
+2396,boneless beef top sirloin steaks,Meat
+2397,pineapple rum,Fruit
+2398,ground sirloin,Miscellaneous
+2399,fresh parmesan cheese,Dairy
+2400,pasilla chiles,Miscellaneous
+2401,roasted red peppers,Vegetable
+2402,louisiana hot sauce,Liquid
+2403,bacon grease,Meat
+2404,fresh white breadcrumbs,Grain
+2405,beef burgers,Meat
+2406,simply potatoes o'brien hash browns,Vegetable
+2407,vegetable oil cooking spray,Oil
+2408,roquefort cheese,Dairy
+2409,ground coffee,Miscellaneous
+2410,chocolate cookie crumb,Miscellaneous
+2411,fresh raspberries,Miscellaneous
+2412,fresh shiitake mushroom,Miscellaneous
+2413,red chili paste,Miscellaneous
+2414,sliced water chestnuts,Liquid
+2415,green onion tops,Vegetable
+2416,chunky peanut butter,Dairy
+2417,lettuce leaf,Vegetable
+2418,powdered egg substitute,Miscellaneous
+2419,yellow cherry tomatoes,Vegetable
+2420,marinated artichokes,Miscellaneous
+2421,napa cabbage,Vegetable
+2422,skinless chicken breast half,Meat
+2423,yellow sweet pepper,Vegetable
+2424,dried shredded coconut,Miscellaneous
+2425,butterscotch chips,Dairy
+2426,crouton,Miscellaneous
+2427,whole almond,Nut
+2428,heinz ketchup,Miscellaneous
+2429,duck legs,Meat
+2430,pappardelle pasta,Grain
+2431,cherry peppers,Vegetable
+2432,salsa verde,Miscellaneous
+2433,amaretto,Miscellaneous
+2434,buddig beef,Meat
+2435,bechamel sauce,Meat
+2436,dry roasted salted peanuts,Nut
+2437,lemon rind,Fruit
+2438,agave syrup,Sweetener
+2439,morton's tender quick,Miscellaneous
+2440,hemp seeds,Nut
+2441,dried guajillo chilies,Miscellaneous
+2442,chinese egg noodles,Grain
+2443,palm sugar,Sweetener
+2444,lean ground chicken,Meat
+2445,mango jam,Fruit
+2446,israeli couscous,Miscellaneous
+2447,neufchatel cheese,Dairy
+2448,pita pocket bread,Grain
+2449,porterhouse steaks,Miscellaneous
+2450,marjoram,Miscellaneous
+2451,dried kelp,Miscellaneous
+2452,spanish chorizo,Miscellaneous
+2453,jalapeno chiles,Miscellaneous
+2454,boneless skinless chicken,Meat
+2455,onion flakes,Vegetable
+2456,mild paprika,Spice
+2457,tostadas,Miscellaneous
+2458,queso sauce,Liquid
+2459,jalapeno jack cheese,Dairy
+2460,fresh sauerkraut,Miscellaneous
+2461,honey dijon mustard,Sweetener
+2462,smoked swiss cheese,Dairy
+2463,yellow rice mix,Grain
+2464,pimento stuffed olive,Miscellaneous
+2465,orange wedge,Fruit
+2466,frozen hash browns,Miscellaneous
+2467,velveeta reduced fat cheese product,Dairy
+2468,chocolate almond milk,Dairy
+2469,dried arbol chile,Miscellaneous
+2470,whole black peppercorn,Grain
+2471,salt pork,Meat
+2472,salmon fillet,Seafood
+2473,chinese rice wine,Grain
+2474,kahlua,Miscellaneous
+2475,tomatoes in puree,Vegetable
+2476,canned unsweetened coconut milk,Dairy
+2477,lowfat mozzarella cheese,Dairy
+2478,low fat mozzarella,Miscellaneous
+2479,halibut steaks,Miscellaneous
+2480,fresh cranberries,Miscellaneous
+2481,herb seasoning mix,Spice
+2482,steaks,Miscellaneous
+2483,caramel,Miscellaneous
+2484,amaranth,Miscellaneous
+2485,dry crushed red pepper,Vegetable
+2486,red chili oil,Oil
+2487,chicken breast fillets,Meat
+2488,diced fire-roasted tomatoes,Vegetable
+2489,dried navy beans,Miscellaneous
+2490,quick-rising yeast,Miscellaneous
+2491,nonfat dry milk powder,Dairy
+2492,bread machine yeast,Grain
+2493,peppercorns,Grain
+2494,dried black-eyed peas,Miscellaneous
+2495,instant tea,Miscellaneous
+2496,powdered vanilla coffee creamer,Dairy
+2497,chihuahua cheese,Dairy
+2498,asparagus spears,Miscellaneous
+2499,sage sprigs,Miscellaneous
+2500,chile pepper jam,Vegetable
+2501,egg wash,Miscellaneous
+2502,hellmann's mayonnaise,Miscellaneous
+2503,feta with sun-dried tomato and basil,Vegetable
+2504,mexican crema,Miscellaneous
+2505,poblano chiles,Miscellaneous
+2506,romaine lettuce leaves,Vegetable
+2507,dried chives,Miscellaneous
+2508,shortbread cookie,Grain
+2509,sweetened whipped cream,Dairy
+2510,rye flour,Grain
+2511,jiffy corn muffin mix,Grain
+2512,self rising flour,Grain
+2513,hot red pepper flakes,Vegetable
+2514,japanese soy sauce,Liquid
+2515,bean threads,Miscellaneous
+2516,rhodes anytime cinnamon rolls,Spice
+2517,blueberry pie filling,Fruit
+2518,cream cheese frosting,Dairy
+2519,espresso,Miscellaneous
+2520,relish,Miscellaneous
+2521,beau monde seasoning,Miscellaneous
+2522,dry wine,Liquid
+2523,reduced-fat sour cream,Dairy
+2524,hazelnut meal,Miscellaneous
+2525,chipotle chiles,Miscellaneous
+2526,adobo sauce,Liquid
+2527,everclear alcohol,Miscellaneous
+2528,buns,Miscellaneous
+2529,flat bread,Grain
+2530,provel cheese,Dairy
+2531,chocolate wafer crumbs,Miscellaneous
+2532,extra-large eggs,Miscellaneous
+2533,lamb shanks,Meat
+2534,brown onions,Vegetable
+2535,seedless grapes,Fruit
+2536,dried dill,Miscellaneous
+2537,cherry pie filling,Miscellaneous
+2538,corned beef brisket,Grain
+2539,spelt flour,Grain
+2540,roast beef,Meat
+2541,fresh jalapeno peppers,Vegetable
+2542,ramen noodles,Grain
+2543,chicken bouillon cube,Meat
+2544,skinless chicken breast halves,Meat
+2545,plain nonfat yogurt,Dairy
+2546,frozen blueberries,Miscellaneous
+2547,nonfat beef broth,Meat
+2548,split yellow lentils,Miscellaneous
+2549,"oranges, zest of",Fruit
+2550,light italian dressing,Miscellaneous
+2551,reduced-fat feta cheese,Dairy
+2552,oregano leaves,Spice
+2553,marshmallow creme,Miscellaneous
+2554,unbleached cane sugar,Sweetener
+2555,lavender sugar,Sweetener
+2556,sierra mist,Miscellaneous
+2557,center-cut bacon,Meat
+2558,butter lettuce leaves,Dairy
+2559,egg tomatoes,Vegetable
+2560,coarse grain mustard,Miscellaneous
+2561,red pepper powder,Vegetable
+2562,boneless beef short ribs,Meat
+2563,marmite,Miscellaneous
+2564,dill pickle slices,Miscellaneous
+2565,almond oil,Oil
+2566,tilapia fillet,Miscellaneous
+2567,hokkien noodles,Grain
+2568,fresh snow pea,Miscellaneous
+2569,green lentils,Miscellaneous
+2570,sugar-free chocolate syrup,Sweetener
+2571,beef sirloin,Meat
+2572,gluten-free oats,Grain
+2573,whole wheat rolls,Grain
+2574,johnsonville andouille dinner sausage,Meat
+2575,black-eyed peas,Miscellaneous
+2576,gumbo file',Miscellaneous
+2577,stir-fry sauce,Liquid
+2578,sesame dressing,Nut
+2579,italian seasoning mix,Miscellaneous
+2580,pineapple filling,Fruit
+2581,shortcrust pastry dough,Miscellaneous
+2582,frozen artichoke heart,Miscellaneous
+2583,soft bread cubes,Grain
+2584,thick bread,Grain
+2585,milk chocolate candy bars,Dairy
+2586,flounder fillets,Miscellaneous
+2587,sandwich buns,Miscellaneous
+2588,spicy mustard,Miscellaneous
+2589,horseradish mayonnaise,Miscellaneous
+2590,artichoke heart,Miscellaneous
+2591,natural bran,Miscellaneous
+2592,red sweet bell peppers,Vegetable
+2593,cayenne pepper sauce,Vegetable
+2594,diced tomatoes with green chilies,Vegetable
+2595,rhodes frozen rolls,Miscellaneous
+2596,poppy seed filling,Nut
+2597,buffalo mozzarella,Miscellaneous
+2598,dried chamomile,Meat
+2599,fresh breadcrumb,Grain
+2600,dried red pepper flakes,Vegetable
+2601,pimientos,Miscellaneous
+2602,fat-free cheddar cheese,Dairy
+2603,mineral water,Liquid
+2604,sugar-free chocolate pudding mix,Sweetener
+2605,english mustard powder,Miscellaneous
+2606,green cardamom pods,Miscellaneous
+2607,honey-roasted ham,Meat
+2608,frozen chicken nuggets,Meat
+2609,dried black beans,Miscellaneous
+2610,ham hock,Meat
+2611,ham steak,Meat
+2612,pitted black olives,Miscellaneous
+2613,canned tomato sauce,Vegetable
+2614,refrigerated chocolate chip cookie dough,Miscellaneous
+2615,reduced-fat mozzarella cheese,Dairy
+2616,turkey pepperoni,Meat
+2617,epazote leaves,Miscellaneous
+2618,green goddess salad dressing,Miscellaneous
+2619,idaho potatoes,Vegetable
+2620,hard-cooked egg,Miscellaneous
+2621,spam,Miscellaneous
+2622,powdered ginger,Spice
+2623,cream sherry,Dairy
+2624,beef short ribs,Meat
+2625,reduced-sodium fat-free chicken broth,Meat
+2626,sherry wine vinegar,Liquid
+2627,garlic and red chile paste,Vegetable
+2628,chinese hot mustard,Miscellaneous
+2629,thai chile,Miscellaneous
+2630,black bean sauce,Liquid
+2631,dried figs,Miscellaneous
+2632,fresh pears,Miscellaneous
+2633,frozen whole strawberries,Miscellaneous
+2634,frozen strawberry daiquiri concentrate,Fruit
+2635,challah,Miscellaneous
+2636,95% lean ground beef,Meat
+2637,red pepper sauce,Vegetable
+2638,braggs liquid aminos,Miscellaneous
+2639,soft tofu,Miscellaneous
+2640,french style green bean,Miscellaneous
+2641,vegan cheese,Dairy
+2642,custard,Miscellaneous
+2643,boneless pork roast,Meat
+2644,liquid smoke flavoring,Miscellaneous
+2645,saltine crackers,Spice
+2646,johnsonville hot & spicy breakfast sausage,Meat
+2647,mild green chilies,Miscellaneous
+2648,cooked chicken breast,Meat
+2649,grapes,Fruit
+2650,fresh nutmeg,Miscellaneous
+2651,red lentils,Miscellaneous
+2652,vegetable bouillon,Miscellaneous
+2653,celery powder,Miscellaneous
+2654,aluminum foil,Oil
+2655,japanese eggplants,Miscellaneous
+2656,sweet basil,Spice
+2657,canned peas,Miscellaneous
+2658,drippings,Miscellaneous
+2659,dry white beans,Miscellaneous
+2660,pizza crusts,Miscellaneous
+2661,spinach dip,Vegetable
+2662,"johnsonville classic italian, three-cheese italian or homestyle meatballs",Dairy
+2663,jellied cranberry sauce,Fruit
+2664,no-salt-added tomato sauce,Vegetable
+2665,whole wheat hamburger buns,Grain
+2666,flounder,Miscellaneous
+2667,pineapple sherbet,Fruit
+2668,raspberry sherbet,Fruit
+2669,orange sherbet,Fruit
+2670,light cherry pie filling,Miscellaneous
+2671,wild rice,Grain
+2672,applejack,Fruit
+2673,granny smith apple,Fruit
+2674,clementines,Miscellaneous
+2675,nonfat chicken broth,Meat
+2676,98% fat-free cream of chicken soup,Dairy
+2677,nonfat milk,Dairy
+2678,white crab meat,Seafood
+2679,light mayonnaise,Miscellaneous
+2680,vanilla liqueur,Miscellaneous
+2681,ready-to-serve tomato basil soup,Vegetable
+2682,italian-style diced tomatoes,Vegetable
+2683,white kidney beans,Miscellaneous
+2684,small shell pasta,Grain
+2685,baked beans,Miscellaneous
+2686,vegetable juice,Liquid
+2687,beef base,Meat
+2688,pretzel twists,Miscellaneous
+2689,serrano chili pepper,Vegetable
+2690,muesli,Miscellaneous
+2691,thai chiles,Miscellaneous
+2692,fresh lemongrass,Fruit
+2693,korean red pepper paste,Vegetable
+2694,reduced-sodium navy beans,Miscellaneous
+2695,firm bananas,Fruit
+2696,bagels,Miscellaneous
+2697,lox,Miscellaneous
+2698,light margarine,Miscellaneous
+2699,oriental-flavor instant ramen noodles,Grain
+2700,unbaked pie shells,Miscellaneous
+2701,duck,Meat
+2702,duck stock,Meat
+2703,fresh rosemary leaves,Spice
+2704,duck fat,Meat
+2705,boneless pork loin,Meat
+2706,dried red kidney beans,Miscellaneous
+2707,chicken breast fillet,Meat
+2708,rotel tomatoes,Vegetable
+2709,beef bouillon granules,Meat
+2710,orange marmalade,Fruit
+2711,water-packed artichoke hearts,Liquid
+2712,chardonnay wine,Liquid
+2713,cardamom powder,Miscellaneous
+2714,fresh breadcrumbs,Grain
+2715,burgundy wine,Liquid
+2716,beef bouillon cubes,Meat
+2717,chocolate fudge instant pudding mix,Miscellaneous
+2718,cool whip topping,Miscellaneous
+2719,cranberry juice,Fruit
+2720,frozen orange juice,Fruit
+2721,kelp,Miscellaneous
+2722,dark chocolate cake mix,Miscellaneous
+2723,french haricots vert,Miscellaneous
+2724,red jalapeno chile,Miscellaneous
+2725,brut champagne,Meat
+2726,purple cabbage,Vegetable
+2727,blackstrap molasses,Sweetener
+2728,m&m's,Miscellaneous
+2729,ribbon,Miscellaneous
+2730,cooked ditalini,Miscellaneous
+2731,quinoa flour,Grain
+2732,beef roast,Meat
+2733,dried italian salad dressing mix,Miscellaneous
+2734,dry ranch dressing mix,Miscellaneous
+2735,instant coffee granules,Miscellaneous
+2736,white chicken meat packed in water,Meat
+2737,grainy mustard,Miscellaneous
+2738,whole wheat breadcrumbs,Grain
+2739,firm margarine,Miscellaneous
+2740,pretzel sticks,Miscellaneous
+2741,goldfish crackers,Seafood
+2742,cheerios toasted oat cereal,Grain
+2743,shreddies cereal,Miscellaneous
+2744,fresh garlic clove,Vegetable
+2745,arrowroot,Miscellaneous
+2746,sourdough starter,Miscellaneous
+2747,bear roast,Miscellaneous
+2748,savory,Miscellaneous
+2749,bear meat,Miscellaneous
+2750,tomato soup,Vegetable
+2751,gravy mix,Miscellaneous
+2752,french bread cubes,Grain
+2753,plum tomatoes in puree,Vegetable
+2754,mostaccioli noodles,Grain
+2755,hunts tomato paste,Vegetable
+2756,pace picante sauce,Liquid
+2757,onion salt,Vegetable
+2758,chili beans,Miscellaneous
+2759,ripe olives,Miscellaneous
+2760,nonfat sour cream,Dairy
+2761,reduced-fat kielbasa,Miscellaneous
+2762,unsweetened pineapple chunks,Fruit
+2763,unsalted cashews,Spice
+2764,cocoa butter,Dairy
+2765,strong coffee,Miscellaneous
+2766,oysters,Miscellaneous
+2767,fresh rosemary leaf,Spice
+2768,boneless chuck roast,Miscellaneous
+2769,plums in heavy syrup,Sweetener
+2770,plum wine,Liquid
+2771,flour tortilla,Grain
+2772,refried black beans,Miscellaneous
+2773,szechuan peppercorns,Grain
+2774,ravioli,Miscellaneous
+2775,orange rind,Fruit
+2776,heinz chili sauce,Liquid
+2777,ocean spray whole cranberry sauce,Fruit
+2778,apple brandy,Fruit
+2779,horseradish,Miscellaneous
+2780,canned sweet potatoes,Vegetable
+2781,caramel ice cream topping,Dairy
+2782,whipped butter,Dairy
+2783,nestl toll house premier white morsels,Miscellaneous
+2784,semi-sweet chocolate baking squares,Miscellaneous
+2785,instant malted milk powder,Dairy
+2786,white mushroom,Miscellaneous
+2787,turkey broth,Meat
+2788,frozen green peas,Miscellaneous
+2789,capons,Miscellaneous
+2790,pan dripping,Miscellaneous
+2791,earl grey tea,Miscellaneous
+2792,fresh seaweed,Miscellaneous
+2793,reduced-sodium beef broth,Meat
+2794,cracker crumbs,Miscellaneous
+2795,preserves,Miscellaneous
+2796,baby greens,Miscellaneous
+2797,kernel corn,Grain
+2798,ground pecans,Miscellaneous
+2799,italian pork sausage,Meat
+2800,steak seasoning,Miscellaneous
+2801,nestl toll house holiday morsels,Miscellaneous
+2802,turkey fat,Meat
+2803,nestl carnation evaporated milk,Dairy
+2804,nestl toll house dark chocolate morsels,Miscellaneous
+2805,frozen lemonade concentrate,Fruit
+2806,carbonated water,Liquid
+2807,frozen broccoli florets,Vegetable
+2808,condensed cream of potato soup,Dairy
+2809,rotisserie-cooked chicken,Meat
+2810,coarse sugar,Sweetener
+2811,90% lean ground beef,Meat
+2812,beef steak,Meat
+2813,crisco shortening,Miscellaneous
+2814,unsweetened chocolate square,Miscellaneous
+2815,lemon thyme,Fruit
+2816,canned artichoke hearts,Miscellaneous
+2817,medium grain rice,Grain
+2818,jimmy dean sausage,Meat
+2819,tony chachere's seasoning,Miscellaneous
+2820,cracker,Miscellaneous
+2821,coffee ice cream,Dairy
+2822,pork steaks,Meat
+2823,light cheddar cheese,Dairy
+2824,frozen white corn,Grain
+2825,ginger juice,Spice
+2826,grits,Miscellaneous
+2827,chicken thigh fillet,Meat
+2828,passata,Miscellaneous
+2829,cellophane noodles,Grain
+2830,beef top round steak,Meat
+2831,bottled garlic,Vegetable
+2832,dried beef,Meat
+2833,instant rice,Grain
+2834,italian herb seasoning,Spice
+2835,brown onion,Vegetable
+2836,tasty cheese,Dairy
+2837,simply balanced organic tomato basil pasta sauce,Grain
+2838,grapefruit,Fruit
+2839,minced beef,Meat
+2840,cocoa nibs,Miscellaneous
+2841,mint extract,Miscellaneous
+2842,guinness stout,Miscellaneous
+2843,spring greens,Miscellaneous
+2844,head romaine lettuce,Vegetable
+2845,whole berry cranberry sauce,Fruit
+2846,red delicious apples,Fruit
+2847,kiwi fruit,Fruit
+2848,raspberry vinegar,Fruit
+2849,family-size tea bags,Miscellaneous
+2850,roasted turkey,Meat
+2851,multigrain bread,Grain
+2852,oil-cured olives,Oil
+2853,pitted prunes,Miscellaneous
+2854,mulling spices,Spice
+2855,dried fruit,Fruit
+2856,reduced-fat cream cheese,Dairy
+2857,fontina,Miscellaneous
+2858,hot peppers,Vegetable
+2859,vegan chicken,Meat
+2860,tri-tip roast,Miscellaneous
+2861,dried ancho chiles,Miscellaneous
+2862,blanched almonds,Nut
+2863,mexican chocolate,Miscellaneous
+2864,mac n' cheese deluxe,Dairy
+2865,extra-light vegetable oil spread,Oil
+2866,jalapeno dip,Miscellaneous
+2867,ground marjoram,Miscellaneous
+2868,ground rosemary,Spice
+2869,salad dressing,Miscellaneous
+2870,boboli pizza crust,Miscellaneous
+2871,frozen onion and three pepper blend,Vegetable
+2872,cheese ravioli,Dairy
+2873,ham spread,Meat
+2874,garlic & herb spreadable cheese,Dairy
+2875,braunschweiger sausage,Meat
+2876,cooked beets,Miscellaneous
+2877,yellow sweet onion,Vegetable
+2878,stuffing cubes,Miscellaneous
+2879,instant bouillon granules,Miscellaneous
+2880,white bread flour,Grain
+2881,jumbo lump crab meat,Seafood
+2882,dark roast coffee,Miscellaneous
+2883,pomegranate paste,Miscellaneous
+2884,vegetarian oyster sauce,Liquid
+2885,ground bean sauce,Liquid
+2886,haddock,Miscellaneous
+2887,low-sodium low-fat vegetable broth,Liquid
+2888,frozen cauliflower,Vegetable
+2889,canned tuna,Seafood
+2890,thin pizza crust,Miscellaneous
+2891,kosher pickles,Miscellaneous
+2892,unbaked pie shell,Miscellaneous
+2893,chestnuts,Miscellaneous
+2894,red salmon,Seafood
+2895,fat-free mayonnaise,Miscellaneous
+2896,brown mustard,Miscellaneous
+2897,fresh broccoli florets,Vegetable
+2898,liquid honey,Sweetener
+2899,instant chocolate pudding mix,Miscellaneous
+2900,english walnuts,Nut
+2901,sirloin,Miscellaneous
+2902,dry oregano,Spice
+2903,marinade,Miscellaneous
+2904,catfish fillets,Seafood
+2905,light sesame oil,Oil
+2906,sweet soy sauce,Liquid
+2907,baby potatoes,Vegetable
+2908,dry roasted salted peanut,Nut
+2909,dried garlic,Vegetable
+2910,pure chile powder,Miscellaneous
+2911,bottled lemon juice,Fruit
+2912,pork baby back ribs,Meat
+2913,gala apples,Fruit
+2914,bosc pears,Miscellaneous
+2915,celery top,Miscellaneous
+2916,miracle whip,Miscellaneous
+2917,sugar-free instant chocolate pudding mix,Sweetener
+2918,celery leaves,Miscellaneous
+2919,refrigerated pie dough,Miscellaneous
+2920,red paprika,Spice
+2921,purple potatoes,Vegetable
+2922,red hot sauce,Liquid
+2923,smoked ham hocks,Meat
+2924,cedar plank,Miscellaneous
+2925,trout,Miscellaneous
+2926,safflower oil,Oil
+2927,turkey meat,Meat
+2928,coffee creamer,Dairy
+2929,water chestnuts,Liquid
+2930,pimiento,Miscellaneous
+2931,ground round,Miscellaneous
+2932,fresh mozzarella ball,Miscellaneous
+2933,nacho cheese flavored tortilla chips,Dairy
+2934,chicken parts,Meat
+2935,calvados,Miscellaneous
+2936,demi-glace,Miscellaneous
+2937,prepared graham cracker crusts,Meat
+2938,coffee-flavored liqueur,Miscellaneous
+2939,apricot halves,Miscellaneous
+2940,white creme de menthe,Miscellaneous
+2941,cooking apples,Fruit
+2942,manchego cheese,Dairy
+2943,vanilla cake mix,Miscellaneous
+2944,vanilla pudding mix,Miscellaneous
+2945,parsnip,Miscellaneous
+2946,cheese sauce,Dairy
+2947,whole almonds,Nut
+2948,cinnamon raisin bread,Grain
+2949,no-sugar-added marinara sauce,Liquid
+2950,kangaroo mincemeat,Miscellaneous
+2951,vegemite,Miscellaneous
+2952,mountain pepper,Vegetable
+2953,lemon myrtle,Fruit
+2954,bread rounds,Grain
+2955,pork chop,Meat
+2956,hot coffee,Miscellaneous
+2957,turnip greens,Miscellaneous
+2958,kellogg's all-bran cereal,Miscellaneous
+2959,cooked sweet potatoes,Vegetable
+2960,doritos,Miscellaneous
+2961,vegetable stock cube,Miscellaneous
+2962,kabocha squash,Miscellaneous
+2963,butternut squash seeds,Dairy
+2964,vegetable shortening,Miscellaneous
+2965,pork cutlets,Meat
+2966,beef bouillon cube,Meat
+2967,sauterne,Miscellaneous
+2968,water chestnut,Liquid
+2969,canned mushroom,Miscellaneous
+2970,chicken bouillon granules,Meat
+2971,country bread,Grain
+2972,pickling cucumbers,Miscellaneous
+2973,sweet sherry,Miscellaneous
+2974,farfalle pasta,Grain
+2975,hot spiced cider mix,Spice
+2976,tia maria,Miscellaneous
+2977,brownie mix,Miscellaneous
+2978,creme de cacao,Miscellaneous
+2979,schnapps,Miscellaneous
+2980,dried leaf basil,Spice
+2981,long-grain minute rice,Grain
+2982,fudge brownie mix,Miscellaneous
+2983,miniature peanut butter cups,Dairy
+2984,teriyaki marinade,Miscellaneous
+2985,pimento pepper,Vegetable
+2986,processed cheese,Dairy
+2987,whole turkey,Meat
+2988,gluten free bread,Grain
+2989,reduced-fat mayonnaise,Miscellaneous
+2990,green onion top,Vegetable
+2991,mesclun,Miscellaneous
+2992,egg substitute,Miscellaneous
+2993,instant coffee,Miscellaneous
+2994,butter flavor extract,Dairy
+2995,low-fat ricotta cheese,Dairy
+2996,rum extract,Miscellaneous
+2997,filberts,Miscellaneous
+2998,steak-style french fries,Miscellaneous
+2999,whole wheat orzo,Grain
+3000,chipotle salsa,Miscellaneous
+3001,pimentos,Miscellaneous
+3002,sweet pickles,Miscellaneous
+3003,potato gnocchi,Vegetable
+3004,2% evaporated milk,Dairy
+3005,chocolate cake,Miscellaneous
+3006,hot fudge,Miscellaneous
+3007,reese's peanut butter cups,Dairy
+3008,reese's pieces,Miscellaneous
+3009,chicken gravy,Meat
+3010,caramelized onion,Vegetable
+3011,phyllo pastry sheets,Miscellaneous
+3012,miniature pretzel twists,Miscellaneous
+3013,mincemeat,Miscellaneous
+3014,no yolks egg noodle substitute,Grain
+3015,green giant frozen mixed vegetables,Miscellaneous
+3016,pillsbury grands! flaky layers refrigerated biscuits,Miscellaneous
+3017,chipotle chile,Miscellaneous
+3018,gingerbread mix,Grain
+3019,stevia powder,Miscellaneous
+3020,mixed greens,Miscellaneous
+3021,dry vegetable soup mix,Miscellaneous
+3022,pear vodka,Miscellaneous
+3023,roasted cashews,Miscellaneous
+3024,low-fat buttermilk,Dairy
+3025,meyer lemon,Fruit
+3026,meyer lemon zest,Fruit
+3027,ground star anise,Miscellaneous
+3028,fresh button mushrooms,Miscellaneous
+3029,jalapeno chile,Miscellaneous
+3030,pillsbury golden layers refrigerated flaky original biscuits,Miscellaneous
+3031,kefir,Miscellaneous
+3032,turkey sausage,Meat
+3033,candied almonds,Nut
+3034,curry paste,Miscellaneous
+3035,key lime,Fruit
+3036,french onion soup mix,Vegetable
+3037,all-bran cereal,Miscellaneous
+3038,mustard greens,Miscellaneous
+3039,flaked coconut,Miscellaneous
+3040,whole grain buns,Miscellaneous
+3041,cilantro paste,Miscellaneous
+3042,cooked pumpkin,Miscellaneous
+3043,pawpaw,Miscellaneous
+3044,hard-boiled egg,Oil
+3045,steel cut oats,Grain
+3046,fat-free cottage cheese,Dairy
+3047,liquid egg substitute,Miscellaneous
+3048,day-old french bread,Grain
+3049,evaporated cane juice,Liquid
+3050,real vanilla,Miscellaneous
+3051,maggi seasoning,Miscellaneous
+3052,head iceberg lettuce,Vegetable
+3053,italian tomato,Vegetable
+3054,crawfish tails,Seafood
+3055,clam,Miscellaneous
+3056,fish,Seafood
+3057,unsalted margarine,Spice
+3058,salad greens,Miscellaneous
+3059,red apple,Fruit
+3060,almond syrup,Nut
+3061,gluten-free vanilla extract,Miscellaneous
+3062,nonpareils,Miscellaneous
+3063,pillsbury grands refrigerated buttermilk biscuits,Dairy
+3064,frozen broccoli carrots cauliflower mix,Vegetable
+3065,corn on the cob,Grain
+3066,canola oil cooking spray,Oil
+3067,instant espresso,Miscellaneous
+3068,low-fat mayonnaise,Miscellaneous
+3069,mandarin oranges in juice,Fruit
+3070,dried hot red chiles,Miscellaneous
+3071,hot chili paste,Miscellaneous
+3072,miniature semisweet chocolate chips,Miscellaneous
+3073,panir,Miscellaneous
+3074,straw mushrooms,Miscellaneous
+3075,dulce de leche,Miscellaneous
+3076,demerara sugar,Sweetener
+3077,nonfat plain yogurt,Dairy
+3078,"orange, juice and zest of",Fruit
+3079,hard-cooked eggs,Miscellaneous
+3080,pickle relish,Miscellaneous
+3081,chocolate vodka,Miscellaneous
+3082,hot cocoa,Miscellaneous
+3083,hazelnut-flavored liqueur,Miscellaneous
+3084,butterscotch schnapps,Dairy
+3085,ginger beer,Spice
+3086,gingersnap cookie,Spice
+3087,ginger liqueur,Spice
+3088,peppermint schnapps,Vegetable
+3089,peppermint candy,Vegetable
+3090,sugar crystals,Sweetener
+3091,white chocolate liqueur,Miscellaneous
+3092,cookie,Miscellaneous
+3093,peach syrup,Sweetener
+3094,pickling salt,Spice
+3095,hunts tomato sauce,Vegetable
+3096,chive and onion soft cream cheese spread,Dairy
+3097,non-fat lemon greek yogurt,Dairy
+3098,guava nectar,Miscellaneous
+3099,large scallop,Miscellaneous
+3100,olive oil mayonnaise,Oil
+3101,mashed bananas,Fruit
+3102,pale ale,Miscellaneous
+3103,small potato,Vegetable
+3104,littleneck clams,Miscellaneous
+3105,mussels,Miscellaneous
+3106,seafood sauce,Liquid
+3107,pigs tail,Miscellaneous
+3108,squid ring,Miscellaneous
+3109,shortcakes,Miscellaneous
+3110,hoagie rolls,Miscellaneous
+3111,garlic mayonnaise,Vegetable
+3112,boneless beef chuck steaks,Meat
+3113,quick-cooking tapioca,Miscellaneous
+3114,low-sodium tamari,Miscellaneous
+3115,country-style pork ribs,Meat
+3116,tart cooking apples,Fruit
+3117,lime peel,Fruit
+3118,fine dry breadcrumbs,Grain
+3119,sparkling water,Liquid
+3120,sticky rice,Grain
+3121,unsalted dry roasted peanuts,Nut
+3122,thai red chili pepper,Vegetable
+3123,tempura flour,Grain
+3124,pork sirloin roast,Meat
+3125,tuna in vegetable oil,Oil
+3126,habanero sauce,Liquid
+3127,hot chocolate powder,Miscellaneous
+3128,navel oranges,Fruit
+3129,orange blossom water,Fruit
+3130,crookneck yellow squash,Miscellaneous
+3131,seedless cucumber,Nut
+3132,canned chicken broth,Meat
+3133,dried barberries,Miscellaneous
+3134,shelled pistachios,Miscellaneous
+3135,orange flower water,Fruit
+3136,salmon steak,Seafood
+3137,corn husks,Grain
+3138,preserved lemons,Fruit
+3139,stewing lamb,Meat
+3140,guajillo chilies,Miscellaneous
+3141,pandanus leaves,Miscellaneous
+3142,chicken quarters,Meat
+3143,banana leaf,Fruit
+3144,malibu rum,Miscellaneous
+3145,dried red pepper,Vegetable
+3146,lemon oil,Oil
+3147,fresh coriander leaves,Miscellaneous
+3148,kaiser rolls,Miscellaneous
+3149,sweet and sour pickles,Miscellaneous
+3150,pork rib rack,Meat
+3151,pan juices,Liquid
+3152,dough enhancer,Miscellaneous
+3153,fine egg noodles,Grain
+3154,frozen pot sticker,Miscellaneous
+3155,dry-roasted unsalted peanuts,Nut
+3156,italian dressing,Miscellaneous
+3157,halibut fillets,Miscellaneous
+3158,semisweet chocolate chunk,Miscellaneous
+3159,fresh bean sprout,Miscellaneous
+3160,bamboo skewer,Miscellaneous
+3161,green tea leaves,Miscellaneous
+3162,fresh spearmint,Miscellaneous
+3163,dried mint,Miscellaneous
+3164,tuna packed in oil,Oil
+3165,mild chili powder,Miscellaneous
+3166,puffed quinoa,Miscellaneous
+3167,goji berry,Fruit
+3168,honey-roasted peanuts,Nut
+3169,canned crabmeat,Seafood
+3170,white asparagus,Miscellaneous
+3171,fresh cilantro stems,Miscellaneous
+3172,coconut juice,Liquid
+3173,strawberry ice cream topping,Dairy
+3174,chocolate ice cream,Dairy
+3175,pineapple topping,Fruit
+3176,yellow beet,Miscellaneous
+3177,raw peanuts,Nut
+3178,kaffir lime leaves,Fruit
+3179,boneless center cut pork chops,Meat
+3180,doughnuts,Miscellaneous
+3181,dry parmesan cheese,Dairy
+3182,red grapefruits,Fruit
+3183,center-cut pork chops,Meat
+3184,shake-n-bake for pork,Meat
+3185,peaches in heavy syrup,Sweetener
+3186,pork stuffing mix,Meat
+3187,whole wheat couscous,Grain
+3188,sweet marsala wine,Liquid
+3189,cipollini onions,Vegetable
+3190,roasted peppers,Vegetable
+3191,grape juice,Fruit
+3192,fresh lemon zest,Fruit
+3193,dried lavender blossoms,Miscellaneous
+3194,rhubarb,Miscellaneous
+3195,noodles,Grain
+3196,whole green onion,Vegetable
+3197,leaf lettuce,Vegetable
+3198,scotch bonnet peppers,Vegetable
+3199,"oranges, juice of",Fruit
+3200,hickory smoked bacon,Meat
+3201,ranch salad dressing,Miscellaneous
+3202,cinnamon baking chips,Spice
+3203,tenderloin,Miscellaneous
+3204,hot cocoa mix,Miscellaneous
+3205,chocolate-covered coffee beans,Miscellaneous
+3206,lobsters,Seafood
+3207,yellow bean sauce,Liquid
+3208,flat rice noodles,Grain
+3209,fat-free buttermilk,Dairy
+3210,millet,Miscellaneous
+3211,smooth cashew butter,Dairy
+3212,"limes, juice and zest of",Fruit
+3213,dry coconut powder,Miscellaneous
+3214,jamaican rum,Miscellaneous
+3215,lightly sweetened whipped cream,Dairy
+3216,sumac,Miscellaneous
+3217,wheat berries,Grain
+3218,italian salad dressing,Miscellaneous
+3219,raw sugar,Sweetener
+3220,long beans,Miscellaneous
+3221,cinnamon oil,Oil
+3222,lasagna sheet,Miscellaneous
+3223,reduced-fat milk,Dairy
+3224,whole meal flour,Grain
+3225,red chilies,Miscellaneous
+3226,dry green lentils,Miscellaneous
+3227,green peas,Miscellaneous
+3228,sugar syrup,Sweetener
+3229,beetroots,Miscellaneous
+3230,corn flake crumbs,Grain
+3231,potato salad,Vegetable
+3232,low-fat sour cream,Dairy
+3233,cracker crumb,Miscellaneous
+3234,roast pork,Meat
+3235,rose wine,Liquid
+3236,dried kidney beans,Miscellaneous
+3237,scotch,Miscellaneous
+3238,yellow split peas,Miscellaneous
+3239,sweetcorn,Grain
+3240,mandarin orange,Fruit
+3241,candied pecans,Miscellaneous
+3242,fresh dill sprigs,Miscellaneous
+3243,miniature party rye rounds,Miscellaneous
+3244,sardines in tomato sauce,Vegetable
+3245,lavender,Miscellaneous
+3246,double cream,Dairy
+3247,fresh edible flower,Miscellaneous
+3248,peach nectar,Miscellaneous
+3249,jarlsberg cheese,Dairy
+3250,family-size tea bag,Miscellaneous
+3251,cranberry juice cocktail,Fruit
+3252,self-raising flour,Grain
+3253,brown mustard seeds,Nut
+3254,yellow mustard seeds,Nut
+3255,hollandaise sauce,Liquid
+3256,hard-boiled egg yolks,Oil
+3257,danish blue cheese,Dairy
+3258,stuffed green olives,Miscellaneous
+3259,fennel bulbs,Miscellaneous
+3260,kipfler potatoes,Vegetable
+3261,lebanese cucumbers,Miscellaneous
+3262,pumpernickel bread,Grain
+3263,butter lettuce leaf,Dairy
+3264,onion rolls,Vegetable
+3265,frozen broccoli,Vegetable
+3266,buckwheat flour,Grain
+3267,fresh curly-leaf parsley,Miscellaneous
+3268,gluten-free soy sauce,Liquid
+3269,quick oatmeal,Grain
+3270,rhubarb jam,Miscellaneous
+3271,spelt berries,Miscellaneous
+3272,aquavit,Miscellaneous
+3273,white peppercorns,Grain
+3274,low-fat whipping cream,Dairy
+3275,seafood,Miscellaneous
+3276,pork shank,Meat
+3277,dried apple,Fruit
+3278,pearl tapioca,Miscellaneous
+3279,fruit juice,Fruit
+3280,active starter,Miscellaneous
+3281,lime slices,Fruit
+3282,lingonberry preserves,Fruit
+3283,guava shells in syrup,Sweetener
+3284,ginger syrup,Spice
+3285,kitchen bouquet,Miscellaneous
+3286,strawberry syrup,Fruit
+3287,tonic water,Liquid
+3288,dried rubbed sage,Miscellaneous
+3289,canned black beans,Miscellaneous
+3290,filet of beef,Meat
+3291,salt cod fish,Seafood
+3292,prunes,Miscellaneous
+3293,tart apple,Fruit
+3294,dried dates,Miscellaneous
+3295,goat milk yogurt,Grain
+3296,black mission figs,Miscellaneous
+3297,indonesian long pepper,Vegetable
+3298,spices,Spice
+3299,cornish hens,Grain
+3300,dried whole thyme,Miscellaneous
+3301,plain white flour,Grain
+3302,rum flavoring,Miscellaneous
+3303,thai tea powder,Miscellaneous
+3304,dried great northern beans,Miscellaneous
+3305,low fat  sweetened condensed milk,Dairy
+3306,roasted unsalted peanuts,Nut
+3307,wishbone italian dressing,Miscellaneous
+3308,beef tips,Meat
+3309,unbleached flour,Grain
+3310,fillets,Miscellaneous
+3311,marinated artichoke hearts,Miscellaneous
+3312,herb stuffing mix,Spice
+3313,chocolate sundae syrup,Sweetener
+3314,ground caraway,Miscellaneous
+3315,kumquats,Miscellaneous
+3316,seasoned flour,Grain
+3317,passion fruit juice,Fruit
+3318,boneless leg of lamb,Meat
+3319,smoked trout,Miscellaneous
+3320,whole grain crackers,Miscellaneous
+3321,canned pineapple chunks,Fruit
+3322,dill sprigs,Miscellaneous
+3323,shrimp paste,Seafood
+3324,haddock fillets,Miscellaneous
+3325,boneless fish fillet,Seafood
+3326,cinnamon roll dough,Spice
+3327,fruit jam,Fruit
+3328,papayas,Miscellaneous
+3329,scallion top,Miscellaneous
+3330,herring fillets,Miscellaneous
+3331,sazon goya with azafran,Miscellaneous
+3332,yellow potatoes,Vegetable
+3333,yellow masarepa,Miscellaneous
+3334,preserved lemon,Fruit
+3335,white pepper powder,Vegetable
+3336,pork tenderloin chops,Meat
+3337,malt vinegar,Liquid
+3338,ancho chilies,Miscellaneous
+3339,apricot,Miscellaneous
+3340,cinnamon rolls,Spice
+3341,long grain brown rice,Grain
+3342,blue cheese dressing,Dairy
+3343,seafood seasoning,Miscellaneous
+3344,shrimp stock,Seafood
+3345,rock shrimp,Seafood
+3346,soy yogurt,Dairy
+3347,yellow curry paste,Miscellaneous
+3348,dried red beans,Miscellaneous
+3349,beef flank steak,Meat
+3350,cod fish fillets,Seafood
+3351,maraschino juice,Liquid
+3352,rye whiskey,Miscellaneous
+3353,sweet vermouth,Miscellaneous
+3354,benedictine,Miscellaneous
+3355,herbsaint,Spice
+3356,bread cubes,Grain
+3357,fresh shrimp,Seafood
+3358,roasted sesame seeds,Nut
+3359,red snapper,Miscellaneous
+3360,cane syrup,Sweetener
+3361,black greek olives,Miscellaneous
+3362,red cabbage head,Vegetable
+3363,spray bottle,Miscellaneous
+3364,liquid soap,Miscellaneous
+3365,catfish fillet,Seafood
+3366,dark karo syrup,Sweetener
+3367,tabasco brand chipotle pepper sauce,Vegetable
+3368,fresh chervil,Miscellaneous
+3369,tabasco jalapeno sauce,Liquid
+3370,hamburger buns with sesame seeds,Meat
+3371,boston lettuce leaves,Vegetable
+3372,butter beans,Dairy
+3373,kasseri cheese,Dairy
+3374,granita biscuit,Miscellaneous
+3375,soda cracker,Miscellaneous
+3376,pork and beans,Meat
+3377,chopped pimiento,Miscellaneous
+3378,new potato,Vegetable
+3379,red beets,Miscellaneous
+3380,crystal hot sauce,Liquid
+3381,mixed salad green,Miscellaneous
+3382,reduced-calorie cucumber salad dressing,Miscellaneous
+3383,italian spices,Spice
+3384,extract,Miscellaneous
+3385,red capsicums,Miscellaneous
+3386,halloumi cheese,Dairy
+3387,white minute rice,Grain
+3388,thyme honey,Sweetener
+3389,blood oranges,Fruit
+3390,ground aniseed,Nut
+3391,nam pla,Miscellaneous
+3392,chile-infused tequila,Miscellaneous
+3393,margarita mix,Miscellaneous
+3394,mahlepi,Miscellaneous
+3395,masticha,Miscellaneous
+3396,pita breads,Grain
+3397,dried greek oregano,Spice
+3398,greek feta cheese,Dairy
+3399,thai curry paste,Miscellaneous
+3400,spearmint,Miscellaneous
+3401,crab boil seasoning,Oil
+3402,fresh lump crabmeat,Seafood
+3403,pita chips,Miscellaneous
+3404,96% lean ground beef,Meat
+3405,salt and fresh pepper,Vegetable
+3406,mizithra cheese,Dairy
+3407,whole wheat sandwich wraps,Grain
+3408,cooked turkey bacon,Meat
+3409,plantain,Miscellaneous
+3410,low-sodium crushed tomatoes,Vegetable
+3411,knorr chicken bouillon,Meat
+3412,sun-dried tomato paste,Vegetable
+3413,wonton skins,Miscellaneous
+3414,fresh bay leaf,Miscellaneous
+3415,turkey kielbasa,Meat
+3416,canned kidney beans,Miscellaneous
+3417,chayotes,Miscellaneous
+3418,stale bread,Grain
+3419,ouzo,Miscellaneous
+3420,jar,Miscellaneous
+3421,gherkins,Miscellaneous
+3422,dried peas,Miscellaneous
+3423,sweet sausage,Meat
+3424,boneless skinless chicken breast half,Meat
+3425,kefalotyri,Miscellaneous
+3426,cheese crackers,Dairy
+3427,rice paper sheets,Grain
+3428,horseradish sauce,Liquid
+3429,goat meat,Grain
+3430,habaneros,Miscellaneous
+3431,pepper sauce,Vegetable
+3432,vanilla wafer cookies,Miscellaneous
+3433,pimento-stuffed green olives,Miscellaneous
+3434,tofu,Miscellaneous
+3435,bamboo shoot,Miscellaneous
+3436,dark raisin,Miscellaneous
+3437,light raisins,Miscellaneous
+3438,broiler chickens,Oil
+3439,white grapes,Fruit
+3440,saffron threads,Miscellaneous
+3441,galangal,Miscellaneous
+3442,cilantro roots,Miscellaneous
+3443,black grapes,Fruit
+3444,red seedless grapes,Fruit
+3445,white breadcrumb,Grain
+3446,dried fig,Miscellaneous
+3447,fish roe,Seafood
+3448,green peppercorns,Grain
+3449,fresh dill weed,Miscellaneous
+3450,tom yum paste,Miscellaneous
+3451,chanterelle mushrooms,Miscellaneous
+3452,rocket,Miscellaneous
+3453,boneless lamb,Meat
+3454,bird chiles,Miscellaneous
+3455,whole pecans,Miscellaneous
+3456,light honey mustard dressing,Sweetener
+3457,melon liqueur,Miscellaneous
+3458,blue curacao,Miscellaneous
+3459,prepared sweet-and-sour mix,Miscellaneous
+3460,white hominy,Miscellaneous
+3461,yellow hominy,Miscellaneous
+3462,lean boneless pork,Meat
+3463,whole grain dijon mustard,Miscellaneous
+3464,dried hot red chili peppers,Vegetable
+3465,tamarind juice,Liquid
+3466,instant potato flakes,Vegetable
+3467,clam juice,Liquid
+3468,minced clams,Miscellaneous
+3469,brown sugar baked beans,Sweetener
+3470,whole coriander seed,Nut
+3471,whole cumin seed,Nut
+3472,soy flour,Grain
+3473,wheat gluten flour,Grain
+3474,black currants,Miscellaneous
+3475,no-bean chili,Miscellaneous
+3476,popsicle molds,Miscellaneous
+3477,paper cups,Miscellaneous
+3478,stick,Miscellaneous
+3479,sugar cubes,Sweetener
+3480,anise seeds,Nut
+3481,lamb stew meat,Meat
+3482,black bread,Grain
+3483,croissant dough,Miscellaneous
+3484,green tea bag,Miscellaneous
+3485,sweet green pepper,Vegetable
+3486,quick-cooking couscous,Miscellaneous
+3487,lamb backstraps,Meat
+3488,lean lamb,Meat
+3489,pickled beet,Miscellaneous
+3490,beet juice,Liquid
+3491,fresh horseradish,Miscellaneous
+3492,bottled hot pepper sauce,Vegetable
+3493,apricots,Miscellaneous
+3494,whole wheat pita bread,Grain
+3495,fine semolina,Miscellaneous
+3496,coffee ice cubes,Miscellaneous
+3497,sweet potato puree,Vegetable
+3498,tuna steaks,Seafood
+3499,annatto seeds,Nut
+3500,genoa salami,Miscellaneous
+3501,low-fat creme fraiche,Miscellaneous
+3502,pina colada nonalcoholic drink mix,Miscellaneous
+3503,veggie burgers,Miscellaneous
+3504,mixed baby greens,Miscellaneous
+3505,belgian endive,Miscellaneous
+3506,dried red chilies,Miscellaneous
+3507,nectarines,Miscellaneous
+3508,sourdough rolls,Miscellaneous
+3509,green apple,Fruit
+3510,green grape,Fruit
+3511,dried chilies,Miscellaneous
+3512,pita bread rounds,Grain
+3513,pepperoncini pepper,Vegetable
+3514,pimms,Miscellaneous
+3515,7-up,Miscellaneous
+3516,microwave popcorn,Grain
+3517,ground paprika,Spice
+3518,greek olive,Miscellaneous
+3519,carrot juice,Vegetable
+3520,pineapple slices,Fruit
+3521,fresh carrot,Vegetable
+3522,streaky bacon,Meat
+3523,frozen cut okra,Miscellaneous
+3524,dried sweet basil leaves,Spice
+3525,bay scallop,Miscellaneous
+3526,haddock fillet,Miscellaneous
+3527,pickled vegetables,Miscellaneous
+3528,green cabbage head,Vegetable
+3529,calcium powder,Miscellaneous
+3530,tabil,Miscellaneous
+3531,ground red chili pepper,Vegetable
+3532,plain low-fat yogurt,Dairy
+3533,pudding rice,Grain
+3534,lime rind,Fruit
+3535,mushroom soy sauce,Liquid
+3536,yellow bell peppers,Vegetable
+3537,hot chili pepper,Vegetable
+3538,chicken bouillon granule,Meat
+3539,arbol chiles,Miscellaneous
+3540,green mango,Fruit
+3541,sun-dried tomato pesto,Vegetable
+3542,cooked elbow macaroni,Miscellaneous
+3543,callaloo,Miscellaneous
+3544,chicken leg quarters,Meat
+3545,good seasonings italian salad dressing mix,Miscellaneous
+3546,green cardamom seeds,Nut
+3547,condensed chicken broth,Meat
+3548,fuji apple,Fruit
+3549,chile,Miscellaneous
+3550,unsweetened strawberries,Miscellaneous
+3551,imitation crabmeat,Seafood
+3552,instant nonfat dry milk powder,Dairy
+3553,parsley sprigs,Miscellaneous
+3554,coriander sprigs,Miscellaneous
+3555,back ribs,Miscellaneous
+3556,smart balance butter spread,Dairy
+3557,mrs. dash table blend seasoning,Miscellaneous
+3558,lean pork,Meat
+3559,russian salad dressing,Miscellaneous
+3560,focaccia bread,Grain
+3561,mandarin orange section,Fruit
+3562,boneless chicken breast halves,Meat
+3563,japanese-style bread crumbs,Grain
+3564,chicken cutlet,Meat
+3565,low-fat cheddar cheese,Dairy
+3566,canned whole tomatoes,Vegetable
+3567,white pearl onions,Vegetable
+3568,swanson chicken broth,Meat
+3569,nonfat yogurt,Dairy
+3570,textured vegetable protein,Miscellaneous
+3571,fresh zucchini,Vegetable
+3572,cooked boneless skinless chicken breast,Meat
+3573,minute rice,Grain
+3574,butter-flavored cooking spray,Dairy
+3575,deli turkey,Meat
+3576,broccoli coleslaw mix,Vegetable
+3577,corn muffins,Grain
+3578,yellow wax bean,Miscellaneous
+3579,low-fat yogurt,Dairy
+3580,hot dog buns,Miscellaneous
+3581,posole,Miscellaneous
+3582,corn chowder,Grain
+3583,chocolate instant pudding,Miscellaneous
+3584,"limes, zest of",Fruit
+3585,freekeh,Miscellaneous
+3586,red serrano chilie,Miscellaneous
+3587,opah fillets,Miscellaneous
+3588,white fish fillet,Seafood
+3589,soft margarine,Miscellaneous
+3590,mexican tomato sauce,Vegetable
+3591,spicy refried beans,Miscellaneous
+3592,asian-style dressing,Miscellaneous
+3593,whole grain bread,Grain
+3594,hershey chocolate candy bars,Miscellaneous
+3595,light peanut butter,Dairy
+3596,large raw shrimp,Seafood
+3597,mild curry powder,Miscellaneous
+3598,crisp rice cereal,Grain
+3599,frying chicken,Meat
+3600,baharat spice mix,Spice
+3601,orange slices,Fruit
+3602,lobster tails,Seafood
+3603,vanilla sugar,Sweetener
+3604,lemon pie filling,Fruit
+3605,marmalade,Miscellaneous
+3606,baking chocolate,Miscellaneous
+3607,toasted almonds,Nut
+3608,baby artichokes,Miscellaneous
+3609,butter recipe cake mix,Dairy
+3610,gold medal all-purpose flour,Grain
+3611,sprite,Miscellaneous
+3612,free-range chicken,Meat
+3613,eye of round roast,Miscellaneous
+3614,elderberry flowers,Fruit
+3615,lemon verbena leaves,Fruit
+3616,chocolate chip cookies,Miscellaneous
+3617,vanilla butternut flavoring,Dairy
+3618,gherkin,Miscellaneous
+3619,raw zucchini,Vegetable
+3620,cilantro stems,Miscellaneous
+3621,seasoned rice wine vinegar,Grain
+3622,cashew nuts,Miscellaneous
+3623,dried hibiscus flowers,Miscellaneous
+3624,pink lemonade,Fruit
+3625,boiled potatoes,Oil
+3626,plain sweet biscuit crumbs,Miscellaneous
+3627,onion seeds,Vegetable
+3628,instant milk,Dairy
+3629,grain bread,Grain
+3630,coriander sprig,Miscellaneous
+3631,grilled chicken breasts,Meat
+3632,mandarin orange segments,Fruit
+3633,wontons,Miscellaneous
+3634,low sodium salt,Spice
+3635,sesame paste,Nut
+3636,chinese red vinegar,Liquid
+3637,sweet mustard,Miscellaneous
+3638,dry dill weed,Miscellaneous
+3639,aromatic bitters,Miscellaneous
+3640,unsalted peanuts,Nut
+3641,white bread cubes,Grain
+3642,grand marnier,Miscellaneous
+3643,golden rum,Miscellaneous
+3644,banana liqueur,Fruit
+3645,wrap,Miscellaneous
+3646,pastry flour,Grain
+3647,lavender flowers,Miscellaneous
+3648,fruit spread,Fruit
+3649,firm butter,Dairy
+3650,frozen fruit,Fruit
+3651,raw honey,Sweetener
+3652,herbal tea,Spice
+3653,fresh dill sprig,Miscellaneous
+3654,fenugreek leaves,Miscellaneous
+3655,cooked noodles,Grain
+3656,new york strip steak,Miscellaneous
+3657,round loaf italian bread,Grain
+3658,morningstar farms spicy black bean burgers,Miscellaneous
+3659,tex-mex cheese,Dairy
+3660,white truffle oil,Oil
+3661,red thai chile,Miscellaneous
+3662,dole pineapple chunks,Fruit
+3663,angel food cake,Miscellaneous
+3664,pomegranate arils,Miscellaneous
+3665,marzipan,Miscellaneous
+3666,corn niblets,Grain
+3667,canned mushrooms,Miscellaneous
+3668,dried italian herb seasoning,Spice
+3669,parmesan-romano cheese mix,Dairy
+3670,canned peaches,Miscellaneous
+3671,asparagus tips,Miscellaneous
+3672,cooked long-grain rice,Grain
+3673,roasted cashew nuts,Miscellaneous
+3674,cooked boneless skinless chicken breasts,Meat
+3675,peanut sauce,Nut
+3676,chicken seasoning,Meat
+3677,string bean,Miscellaneous
+3678,wildflower honey,Sweetener
+3679,canned peach halves,Miscellaneous
+3680,albacore tuna,Seafood
+3681,chunk light tuna,Seafood
+3682,unseasoned breadcrumbs,Grain
+3683,vegan margarine,Miscellaneous
+3684,silken tofu,Miscellaneous
+3685,soy cream cheese,Dairy
+3686,lettuce cup,Vegetable
+3687,dried tomatoe,Vegetable
+3688,light vanilla yogurt,Dairy
+3689,au gratin potato mix,Vegetable
+3690,baby gourmet potato blend,Vegetable
+3691,cabbage kimchi,Vegetable
+3692,raw carrot,Vegetable
+3693,stewing pork,Meat
+3694,ground chipotle chile pepper,Vegetable
+3695,crystal light raspberry lemonade mix,Fruit
+3696,lemon low fat yogurt,Dairy
+3697,cool whip free,Miscellaneous
+3698,shell pasta,Grain
+3699,baby dill pickle,Miscellaneous
+3700,butter pecan cake mix,Dairy
+3701,non-dairy whipped topping,Miscellaneous
+3702,chicken cutlets,Meat
+3703,vinaigrette,Miscellaneous
+3704,raw cauliflower,Vegetable
+3705,coconut sugar crystals,Sweetener
+3706,ranch dip mix,Miscellaneous
+3707,bacon pieces,Meat
+3708,bulgur,Miscellaneous
+3709,green lentil,Miscellaneous
+3710,prepared mayonnaise,Miscellaneous
+3711,pork roll,Meat
+3712,red delicious apple,Fruit
+3713,low-sodium vegetable juice,Liquid
+3714,masa harina,Miscellaneous
+3715,frozen english peas,Miscellaneous
+3716,tiny new potatoes,Vegetable
+3717,smoked turkey breast,Meat
+3718,broiler-fryer chicken,Oil
+3719,frozen artichoke hearts,Miscellaneous
+3720,sea bass fillets,Miscellaneous
+3721,stuffed olives,Miscellaneous
+3722,lean pork loin,Meat
+3723,ground basil,Spice
+3724,spanish olive oil,Oil
+3725,canned tomato,Vegetable
+3726,biscuit mix,Miscellaneous
+3727,strawberry yogurt,Dairy
+3728,dry enchilada mix,Miscellaneous
+3729,green enchilada sauce,Liquid
+3730,italian salad dressing mix,Miscellaneous
+3731,hoagie roll,Miscellaneous
+3732,sliced ripe olives,Miscellaneous
+3733,cooked sausage,Meat
+3734,corn cobs,Grain
+3735,anchovy,Miscellaneous
+3736,parmesan croutons,Miscellaneous
+3737,sun-dried tomato tortillas,Vegetable
+3738,mushroom soup,Miscellaneous
+3739,celery soup,Miscellaneous
+3740,dark chocolate syrup,Sweetener
+3741,cantaloupe,Miscellaneous
+3742,honeydew melon,Sweetener
+3743,condiments,Miscellaneous
+3744,cajun spices,Spice
+3745,mirepoix,Miscellaneous
+3746,fresh yeast,Miscellaneous
+3747,red hot pepper sauce,Vegetable
+3748,mushroom broth,Liquid
+3749,egg roll wrap,Miscellaneous
+3750,assorted fresh vegetables,Miscellaneous
+3751,dry steak seasoning,Miscellaneous
+3752,mccormick thyme leaves,Miscellaneous
+3753,frozen baby lima beans,Miscellaneous
+3754,white corn kernels,Grain
+3755,cooked short-grain rice,Grain
+3756,graham cracker pie crust,Meat
+3757,cooked lasagna noodles,Grain
+3758,natural cane sugar,Sweetener
+3759,fennel head,Miscellaneous
+3760,raspberry preserves,Fruit
+3761,cinnamon streusel topping,Spice
+3762,cherry syrup,Sweetener
+3763,green capsicum,Miscellaneous
+3764,lemon gelatin,Fruit
+3765,stew meat,Miscellaneous
+3766,borax,Miscellaneous
+3767,tap water,Liquid
+3768,liquid dish soap,Miscellaneous
+3769,sugar-free instant vanilla pudding mix,Sweetener
+3770,dry milk,Dairy
+3771,chinese white rice vinegar,Grain
+3772,chocolate graham cracker crumbs,Meat
+3773,whole buttermilk,Dairy
+3774,chervil,Miscellaneous
+3775,rump roast,Miscellaneous
+3776,perch,Miscellaneous
+3777,marigold petals,Miscellaneous
+3778,instant oats,Grain
+3779,bulk pork sausage,Meat
+3780,cooked lentils,Miscellaneous
+3781,butter flavoring,Dairy
+3782,apple pie spice,Fruit
+3783,peach slices in heavy syrup,Sweetener
+3784,toasted sliced almonds,Nut
+3785,fresh rose petals,Miscellaneous
+3786,italian chicken sausage,Meat
+3787,frozen cubed hash brown potatoes,Vegetable
+3788,lean boneless pork shoulder,Meat
+3789,frozen sweet peas,Miscellaneous
+3790,extra strong coffee,Miscellaneous
+3791,reduced-fat crescent rolls,Miscellaneous
+3792,smoked mussels,Miscellaneous
+3793,extra finely granulated sugar,Sweetener
+3794,hot pepper flakes,Vegetable
+3795,better than bouillon no beef base,Meat
+3796,fresh savory,Miscellaneous
+3797,heirloom tomato,Vegetable
+3798,organic free range fat free chicken broth,Meat
+3799,english mustard,Miscellaneous
+3800,mixed fresh herbs,Spice
+3801,rabbit,Miscellaneous
+3802,chicken soup base,Meat
+3803,onion rings,Vegetable
+3804,halibut fillet,Miscellaneous
+3805,white distilled vinegar,Liquid
+3806,dried ancho pepper,Vegetable
+3807,wheat bran,Grain
+3808,unsalted sunflower seeds,Nut
+3809,avocado oil,Oil
+3810,small red potatoes,Vegetable
+3811,shredded reduced fat cheddar cheese,Dairy
+3812,instant white chocolate pudding and pie filling mix,Miscellaneous
+3813,seasoned dry bread crumb,Grain
+3814,breading,Grain
+3815,fat free chicken broth,Meat
+3816,low-fat american cheese,Dairy
+3817,hot dog,Miscellaneous
+3818,light raspberry vinaigrette dressing,Fruit
+3819,coleman's dry mustard,Miscellaneous
+3820,invert sugar,Sweetener
+3821,anise oil,Oil
+3822,glutinous-rice flour,Grain
+3823,dried anchovies,Miscellaneous
+3824,garlic chives,Vegetable
+3825,glace cherries,Miscellaneous
+3826,boneless center cut pork chop,Meat
+3827,toasted wheat germ,Grain
+3828,prune puree,Miscellaneous
+3829,waffle-cut sweet potato fries,Vegetable
+3830,ortega green chilie,Miscellaneous
+3831,yam,Miscellaneous
+3832,light molasses,Sweetener
+3833,unsweetened apple juice,Fruit
+3834,hard alcoholic cider,Miscellaneous
+3835,dried apples,Fruit
+3836,tzatziki,Miscellaneous
+3837,round steak,Miscellaneous
+3838,black kale,Miscellaneous
+3839,frying oil,Oil
+3840,cooked oatmeal,Grain
+3841,liquid sweetener,Sweetener
+3842,no-sugar-added applesauce,Fruit
+3843,yellow tomatoes,Vegetable
+3844,alfalfa sprout,Miscellaneous
+3845,alfalfa,Miscellaneous
+3846,wax paper,Miscellaneous
+3847,baking sheet,Miscellaneous
+3848,2% fat cottage cheese,Dairy
+3849,thompson seedless grapes,Fruit
+3850,light chunk tuna in water,Seafood
+3851,hot pepper relish,Vegetable
+3852,crisp bacon,Meat
+3853,cooked lobster meat,Seafood
+3854,black salt,Spice
+3855,hake fillets,Miscellaneous
+3856,cooked sweet potato,Vegetable
+3857,frozen unsweetened raspberries,Miscellaneous
+3858,zinfandel,Miscellaneous
+3859,diet lemon-lime soda,Fruit
+3860,lobster,Seafood
+3861,lecithin granules,Miscellaneous
+3862,half cream,Dairy
+3863,chicken soup,Meat
+3864,citric acid,Miscellaneous
+3865,lean stewing beef,Meat
+3866,mastic,Miscellaneous
+3867,whole nutmeg,Miscellaneous
+3868,dried red chili pepper,Vegetable
+3869,vegetable bouillon cube,Miscellaneous
+3870,oxtail soup mix,Miscellaneous
+3871,cake yeast,Miscellaneous
+3872,hidden valley original ranch dips mix,Miscellaneous
+3873,frozen pizza dough,Miscellaneous
+3874,meatless spaghetti sauce,Liquid
+3875,salted cashews,Spice
+3876,frozen okra,Miscellaneous
+3877,mung beans,Miscellaneous
+3878,chicken sausage,Meat
+3879,low-fat cream of chicken soup,Dairy
+3880,old-fashioned oatmeal,Grain
+3881,tart shells,Miscellaneous
+3882,medium noodles,Grain
+3883,sardines,Miscellaneous
+3884,laksa paste,Miscellaneous
+3885,baby onion,Vegetable
+3886,marsala,Miscellaneous
+3887,beef bones,Meat
+3888,chicken feet,Meat
+3889,ginseng roots,Miscellaneous
+3890,burdock root,Miscellaneous
+3891,green peppercorn,Grain
+3892,graham cracker crust,Meat
+3893,sweet creamy butter,Dairy
+3894,emeril's itailian essence,Miscellaneous
+3895,tomato paste with basil garlic and oregano,Vegetable
+3896,stove top stuffing mix,Miscellaneous
+3897,raw cashew nuts,Miscellaneous
+3898,psyllium husks,Miscellaneous
+3899,cracked bulgur wheat,Grain
+3900,hass avocadoes,Miscellaneous
+3901,skinless boneless turkey breasts,Meat
+3902,bean paste,Miscellaneous
+3903,chinese wheat noodles,Grain
+3904,whole wheat tortillas,Grain
+3905,deli roast beef,Meat
+3906,frozen whole kernel corn,Grain
+3907,fish oil,Oil
+3908,dried pink beans,Miscellaneous
+3909,prune,Miscellaneous
+3910,fresh scallops,Miscellaneous
+3911,fresh sardine,Miscellaneous
+3912,broccoli rabe,Vegetable
+3913,orange blossom honey,Fruit
+3914,multi-grain bread,Grain
+3915,masa dough,Miscellaneous
+3916,land o lakes garlic and herb saute express squares,Vegetable
+3917,italian sausage spaghetti sauce,Meat
+3918,frozen black-eyed peas,Miscellaneous
+3919,southwest-style hash browns,Miscellaneous
+3920,green onion dip mix,Vegetable
+3921,sirloin beef,Meat
+3922,mushroom gravy,Miscellaneous
+3923,kraft tuscan house italian dressing and marinade,Miscellaneous
+3924,juniper berries,Miscellaneous
+3925,laurel leaves,Miscellaneous
+3926,new york strip steaks,Miscellaneous
+3927,kraft sun-dried tomato salad dressing,Vegetable
+3928,boneless beef top round,Meat
+3929,complete caesar salad in a bag,Miscellaneous
+3930,crab claw meat,Seafood
+3931,alfredo sauce mix,Liquid
+3932,bacon cheddar cheese,Dairy
+3933,boneless beef brisket,Meat
+3934,salt substitute,Spice
+3935,tea biscuits,Miscellaneous
+3936,hot sausage,Meat
+3937,dijon-horseradish mustard,Miscellaneous
+3938,pre-shredded mozzarella cheese,Dairy
+3939,pasta sauce with mushrooms,Grain
+3940,frozen cut green beans,Miscellaneous
+3941,liquid,Miscellaneous
+3942,horseradish cheddar cheese,Dairy
+3943,horseradish mustard,Miscellaneous
+3944,pizza cheese,Dairy
+3945,sunflower seed butter,Dairy
+3946,black walnut,Nut
+3947,conchiglie,Miscellaneous
+3948,country sausage,Meat
+3949,meatloaf,Miscellaneous
+3950,dipping sauce,Liquid
+3951,raw rice,Grain
+3952,barberries,Miscellaneous
+3953,apricot marmalade,Miscellaneous
+3954,szechwan chili sauce,Liquid
+3955,pork neck bones,Meat
+3956,parsley stems,Miscellaneous
+3957,pork cracklings,Meat
+3958,tomato bruschetta topping,Vegetable
+3959,cream cheese with vegetables,Dairy
+3960,98% fat-free cream of mushroom soup,Dairy
+3961,fully cooked frozen seasoned steak strips,Miscellaneous
+3962,aioli,Miscellaneous
+3963,garlic and herb goat cheese,Grain
+3964,raspberry chipotle jam,Fruit
+3965,tomatoes with spicy red pepper,Vegetable
+3966,green onions with tops,Vegetable
+3967,granulated yeast,Miscellaneous
+3968,salsa con queso,Miscellaneous
+3969,powdered clove,Spice
+3970,velveeta mexican cheese,Dairy
+3971,nacho cheese flavor doritos,Dairy
+3972,apple-smoked bacon,Meat
+3973,white almond bark,Nut
+3974,fat free sodium free chicken broth,Meat
+3975,frozen pie crust,Miscellaneous
+3976,9-inch pie shell,Miscellaneous
+3977,7-up soda,Miscellaneous
+3978,mixed fruit,Fruit
+3979,beef bouillon paste,Meat
+3980,lean ground chuck,Miscellaneous
+3981,pasteurized liquid egg-whites,Miscellaneous
+3982,firm ripe tomatoes,Vegetable
+3983,lamb cutlets,Meat
+3984,taco shell,Miscellaneous
+3985,glutinous rice,Grain
+3986,caramel syrup,Sweetener
+3987,szechwan pepper,Vegetable
+3988,meatloaf seasoning mix,Miscellaneous
+3989,cocktail franks,Miscellaneous
+3990,pumpernickel flour,Grain
+3991,prosciutto ham,Meat
+3992,ready-made pie crust,Miscellaneous
+3993,coconut milk powder,Dairy
+3994,pot roast,Miscellaneous
+3995,cheddar and colby cheese,Dairy
+3996,cream of shrimp soup,Dairy
+3997,cooked angel hair pasta,Grain
+3998,boneless beef round steak,Meat
+3999,chicken stock powder,Meat
+4000,sultana,Miscellaneous
+4001,gyoza skins,Miscellaneous
+4002,hot chili oil,Oil
+4003,bologna,Miscellaneous
+4004,sweet italian sausage links,Meat
+4005,refrigerated cheese tortellini,Dairy
+4006,low-sodium taco seasoning,Miscellaneous
+4007,fat-free refried beans,Miscellaneous
+4008,ancho chili,Miscellaneous
+4009,instant minced garlic,Vegetable
+4010,frozen brussels sprouts,Miscellaneous
+4011,sugar-free gelatin mix,Sweetener
+4012,sugar-free cool whip,Sweetener
+4013,philadelphia italian cheese and herb cooking creme,Dairy
+4014,low-fat swiss cheese,Dairy
+4015,teriyaki seasoning mix,Miscellaneous
+4016,stir fry vegetables,Miscellaneous
+4017,crab delights imitation crab,Seafood
+4018,shredded chicken with barbecue sauce,Meat
+4019,reduced-fat sharp cheddar cheese,Dairy
+4020,duck breasts,Meat
+4021,passion fruit,Fruit
+4022,star-shaped pasta,Grain
+4023,canned milk,Dairy
+4024,hot green chili peppers,Vegetable
+4025,seasoned dry bread crumbs,Grain
+4026,green cardamoms,Miscellaneous
+4027,cardamoms,Miscellaneous
+4028,complete pancake and waffle mix,Miscellaneous
+4029,country gravy mix,Miscellaneous
+4030,four-cheese mexican blend cheese,Dairy
+4031,assorted fresh vegetable,Miscellaneous
+4032,sesame and ginger marinade,Nut
+4033,vanilla-flavored soymilk,Dairy
+4034,low-fat vanilla ice cream,Dairy
+4035,frozen sliced strawberries,Miscellaneous
+4036,navel orange,Fruit
+4037,diced tomatoes with chipotle peppers,Vegetable
+4038,pineapple slices in juice,Fruit
+4039,round steaks,Miscellaneous
+4040,pineapple chunks in syrup,Fruit
+4041,pillsbury refrigerated classic pizza crust,Miscellaneous
+4042,canned artichoke heart,Miscellaneous
+4043,low-carb whole wheat tortillas,Grain
+4044,extra large eggs,Miscellaneous
+4045,black mustard seeds,Nut
+4046,asafoetida powder,Miscellaneous
+4047,popped corn,Grain
+4048,italian stewed tomatoes,Vegetable
+4049,canned diced green chiles,Miscellaneous
+4050,mexicorn,Grain
+4051,turkey gravy,Meat
+4052,southwest seasoning,Miscellaneous
+4053,reduced-fat mexican cheese blend,Dairy
+4054,reduced-fat peanut butter,Dairy
+4055,dark jamaican rum,Miscellaneous
+4056,pastry for double crust 10 inch pie,Miscellaneous
+4057,tapioca,Miscellaneous
+4058,green seedless grapes,Fruit
+4059,diet pepsi,Miscellaneous
+4060,pepsi,Miscellaneous
+4061,hidden valley original ranch seasoning mix,Miscellaneous
+4062,bucatini pasta,Grain
+4063,red radish,Miscellaneous
+4064,spicy hot v8,Miscellaneous
+4065,bloody mary mix,Miscellaneous
+4066,hidden valley original ranch dressing and seasoning mix,Miscellaneous
+4067,hidden valley original ranch dressing,Miscellaneous
+4068,bosc pear,Miscellaneous
+4069,pepperoni stick,Vegetable
+4070,hidden valley original ranch dressing mix,Miscellaneous
+4071,taco sauce,Liquid
+4072,red radishes,Miscellaneous
+4073,potato flakes,Vegetable
+4074,dark rye,Miscellaneous
+4075,boneless round steak,Miscellaneous
+4076,skinless chicken drumsticks,Meat
+4077,seafood stock,Miscellaneous
+4078,oregano flakes,Spice
+4079,flat egg noodles,Grain
+4080,banana pepper ring,Fruit
+4081,fresh carrots,Vegetable
+4082,brazil nuts,Miscellaneous
+4083,unbaked 9-inch pie crust,Miscellaneous
+4084,spanish olives,Miscellaneous
+4085,artichoke bottoms,Miscellaneous
+4086,frozen sweet corn,Grain
+4087,chicken breast tenders,Meat
+4088,ground chicken breast,Meat
+4089,plums,Miscellaneous
+4090,dried arbol chiles,Miscellaneous
+4091,delmonte stewed tomatoes,Vegetable
+4092,jack daniels whiskey,Miscellaneous
+4093,pita pockets,Miscellaneous
+4094,chicken salad,Meat
+4095,small elbow macaroni,Miscellaneous
+4096,red cayenne pepper,Vegetable
+4097,blue cheese-stuffed olives,Dairy
+4098,spinach and artichoke cream cheese,Dairy
+4099,brown rice syrup,Grain
+4100,cinnamon sugar,Spice
+4101,giada de laurentiis genovese basil pesto *available in most target stores,Spice
+4102,yellow sugar,Sweetener
+4103,ranch fiesta dip mix,Miscellaneous
+4104,fresh fettuccine,Miscellaneous
+4105,dark chocolate bars,Miscellaneous
+4106,mahi mahi,Miscellaneous
+4107,garlic butter,Dairy
+4108,fat,Miscellaneous
+4109,red jalapeno jelly,Miscellaneous
+4110,low-moisture part-skim mozzarella cheese,Dairy
+4111,frozen pie crusts,Miscellaneous
+4112,fat free feta cheese,Dairy
+4113,celeriac,Miscellaneous
+4114,full-bodied red wine,Liquid
+4115,aged cheddar cheese,Dairy
+4116,curry sauce mix,Liquid
+4117,creamed horseradish,Dairy
+4118,potato chips,Vegetable
+4119,whole mushrooms,Miscellaneous
+4120,dried rose petals,Miscellaneous
+4121,turkey thighs,Meat
+4122,frozen shrimp,Seafood
+4123,plum sauce,Liquid
+4124,dark unsweetened cocoa,Miscellaneous
+4125,strong rich coffee,Miscellaneous
+4126,red chili sauce,Liquid
+4127,white pearl onion,Vegetable
+4128,patty shells,Miscellaneous
+4129,beef heart,Meat
+4130,fat-free italian salad dressing,Miscellaneous
+4131,hardboiled egg,Oil
+4132,canned corn,Grain
+4133,golden delicious apples,Fruit
+4134,bay shrimp,Seafood
+4135,bay scallops,Miscellaneous
+4136,garbanzo flour,Grain
+4137,xylitol sweetener,Sweetener
+4138,amber beer,Miscellaneous
+4139,plastic spoons,Miscellaneous
+4140,blackening seasoning,Miscellaneous
+4141,peppercorn ranch dressing,Grain
+4142,canned asparagus,Miscellaneous
+4143,sugar-free honey,Sweetener
+4144,fresh cayenne peppers,Vegetable
+4145,dr. pepper cola,Vegetable
+4146,98% lean ground beef,Meat
+4147,garlic bread,Grain
+4148,fresh brussels sprouts,Miscellaneous
+4149,french onion soup,Vegetable
+4150,horseradish powder,Miscellaneous
+4151,white cheese,Dairy
+4152,fruit jelly,Fruit
+4153,potato & cheese pierogies,Dairy
+4154,crescent roll,Miscellaneous
+4155,cinnamon-sugar mixture,Spice
+4156,unsifted flour,Grain
+4157,peach greek yogurt,Dairy
+4158,powdered saffron,Miscellaneous
+4159,parmesan rind,Miscellaneous
+4160,bulbs of garlic,Vegetable
+4161,stone ground mustard,Miscellaneous
+4162,dry lasagna noodle,Grain
+4163,hungarian paprika,Spice
+4164,fresh figs,Miscellaneous
+4165,low-fat sharp cheddar cheese,Dairy
+4166,ham shank,Meat
+4167,rutabaga,Miscellaneous
+4168,wine biscuits,Liquid
+4169,oat bran,Grain
+4170,roasted garlic cloves,Vegetable
+4171,sun-dried tomatoes packed in oil with herbs,Oil
+4172,beef liver,Meat
+4173,whole cardamom pod,Miscellaneous
+4174,dried coriander,Miscellaneous
+4175,dried lime powder,Fruit
+4176,spiced rum,Spice
+4177,plum brandy,Miscellaneous
+4178,vegeta,Miscellaneous
+4179,olive salad,Miscellaneous
+4180,deep dish pie shell,Miscellaneous
+4181,pork rind,Meat
+4182,fat free egg substitute,Miscellaneous
+4183,tamarind pulp,Miscellaneous
+4184,seedless oranges,Fruit
+4185,pig's foot,Miscellaneous
+4186,pigs tails,Miscellaneous
+4187,bread bowls,Grain
+4188,unsweetened baking cocoa,Miscellaneous
+4189,boneless pork,Meat
+4190,snow pea pods,Miscellaneous
+4191,salmon steaks,Seafood
+4192,soda water,Liquid
+4193,non-dairy powdered coffee creamer,Dairy
+4194,light vanilla soymilk,Dairy
+4195,light chocolate syrup,Sweetener
+4196,fruit pectin,Fruit
+4197,pork & beans,Meat
+4198,ground chocolate,Miscellaneous
+4199,whole boneless skinless chicken breasts,Meat
+4200,pea protein powder,Miscellaneous
+4201,vegetable bouillon granules,Miscellaneous
+4202,italian-style crushed tomatoes,Vegetable
+4203,peach slices in juice,Liquid
+4204,low fat cottage cheese,Dairy
+4205,frozen fish sticks,Seafood
+4206,tartar sauce,Liquid
+4207,unsalted almonds,Nut
+4208,sultanas,Miscellaneous
+4209,chicken bouillon powder,Meat
+4210,prime rib roast,Miscellaneous
+4211,raw sweet potato,Vegetable
+4212,cannellini,Miscellaneous
+4213,bulb of garlic,Vegetable
+4214,whole wheat hamburger bun,Grain
+4215,cabbage leaves,Vegetable
+4216,saltines,Spice
+4217,vegan cream cheese,Dairy
+4218,turkey breast tenderloin,Meat
+4219,lemon peel strip,Fruit
+4220,hot roll mix,Miscellaneous
+4221,poppy seed rolls,Nut
+4222,cola,Miscellaneous
+4223,crisp salad green,Miscellaneous
+4224,cream of chicken soup mix,Dairy
+4225,corn chex,Grain
+4226,yellow capsicum,Miscellaneous
+4227,grouper,Miscellaneous
+4228,converted rice,Grain
+4229,mushroom pieces,Miscellaneous
+4230,non-iodized salt,Spice
+4231,wonton wrapper,Miscellaneous
+4232,nutter butter sandwich cookies,Dairy
+4233,tic tac mints,Miscellaneous
+4234,black decorating gel,Miscellaneous
+4235,pink candy melts,Miscellaneous
+4236,tamales,Miscellaneous
+4237,pork loin chops with bone,Meat
+4238,dark raisins,Miscellaneous
+4239,golden beets,Miscellaneous
+4240,broccoflower,Miscellaneous
+4241,pancake mix,Miscellaneous
+4242,prepared graham cracker crust,Meat
+4243,corn tortilla strips,Grain
+4244,lamb shoulder,Meat
+4245,reduced-sodium vegetable broth,Liquid
+4246,melba toast,Miscellaneous
+4247,farina,Miscellaneous
+4248,canned jalapeno peppers,Vegetable
+4249,corn chips,Grain
+4250,pork rib roast,Meat
+4251,brewed green tea,Miscellaneous
+4252,tangerine,Miscellaneous
+4253,broccoli cheese soup,Dairy
+4254,dried hot red chili pepper,Vegetable
+4255,razor clams,Miscellaneous
+4256,dried hot chili peppers,Vegetable
+4257,hawaiian sea salt,Spice
+4258,fat-free monterey jack cheese,Dairy
+4259,hershey chocolate kisses,Miscellaneous
+4260,fruit preserves,Fruit
+4261,tri-color spiral pasta,Grain
+4262,homemade chicken stock,Meat
+4263,morel,Miscellaneous
+4264,dry vermouth,Miscellaneous
+4265,cinnamon chex cereal,Spice
+4266,chex cereal,Miscellaneous
+4267,hominy grits,Miscellaneous
+4268,buckwheat groats,Grain
+4269,lean ground meat,Miscellaneous
+4270,plain cornmeal,Grain
+4271,barbecued pork,Meat
+4272,boneless boston pork roast,Meat
+4273,mesquite powder,Miscellaneous
+4274,cherry chips,Miscellaneous
+4275,beef bones with marrow,Meat
+4276,marinated roasted red peppers,Vegetable
+4277,fresh herbs,Spice
+4278,rolo chocolates,Miscellaneous
+4279,twix miniature candy bars,Miscellaneous
+4280,"navel oranges, juice of",Fruit
+4281,plain doritos,Miscellaneous
+4282,vegetarian sausages,Meat
+4283,greek dressing,Miscellaneous
+4284,pillsbury refrigerated crusty french loaf,Miscellaneous
+4285,pickled peppers,Vegetable
+4286,saltine crumbs,Spice
+4287,lean ground veal,Miscellaneous
+4288,herb with garlic soup mix,Vegetable
+4289,gingersnap crumbs,Spice
+4290,dry marsala wine,Liquid
+4291,smart balance light butter spread,Dairy
+4292,seasoned croutons,Miscellaneous
+4293,tomatoes with onion and garlic,Vegetable
+4294,italian-style tomato paste,Vegetable
+4295,toasted hazelnuts,Miscellaneous
+4296,chili with beans,Miscellaneous
+4297,double crust pie crust,Miscellaneous
+4298,whole wheat hot dog buns,Grain
+4299,beef bouillon powder,Meat
+4300,german sweet chocolate,Miscellaneous
+4301,low-fat dry milk,Dairy
+4302,powdered fat free non-dairy coffee creamer,Dairy
+4303,kraft shredded triple cheddar cheese with a touch of philadelphia,Dairy
+4304,pomegranate liqueur,Miscellaneous
+4305,cardamom seed,Nut
+4306,spicy sausage,Meat
+4307,nestle toll house baking cocoa,Miscellaneous
+4308,condensed chicken with rice soup,Grain
+4309,unbleached bread flour,Grain
+4310,coriander root,Miscellaneous
+4311,sugar pumpkin,Sweetener
+4312,fine sugar,Sweetener
+4313,extra-large egg yolk,Miscellaneous
+4314,dungeness crabs,Seafood
+4315,libby's canned pumpkin,Miscellaneous
+4316,dried chinese mushrooms,Miscellaneous
+4317,soft brown sugar,Sweetener
+4318,pork legs,Meat
+4319,small pretzels,Miscellaneous
+4320,diet sprite,Miscellaneous
+4321,sugar-free white chocolate pudding mix,Sweetener
+4322,pomegranates,Miscellaneous
+4323,chile sauce with garlic,Vegetable
+4324,red pears,Miscellaneous
+4325,soy protein,Miscellaneous
+4326,mushroom stems and pieces,Miscellaneous
+4327,thai seasoning,Miscellaneous
+4328,top loin beef,Meat
+4329,roasted jalapeno peppers,Vegetable
+4330,dried dill seed,Nut
+4331,soup mix,Miscellaneous
+4332,instant chicken broth,Meat
+4333,frog's legs,Miscellaneous
+4334,frankfurters,Miscellaneous
+4335,solid white tuna packed in water,Seafood
+4336,cream-style cottage cheese,Dairy
+4337,tagliatelle pasta noodles,Grain
+4338,98% fat-free cheddar cheese soup,Dairy
+4339,smoked turkey,Meat
+4340,fig preserves,Miscellaneous
+4341,no-salt-added diced tomatoes,Vegetable
+4342,pork fillets,Meat
+4343,cherry jam,Miscellaneous
+4344,jello gelatin,Miscellaneous
+4345,pistachio nut,Miscellaneous
+4346,smoked mozzarella cheese,Dairy
+4347,sausage gravy,Meat
+4348,bob's red mill gluten-free all-purpose baking flour,Grain
+4349,sweet red pepper relish,Vegetable
+4350,white corn tortilla chips,Grain
+4351,blue corn tortilla chips,Grain
+4352,sirloin tip steak,Miscellaneous
+4353,roasted garlic,Vegetable
+4354,campbell's condensed cream of celery soup,Dairy
+4355,solid pack pumpkin,Miscellaneous
+4356,multi-grain rolls,Miscellaneous
+4357,morton's coarse kosher salt,Spice
+4358,chocolate ice cream topping,Dairy
+4359,mounds candy bars,Miscellaneous
+4360,sandwich-size english muffins,Miscellaneous
+4361,pomegranate,Miscellaneous
+4362,fuji apples,Fruit
+4363,organic celery,Miscellaneous
+4364,no-salt-added chicken stock,Meat
+4365,fresh lasagna noodles,Grain
+4366,kraft shredded parmesan cheese,Dairy
+4367,pork fatback,Meat
+4368,peanut butter cookie mix,Dairy
+4369,vanilla flavor instant pudding and pie filling mix,Miscellaneous
+4370,fat-free evaporated milk,Dairy
+4371,spice cake mix,Spice
+4372,boneless skinned chicken breasts,Meat
+4373,mango salsa,Fruit
+4374,pinot grigio wine,Liquid
+4375,ginger brandy,Spice
+4376,instant brown rice,Grain
+4377,canned red beans,Miscellaneous
+4378,vegan parmesan cheese,Dairy
+4379,vegan sour cream,Dairy
+4380,unbaked 9-inch pie shell,Miscellaneous
+4381,cooked pork,Meat
+4382,buttery cracker,Dairy
+4383,almond paste,Nut
+4384,kirsch,Miscellaneous
+4385,diced tomatoes with basil oregano and garlic,Vegetable
+4386,sauvignon blanc wine,Liquid
+4387,fresh bean sprouts,Miscellaneous
+4388,nuoc cham sauce,Meat
+4389,evaporated skim milk,Dairy
+4390,buttermilk baking mix,Dairy
+4391,whole wheat bun,Grain
+4392,fast rise yeast,Miscellaneous
+4393,canned chicken,Meat
+4394,kraft shredded monterey jack cheese,Dairy
+4395,methi leaves,Miscellaneous
+4396,toor dal,Miscellaneous
+4397,bran flakes,Miscellaneous
+4398,vanilla bean seeds,Nut
+4399,cinnamon spread,Spice
+4400,light beer,Miscellaneous
+4401,sazon goya with coriander and annatto,Miscellaneous
+4402,italian plum tomato,Vegetable
+4403,bean sauce,Liquid
+4404,gluten,Miscellaneous
+4405,blue candy melts,Miscellaneous
+4406,xylitol sugar substitute,Sweetener
+4407,ground venison,Miscellaneous
+4408,dill dip,Miscellaneous
+4409,lean bacon,Meat
+4410,iceberg lettuce leaves,Vegetable
+4411,pink peppercorns,Grain
+4412,reduced-fat cream of mushroom soup,Dairy
+4413,crushed tomatoes in puree,Vegetable
+4414,satay sauce,Liquid
+4415,bush's red beans,Miscellaneous
+4416,matzo meal,Miscellaneous
+4417,sweet apples,Fruit
+4418,dried pasta shapes,Grain
+4419,parma ham,Meat
+4420,splenda sugar blend for baking,Sweetener
+4421,half and half milk,Dairy
+4422,fajita seasoning mix,Miscellaneous
+4423,mild enchilada sauce,Liquid
+4424,vegetable seasoning,Miscellaneous
+4425,bisquick heart smart mix,Miscellaneous
+4426,nut butter,Dairy
+4427,baileys caramel irish cream,Dairy
+4428,chocolate cookie pie crust,Miscellaneous
+4429,crab boil,Oil
+4430,plum baby food,Miscellaneous
+4431,oreo double stuff cookies,Miscellaneous
+4432,candy corn,Grain
+4433,jelly beans,Miscellaneous
+4434,white decorating icing,Miscellaneous
+4435,packaged coleslaw mix,Miscellaneous
+4436,cap'n crunch cereal,Miscellaneous
+4437,boneless skinless cod,Miscellaneous
+4438,low-carb marinara sauce,Liquid
+4439,fat-free parmesan cheese,Dairy
+4440,dark chocolate kisses,Miscellaneous
+4441,nuttter butter bites,Dairy
+4442,jerusalem artichokes,Miscellaneous
+4443,fage total 0%,Miscellaneous
+4444,fine granulated sugar,Sweetener
+4445,greek honey,Sweetener
+4446,imitation crab sticks,Seafood
+4447,paneer cheese,Dairy
+4448,rock sugar,Sweetener
+4449,dry basil,Spice
+4450,tri-tip steak,Miscellaneous
+4451,millet flour,Grain
+4452,knorr vegetable soup mix,Miscellaneous
+4453,curry leaves,Miscellaneous
+4454,ajwain,Miscellaneous
+4455,kahlua hazelnut,Miscellaneous
+4456,cheesecake flavor instant pudding and pie filling mix,Dairy
+4457,miniature marshmallow,Miscellaneous
+4458,cherry-cranberry pie filling,Fruit
+4459,other dried fruit,Fruit
+4460,hot dog bun,Miscellaneous
+4461,capellini,Miscellaneous
+4462,rosemary sprig,Spice
+4463,tomatoes with basil,Vegetable
+4464,nut crunch topping,Miscellaneous
+4465,fresh meyer lemon juice,Fruit
+4466,red leaf lettuce,Vegetable
+4467,small white beans,Miscellaneous
+4468,ground elk,Miscellaneous
+4469,cassava meal,Miscellaneous
+4470,dairy-free margarine,Miscellaneous
+4471,pita pocket,Miscellaneous
+4472,chutney,Miscellaneous
+4473,chinese duck sauce,Meat
+4474,veggie burger,Miscellaneous
+4475,rice chex,Grain
+4476,buttercup squash,Dairy
+4477,delicata squash,Miscellaneous
+4478,red cinnamon candies,Spice
+4479,sun-dried tomato alfredo sauce,Vegetable
+4480,large marshmallows,Miscellaneous
+4481,macaroni and cheese mix,Dairy
+4482,low calorie sweetener,Sweetener
+4483,crisco baking sticks butter flavor all-vegetable shortening,Dairy
+4484,jif extra crunchy peanut butter,Dairy
+4485,pillsbury best all purpose flour,Grain
+4486,candy covered plain chocolate candies,Miscellaneous
+4487,lsa,Miscellaneous
+4488,green mangoes,Fruit
+4489,low-sodium beef bouillon cubes,Meat
+4490,tomato bisque soup,Vegetable
+4491,orecchiette,Miscellaneous
+4492,broad beans,Miscellaneous
+4493,colored sprinkles,Miscellaneous
+4494,lemon pudding mix,Fruit
+4495,nestl toll house ultimates refrigerated chocolate chip lovers cookie dough,Miscellaneous
+4496,nestl carnation sweetened condensed milk,Dairy
+4497,hawaiian luau marinade,Miscellaneous
+4498,cooking apple,Fruit
+4499,smucker's natural creamy peanut butter,Dairy
+4500,crisco all-vegetable shortening,Miscellaneous
+4501,pumpkin pie mix,Miscellaneous
+4502,kraft shredded three cheese with a touch of philadelphia,Dairy
+4503,philadelphia original cooking creme,Miscellaneous
+4504,manicotti,Miscellaneous
+4505,low-fat alfredo sauce,Liquid
+4506,daikon radishes,Miscellaneous
+4507,reduced-fat cheese,Dairy
+4508,dried corn kernels,Grain
+4509,quahogs,Miscellaneous
+4510,shortbread cookies,Grain
+4511,medium cheddar,Miscellaneous
+4512,twisted cilantro and lime butter,Dairy
+4513,asian pears,Miscellaneous
+4514,smoked almonds,Nut
+4515,cola-flavored carbonated beverage,Miscellaneous
+4516,cherry gelatin,Miscellaneous
+4517,smucker's black cherry flavored topping,Miscellaneous
+4518,fruit slices,Fruit
+4519,crisco original no-stick cooking spray,Miscellaneous
+4520,smucker's orchard's finest northwest triple berry preserves,Fruit
+4521,mexican rice,Grain
+4522,top round roast,Miscellaneous
+4523,roasting chicken,Meat
+4524,smucker's caramel flavored topping,Miscellaneous
+4525,smucker's orchard's finest coastal valley peach apricot preserves,Miscellaneous
+4526,pillsbury sugar cookie mix,Sweetener
+4527,smucker's orchard's finest northwoods blueberry preserves,Fruit
+4528,split red lentils,Miscellaneous
+4529,hot green chili pepper,Vegetable
+4530,double crust classic crisco pie crust,Miscellaneous
+4531,red raspberries,Miscellaneous
+4532,small curd cottage cheese,Dairy
+4533,smucker's orchard's finest michigan red tart cherry preserves,Miscellaneous
+4534,sodium-free chicken stock,Meat
+4535,sugar-free raspberry gelatin,Fruit
+4536,light karo syrup,Sweetener
+4537,imitation butter,Dairy
+4538,ro-tel tomatoes,Vegetable
+4539,no-salt-added black beans,Spice
+4540,oroweat multi-grain sandwich thins,Miscellaneous
+4541,lemon yogurt,Dairy
+4542,boneless veal shoulder,Miscellaneous
+4543,muscadine grapes,Fruit
+4544,sure-jell,Miscellaneous
+4545,splenda brown sugar blend,Sweetener
+4546,dried bay leaf,Miscellaneous
+4547,salted almond,Nut
+4548,crab,Seafood
+4549,reynolds wrap foil,Oil
+4550,trout fillets,Miscellaneous
+4551,clay flower pots,Miscellaneous
+4552,chunk pineapple,Fruit
+4553,masa corn flour,Grain
+4554,bartlett pears,Miscellaneous
+4555,leaf thyme,Miscellaneous
+4556,grape leaves,Fruit
+4557,racks of baby-back pork ribs,Meat
+4558,cooked sticky rice,Grain
+4559,nori goma furikake,Miscellaneous
+4560,german mustard,Miscellaneous
+4561,mandarin vodka,Miscellaneous
+4562,ritz cracker crumbs,Miscellaneous
+4563,large curd cottage cheese,Dairy
+4564,whole tilapia,Miscellaneous
+4565,cassava,Miscellaneous
+4566,unsweetened dark chocolate,Miscellaneous
+4567,pea pods,Miscellaneous
+4568,raw potatoes,Vegetable
+4569,chicken fat,Meat
+4570,boneless salmon fillet,Seafood
+4571,adolph's meat tenderizer,Miscellaneous
+4572,idaho potato,Vegetable
+4573,clam broth,Liquid
+4574,sliced apple,Fruit
+4575,kraft healthy favorites fat free cheddar,Miscellaneous
+4576,frozen chopped onions,Vegetable
+4577,wild salmon,Seafood
+4578,mixed pepper,Vegetable
+4579,instant espresso coffee powder,Miscellaneous
+4580,beef eye round,Meat
+4581,dried shiitake mushroom,Miscellaneous
+4582,filet mignon steaks,Miscellaneous
+4583,fresh rosemary needles,Spice
+4584,hidden valley ranch dressing mix,Miscellaneous
+4585,mexican cornbread mix,Grain
+4586,spanish onions,Vegetable
+4587,lean pork sausage,Meat
+4588,extra-large egg,Miscellaneous
+4589,italian tomatoes,Vegetable
+4590,cooked beef,Meat
+4591,ganache,Miscellaneous
+4592,sultana raisins,Miscellaneous
+4593,hog casing,Miscellaneous
+4594,country-style boneless pork ribs,Meat
+4595,table cream,Dairy
+4596,vanilla wafer crumbs,Miscellaneous
+4597,heath candy bars,Miscellaneous
+4598,dipping chocolate,Miscellaneous
+4599,garlic heads,Vegetable
+4600,canned cannellini,Miscellaneous
+4601,hershey's semi-sweet chocolate chips,Miscellaneous
+4602,palm oil shortening,Oil
+4603,yellow sweet onions,Vegetable
+4604,refrigerated breadstick dough,Grain
+4605,whole boneless skinless chicken breast,Meat
+4606,tomato and basil pasta sauce,Grain
+4607,broiler,Oil
+4608,sliced kosher pickles,Miscellaneous
+4609,spinach fettuccine,Vegetable
+4610,pork schnitzels,Meat
+4611,blade steaks,Miscellaneous
+4612,tofutti sour cream,Dairy
+4613,tofutti better-than-cream-cheese,Dairy
+4614,non-dairy cheddar cheese,Dairy
+4615,dashi stock,Miscellaneous
+4616,grilled chicken,Meat
+4617,puffed rice cereal,Grain
+4618,coconut meat,Miscellaneous
+4619,mustard oil,Oil
+4620,french-fried potatoes,Vegetable
+4621,red plums,Miscellaneous
+4622,creme de menthe,Miscellaneous
+4623,semisweet chocolate morsel,Miscellaneous
+4624,mole,Miscellaneous
+4625,beef rump,Meat
+4626,dry pectin,Miscellaneous
+4627,kraft caramels,Miscellaneous
+4628,hazelnut-flavored coffee,Miscellaneous
+4629,pecan nuts,Miscellaneous
+4630,cornichons,Grain
+4631,pastina,Miscellaneous
+4632,flakey biscuits,Miscellaneous
+4633,white breadcrumbs,Grain
+4634,dried tart cherries,Miscellaneous
+4635,mostaccioli pasta,Grain
+4636,diced tomatoes with jalapenos,Vegetable
+4637,baking apples,Fruit
+4638,pineapple preserves,Fruit
+4639,low-fat ricotta,Miscellaneous
+4640,black bean paste,Miscellaneous
+4641,mulberries,Miscellaneous
+4642,strawberry jell-o gelatin dessert,Fruit
+4643,french vanilla instant pudding,Miscellaneous
+4644,pepperidge farm chessmen cookies,Vegetable
+4645,fish steaks,Seafood
+4646,chicken stock cube,Meat
+4647,pear halves,Miscellaneous
+4648,hatch chiles,Miscellaneous
+4649,quaker oats,Grain
+4650,lima beans,Miscellaneous
+4651,basil sprig,Spice
+4652,dark chili powder,Miscellaneous
+4653,spicy pork sausage,Meat
+4654,fat-free cream of chicken soup,Dairy
+4655,low-carb flour tortillas,Grain
+4656,white baking chocolate,Miscellaneous
+4657,frozen sliced peaches,Miscellaneous
+4658,fennel leaves,Miscellaneous
+4659,poundcake,Miscellaneous
+4660,cracked wheat,Grain
+4661,canned jalapeno slices,Miscellaneous
+4662,progresso recipe starters fire roasted tomato cooking sauce,Vegetable
+4663,progresso recipe starters creamy three cheese cooking sauce,Dairy
+4664,progresso italian style panko crispy bread crumbs,Grain
+4665,decorating gel,Miscellaneous
+4666,red bliss potatoes,Vegetable
+4667,hershey's syrup,Sweetener
+4668,melon balls,Miscellaneous
+4669,chocolate milk,Dairy
+4670,hot mustard,Miscellaneous
+4671,rosarita premium whole black beans,Miscellaneous
+4672,hunt's fire roasted diced tomatoes,Vegetable
+4673,dried wild mushrooms,Miscellaneous
+4674,baby turnips,Miscellaneous
+4675,dry buttermilk,Dairy
+4676,butter buds,Dairy
+4677,hot banana pepper,Fruit
+4678,sweet italian turkey sausage,Meat
+4679,italian-style tomatoes,Vegetable
+4680,orange bitters,Fruit
+4681,cooking wine,Liquid
+4682,beef flavored rice-a-roni,Grain
+4683,diced tomatoes with mild green chilies,Vegetable
+4684,smoked oysters,Miscellaneous
+4685,mexican-style stewed tomatoes,Vegetable
+4686,small scallops,Miscellaneous
+4687,miniature corn cobs,Grain
+4688,condensed cream of celery soup,Dairy
+4689,crawfish meat,Seafood
+4690,prepared pumpkin,Miscellaneous
+4691,unsweetened plain yogurt,Dairy
+4692,white chocolate pieces,Miscellaneous
+4693,whole mixed pickling spices,Spice
+4694,cream of tomato soup,Dairy
+4695,beef blade roast,Meat
+4696,chinese wine,Liquid
+4697,sun-dried tomato polenta,Vegetable
+4698,vegetable cocktail,Miscellaneous
+4699,garlic-flavored croutons,Vegetable
+4700,fresh peas,Miscellaneous
+4701,panch phoron,Miscellaneous
+4702,bay leaf powder,Miscellaneous
+4703,raspberry puree,Fruit
+4704,mango powder,Fruit
+4705,nonfat vanilla yogurt,Dairy
+4706,drambuie,Miscellaneous
+4707,cherry brandy,Miscellaneous
+4708,yellow corn flour,Grain
+4709,calimyrna figs,Miscellaneous
+4710,raisin bread,Grain
+4711,vegetarian broth,Liquid
+4712,gai lan,Miscellaneous
+4713,white shoepeg corn,Grain
+4714,fresh coconut,Miscellaneous
+4715,mango pulp,Fruit
+4716,fruit cocktail,Fruit
+4717,small white potatoes,Vegetable
+4718,whole cumin seeds,Nut
+4719,natural yoghurt,Miscellaneous
+4720,raspberry sorbet,Fruit
+4721,spicy bulk sausage,Meat
+4722,dumplings,Miscellaneous
+4723,hot chicken stock,Meat
+4724,clove powder,Spice
+4725,baby tomatoes,Vegetable
+4726,chili paste with garlic and ginger,Vegetable
+4727,dill seasoning mix,Miscellaneous
+4728,white chicken meat,Meat
+4729,ketjap manis,Miscellaneous
+4730,fresh rhubarb,Miscellaneous
+4731,chuck steaks,Miscellaneous
+4732,pistachio nuts,Miscellaneous
+4733,yellow lentils,Miscellaneous
+4734,sambhar powder,Miscellaneous
+4735,tea leaves,Miscellaneous
+4736,hickory chips,Miscellaneous
+4737,lamb shank,Meat
+4738,no-salt-added corn,Grain
+4739,low sodium green beans,Miscellaneous
+4740,low-sodium cream of mushroom soup,Dairy
+4741,soul seasoning,Miscellaneous
+4742,chocolate frosting,Miscellaneous
+4743,kit kat bars,Miscellaneous
+4744,heinz 57 steak sauce,Liquid
+4745,peach soda,Miscellaneous
+4746,whole wheat baguette,Grain
+4747,floury potatoes,Grain
+4748,single cream,Dairy
+4749,dried tomatoes,Vegetable
+4750,toothpick,Miscellaneous
+4751,lebanese cucumber,Miscellaneous
+4752,pork spare rib racks,Meat
+4753,prepared brown mustard,Miscellaneous
+4754,wood chips,Miscellaneous
+4755,stilton cheese,Dairy
+4756,crepe,Miscellaneous
+4757,raw mushrooms,Miscellaneous
+4758,veal schnitzels,Miscellaneous
+4759,white potato,Vegetable
+4760,soybean oil,Oil
+4761,camembert cheese,Dairy
+4762,fruit fresh,Fruit
+4763,cannelloni tubes,Miscellaneous
+4764,powdered fruit pectin,Fruit
+4765,sauterne white wine,Liquid
+4766,canned salmon,Seafood
+4767,fruit chutney,Fruit
+4768,fresh linguine,Miscellaneous
+4769,dried coconut,Miscellaneous
+4770,veggie crumbles,Miscellaneous
+4771,light kidney beans,Miscellaneous
+4772,almond essence,Nut
+4773,raspberry vinaigrette dressing,Fruit
+4774,hearts of palm,Miscellaneous
+4775,dry mixed beans,Miscellaneous
+4776,ostrich steak,Miscellaneous
+4777,birds eye chile,Miscellaneous
+4778,swordfish,Seafood
+4779,bulgur wheat,Grain
+4780,chicken giblets,Meat
+4781,new mexico chile powder,Miscellaneous
+4782,ears of corn,Grain
+4783,four-bean mix,Miscellaneous
+4784,ready-made bruschetta,Miscellaneous
+4785,salt water,Spice
+4786,kumara,Miscellaneous
+4787,lamb steaks,Meat
+4788,tiger shrimp,Seafood
+4789,persimmons,Miscellaneous
+4790,reduced-sodium beef stock,Meat
+4791,garlic oil,Oil
+4792,turkish bread,Grain
+4793,red bird's eye chilies,Miscellaneous
+4794,pure wesson canola oil,Oil
+4795,hunt's tomato sauce-no salt added,Vegetable
+4796,ranch style black beans,Miscellaneous
+4797,ro*tel original diced tomatoes & green chilies,Vegetable
+4798,cod fish fillet,Seafood
+4799,green serrano chilies,Miscellaneous
+4800,prune baby food,Miscellaneous
+4801,masa harina flour,Grain
+4802,dried pinto beans,Miscellaneous
+4803,tuna fish,Seafood
+4804,beetroot,Miscellaneous
+4805,pineapple ring,Fruit
+4806,pure olive oil,Oil
+4807,mint chocolate chips,Miscellaneous
+4808,gourmet salad greens,Miscellaneous
+4809,light syrup,Sweetener
+4810,pimento cheese,Dairy
+4811,frozen broccoli cuts,Vegetable
+4812,turkey breast half,Meat
+4813,saffron strand,Miscellaneous
+4814,rutabagas,Miscellaneous
+4815,frozen coconut,Miscellaneous
+4816,chai tea,Miscellaneous
+4817,rose's lime juice,Fruit
+4818,cultured buttermilk,Dairy
+4819,campari,Miscellaneous
+4820,fryer chickens,Meat
+4821,baby green pea,Miscellaneous
+4822,portuguese chourico,Miscellaneous
+4823,veal,Miscellaneous
+4824,dark sweet cherries,Miscellaneous
+4825,fromage frais,Miscellaneous
+4826,whole mustard seeds,Nut
+4827,panela cheese,Dairy
+4828,sundried tomato & oregano salad dressing,Vegetable
+4829,rock salt,Spice
+4830,wheat crackers,Grain
+4831,green chutney,Miscellaneous
+4832,shortbread pie crusts,Grain
+4833,frying chickens,Meat
+4834,serrano ham,Meat
+4835,green asparagus,Miscellaneous
+4836,black tea leaves,Miscellaneous
+4837,lambs kidneys,Meat
+4838,quince paste,Miscellaneous
+4839,fresh pepper,Vegetable
+4840,rib chops,Miscellaneous
+4841,loose tea,Miscellaneous
+4842,channa dal,Miscellaneous
+4843,chicken drummettes,Meat
+4844,weet-bix,Miscellaneous
+4845,unsalted vegetable stock,Spice
+4846,ground mixed spice,Spice
+4847,small mushrooms,Miscellaneous
+4848,presunto,Miscellaneous
+4849,grapefruits,Fruit
+4850,potato flour,Grain
+4851,thickened cream,Dairy
+4852,piquillo pepper,Vegetable
+4853,sliced peaches in juice,Liquid
+4854,aged white cheddar cheese,Dairy
+4855,mixed dried fruit,Fruit
+4856,onion juice,Vegetable
+4857,whole wheat english muffins,Grain
+4858,canned beets,Miscellaneous
+4859,pam original no-stick cooking spray,Miscellaneous
+4860,ro*tel original tomato & green chili sauce,Vegetable
+4861,cheddar and monterey jack blend cheese,Dairy
+4862,red pesto sauce,Liquid
+4863,fresh marjoram,Miscellaneous
+4864,nicoise olive,Miscellaneous
+4865,35% cream,Dairy
+4866,canned plum tomatoes,Vegetable
+4867,tawny port,Miscellaneous
+4868,butter flavor shortening,Dairy
+4869,chocolate bar,Miscellaneous
+4870,serrano chili peppers,Vegetable
+4871,mrs. dash garlic and herb seasoning,Vegetable
+4872,banana extract,Fruit
+4873,bermuda onion,Vegetable
+4874,broiler-fryer chickens,Oil
+4875,pitted ripe olives,Miscellaneous
+4876,dried cannellini beans,Miscellaneous
+4877,spice essence,Spice
+4878,whole wheat crackers,Grain
+4879,rose hips,Miscellaneous
+4880,dip mix,Miscellaneous
+4881,condensed beef consomme,Meat
+4882,medium sherry,Miscellaneous
+4883,frozen diced potatoes,Vegetable
+4884,chuck,Miscellaneous
+4885,yabbies,Miscellaneous
+4886,capers packed in salt,Spice
+4887,pink grapefruit,Fruit
+4888,lambs lettuce,Meat
+4889,beefsteak tomatoes,Meat
+4890,minced meat,Miscellaneous
+4891,pie shell,Miscellaneous
+4892,hard apple cider,Fruit
+4893,chapati flour,Grain
+4894,snails,Miscellaneous
+4895,porcini mushrooms,Miscellaneous
+4896,chablis,Miscellaneous
+4897,instant banana pudding mix,Fruit
+4898,endives,Miscellaneous
+4899,hazelnut oil,Oil
+4900,red pepper paste,Vegetable
+4901,ranch dip,Miscellaneous
+4902,chipotle chili seasoning,Miscellaneous
+4903,chambord raspberry liquor,Meat
+4904,white creme de cacao,Miscellaneous
+4905,horseradish cream,Dairy
+4906,baby rocket,Miscellaneous
+4907,dried white bean,Miscellaneous
+4908,citrus-infused vodka,Miscellaneous
+4909,sour mix,Miscellaneous
+4910,paprika paste,Spice
+4911,pam butter cooking spray,Dairy
+4912,cantal cheese,Dairy
+4913,diced green chilis,Miscellaneous
+4914,brown flour,Grain
+4915,blanched slivered almond,Nut
+4916,seedless european cucumber,Nut
+4917,cornichon,Grain
+4918,partridges,Miscellaneous
+4919,fresh dill leaves,Miscellaneous
+4920,rabbits,Miscellaneous
+4921,boiling potato,Oil
+4922,medium pasta shell,Grain
+4923,boneless lamb shoulder,Meat
+4924,baby turnip,Miscellaneous
+4925,white-fleshed fish,Seafood
+4926,red snapper fillets,Miscellaneous
+4927,skinless chicken pieces,Meat
+4928,bush tomatoes,Vegetable
+4929,turkey legs,Meat
+4930,portuguese bread,Grain
+4931,boiling potatoes,Oil
+4932,canned anchovy fillets,Miscellaneous
+4933,orgeat syrup,Sweetener
+4934,wild mushrooms,Miscellaneous
+4935,black cumin seeds,Nut
+4936,bone-in pork roast,Meat
+4937,medium-dry sherry,Miscellaneous
+4938,hot red chili peppers,Vegetable
+4939,cardamom seeds,Nut
+4940,sweetened lime juice,Fruit
+4941,bay bugs,Miscellaneous
+4942,summer savory,Miscellaneous
+4943,honey nut chex,Sweetener
+4944,dried banana pieces,Fruit
+4945,southwestern chicken strips,Meat
+4946,tea bag,Miscellaneous
+4947,sambal powder,Miscellaneous
+4948,kasuri methi,Miscellaneous
+4949,frozen baby lima bean,Miscellaneous
+4950,pork shoulder chop,Meat
+4951,boneless rib-eye steaks,Miscellaneous
+4952,dried split peas,Miscellaneous
+4953,clear honey,Sweetener
+4954,unsalted pumpkin seeds,Nut
+4955,new mexico green chilies,Miscellaneous
+4956,fresh onion,Vegetable
+4957,white lentils,Miscellaneous
+4958,grated fresh coconut,Miscellaneous
+4959,cheesecloth,Dairy
+4960,pickled onion,Vegetable
+4961,dark soya sauce,Liquid
+4962,wheat beer,Grain
+4963,reduced-fat monterey jack cheese,Dairy
+4964,fat-free peach yogurt,Dairy
+4965,lardons,Miscellaneous
+4966,veal cutlets,Miscellaneous
+4967,veal stock,Miscellaneous
+4968,chicken thigh fillets,Meat
+4969,chevre cheese,Dairy
+4970,dole mediterranean salad blend,Miscellaneous
+4971,frozen mixed peppers,Vegetable
+4972,spaghetti in tomato sauce,Vegetable
+4973,chicken noodle soup,Grain
+4974,popcorn shrimp,Grain
+4975,court bouillon,Miscellaneous
+4976,hot pepper paste,Vegetable
+4977,watermelon juice,Liquid
+4978,whole grain rice,Grain
+4979,grated fesh coconut,Miscellaneous
+4980,seedless raisin,Nut
+4981,scotch whisky,Miscellaneous
+4982,ground lemon myrtle,Fruit
+4983,elderflower cordial,Miscellaneous
+4984,mature cheddar cheese,Dairy
+4985,racks of lamb,Meat
+4986,shoulder lamb chops,Meat
+4987,lamb stock,Meat
+4988,dark roux,Miscellaneous
+4989,condensed beef broth,Meat
+4990,wheat flour tortillas,Grain
+4991,frozen sliced strawberries in syrup,Sweetener
+4992,raw cranberries,Miscellaneous
+4993,tandoori spice mix,Spice
+4994,fresh mussels,Miscellaneous
+4995,deli chicken,Meat
+4996,ruby port,Miscellaneous
+4997,tandoori paste,Miscellaneous
+4998,albacore tuna in water,Seafood
+4999,white raisins,Miscellaneous
+5000,oil-and-vinegar dressing,Oil
+5001,red currant jelly,Miscellaneous
+5002,ground roasted cumin seeds,Nut
+5003,aubergines,Miscellaneous
+5004,cheshire cheese,Dairy
+5005,sage derby cheese,Dairy
+5006,instant lemon pudding,Fruit
+5007,caerphilly cheese,Dairy
+5008,turkey fillets,Meat
+5009,lean ham,Meat
+5010,dried mango,Fruit
+5011,frozen asian-style vegetables,Miscellaneous
+5012,breaded chicken tenders,Grain
+5013,pork sausage links,Meat
+5014,oyster mushroom,Miscellaneous
+5015,kirby cucumber,Miscellaneous
+5016,mahi mahi fillets,Miscellaneous
+5017,swordfish fillets,Seafood
+5018,muscat wine,Liquid
+5019,nectarine,Miscellaneous
+5020,jonathan apple,Fruit
+5021,snickers candy bars,Miscellaneous
+5022,ascorbic acid,Miscellaneous
+5023,gemelli pasta,Grain
+5024,converted white rice,Grain
+5025,dark chocolate brownie mix,Miscellaneous
+5026,catalina dressing,Miscellaneous
+5027,orange pepper,Fruit
+5028,green grapes,Fruit
+5029,low-sodium tomato juice,Vegetable
+5030,dried vegetable flakes,Miscellaneous
+5031,dried mission figs,Miscellaneous
+5032,mixed berry,Fruit
+5033,apricot nectar,Miscellaneous
+5034,courgettes,Miscellaneous
+5035,soup stock,Miscellaneous
+5036,nonfat cottage cheese,Dairy
+5037,light ranch salad dressing,Miscellaneous
+5038,2% cheddar cheese,Dairy
+5039,flat iron steaks,Miscellaneous
+5040,bing cherries,Miscellaneous
+5041,cherry extract,Miscellaneous
+5042,duncan hines yellow cake mix,Miscellaneous
+5043,banana cream instant pudding,Dairy
+5044,peanut brittle,Nut
+5045,tuna steak,Seafood
+5046,dungeness crabmeat,Seafood
+5047,liquid red pepper seasoning,Vegetable
+5048,low-sodium low-fat chicken broth,Meat
+5049,instant oatmeal,Grain
+5050,capsicum,Miscellaneous
+5051,peri-peri,Miscellaneous
+5052,dijonnaise mustard,Miscellaneous
+5053,chanterelle mushroom,Miscellaneous
+5054,porcini mushroom,Miscellaneous
+5055,white truffle,Miscellaneous
+5056,sour milk,Dairy
+5057,de-fatted beef broth,Meat
+5058,cooked wild rice,Grain
+5059,raw brown sugar,Sweetener
+5060,candied cherry,Miscellaneous
+5061,vegan worcestershire sauce,Liquid
+5062,ground ancho chili pepper,Vegetable
+5063,blackberry wine,Fruit
+5064,beef roast seasoning,Meat
+5065,frozen light whipped dessert topping,Miscellaneous
+5066,meringue cookies,Miscellaneous
+5067,pink salmon,Seafood
+5068,cavenders all purpose greek seasoning,Miscellaneous
+5069,dried split yellow peas,Miscellaneous
+5070,mango puree,Fruit
+5071,soy chorizo,Miscellaneous
+5072,ready-to-bake refrigerated buttermilk flaky biscuits,Dairy
+5073,meat tenderizer,Miscellaneous
+5074,rooibos tea bags,Miscellaneous
+5075,red ripe tomato,Vegetable
+5076,chocolate almond bark,Nut
+5077,sugar-free ginger ale,Spice
+5078,frozen bell peppers,Vegetable
+5079,silver beet,Miscellaneous
+5080,colby,Miscellaneous
+5081,sour raspberry liqueur,Fruit
+5082,lime cordial,Fruit
+5083,marjoram leaves,Miscellaneous
+5084,orange-flavored liqueur,Fruit
+5085,midori melon liqueur,Miscellaneous
+5086,chicken meat,Meat
+5087,creme de almond,Nut
+5088,fresh tarragon leaves,Miscellaneous
+5089,tart cherries,Miscellaneous
+5090,dry tarragon,Miscellaneous
+5091,ziploc bag,Miscellaneous
+5092,poppy seed salad dressing,Nut
+5093,lo mein noodles,Grain
+5094,dry lasagna noodles,Grain
+5095,cherry flavored liqueur,Miscellaneous
+5096,sweet-hot mustard,Miscellaneous
+5097,large scallops,Miscellaneous
+5098,almond liqueur,Nut
+5099,solid-pack pumpkin,Miscellaneous
+5100,raspberry jell-o gelatin,Fruit
+5101,boneless beef top loin steaks,Meat
+5102,pork stew meat,Meat
+5103,reduced-fat creamy peanut butter,Dairy
+5104,semi-soft goat cheese,Grain
+5105,sweet red peppers,Vegetable
+5106,converted long grain rice,Grain
+5107,pork seasoning,Meat
+5108,shake-n-bake,Miscellaneous
+5109,roast chicken seasoning,Meat
+5110,gingersnap cookies,Spice
+5111,dried savory,Miscellaneous
+5112,onion paste,Vegetable
+5113,poppy seed paste,Nut
+5114,saffron strands,Miscellaneous
+5115,candied citron peel,Miscellaneous
+5116,piri-piri,Miscellaneous
+5117,taco chips,Miscellaneous
+5118,no-salt-added garbanzo beans,Spice
+5119,dill seeds,Nut
+5120,dark amber maple syrup,Sweetener
+5121,frozen mango chunks,Fruit
+5122,processed swiss cheese,Dairy
+5123,beef tenderloin steaks,Meat
+5124,fresh green chile,Miscellaneous
+5125,spicy cajun pasta sauce,Grain
+5126,grapefruit zest,Fruit
+5127,10% cream,Dairy
+5128,strong black tea,Miscellaneous
+5129,spinach noodles,Grain
+5130,capers in brine,Miscellaneous
+5131,dried orange peel,Fruit
+5132,lasagna sheets,Miscellaneous
+5133,polish sausage,Meat
+5134,walla walla onion,Vegetable
+5135,pasta shells,Grain
+5136,cos lettuce,Vegetable
+5137,old cheddar cheese,Dairy
+5138,chili paste with garlic,Vegetable
+5139,cheese pasta sauce,Grain
+5140,reduced-calorie italian dressing,Miscellaneous
+5141,dry bow tie pasta,Grain
+5142,red-hot candies,Miscellaneous
+5143,smoked tofu,Miscellaneous
+5144,spanish peanut,Nut
+5145,submarine rolls,Miscellaneous
+5146,pie shells,Miscellaneous
+5147,15 bean mix,Miscellaneous
+5148,peppermint tea bag,Vegetable
+5149,mixed peppers,Vegetable
+5150,reduced sodium black beans,Miscellaneous
+5151,dried ginger,Spice
+5152,tempeh,Miscellaneous
+5153,roasted cumin seeds,Nut
+5154,small clam,Miscellaneous
+5155,dried currant,Miscellaneous
+5156,reduced-fat parmesan cheese,Dairy
+5157,lizano sauce,Liquid
+5158,achiote powder,Miscellaneous
+5159,pillsbury funfetti cake mix,Miscellaneous
+5160,powdered oregano,Spice
+5161,bottled clam juice,Liquid
+5162,lime oil,Oil
+5163,decorator sugar,Sweetener
+5164,shirataki noodles,Grain
+5165,cheese spread,Dairy
+5166,pancake syrup,Sweetener
+5167,frozen unsweetened mixed berries,Miscellaneous
+5168,canola oil mayonnaise,Oil
+5169,fat-free ricotta cheese,Dairy
+5170,asian pear,Miscellaneous
+5171,sucanat,Miscellaneous
+5172,swordfish steaks,Seafood
+5173,rindless bacon,Meat
+5174,amchoor powder,Miscellaneous
+5175,apple chips,Fruit
+5176,frozen unsweetened strawberries,Miscellaneous
+5177,strawberry slices,Fruit
+5178,kidney bean,Miscellaneous
+5179,cube steak,Miscellaneous
+5180,dried ancho peppers,Vegetable
+5181,crema,Miscellaneous
+5182,fried shallots,Miscellaneous
+5183,ground ham,Meat
+5184,beef stew,Meat
+5185,miniature chocolate chip,Miscellaneous
+5186,honey mustard dressing,Sweetener
+5187,de-fatted chicken stock,Meat
+5188,boneless beef top sirloin steak,Meat
+5189,romaine leaves,Miscellaneous
+5190,alum,Miscellaneous
+5191,endive,Miscellaneous
+5192,cream of chicken and mushroom soup,Dairy
+5193,whole wheat ziti,Grain
+5194,mung bean noodles,Grain
+5195,dried tart cherry,Miscellaneous
+5196,beef mince,Meat
+5197,beef stock cube,Meat
+5198,chicken noodle soup mix,Grain
+5199,alligator tail steaks,Miscellaneous
+5200,vegetarian chicken soup mix,Meat
+5201,risotto rice,Grain
+5202,fresh green chilies,Miscellaneous
+5203,non-dairy coffee creamer,Dairy
+5204,chicken stove top stuffing mix,Meat
+5205,cookie cutter,Miscellaneous
+5206,crispy brown rice cereal,Grain
+5207,stew beef chunks,Meat
+5208,swiss chard leaves,Miscellaneous
+5209,grouper steaks,Miscellaneous
+5210,sweet yellow onions,Vegetable
+5211,tomato powder,Vegetable
+5212,tempeh bacon,Meat
+5213,dried ancho chile,Miscellaneous
+5214,chicken piece,Meat
+5215,stewing veal,Miscellaneous
+5216,pork sausage casing,Meat
+5217,mixed peel,Miscellaneous
+5218,aji bell peppers,Vegetable
+5219,green plantains,Miscellaneous
+5220,chayote,Miscellaneous
+5221,eggshells,Miscellaneous
+5222,watermelon schnapps,Liquid
+5223,garlic-flavored olive oil,Oil
+5224,kalonji,Miscellaneous
+5225,french onion dip,Vegetable
+5226,batter frying mix,Miscellaneous
+5227,frozen shredded hash browns,Miscellaneous
+5228,vegetarian baked beans,Miscellaneous
+5229,maple flavoring,Miscellaneous
+5230,japanese turnip,Miscellaneous
+5231,nicoise olives,Miscellaneous
+5232,chocolate-covered peanuts,Nut
+5233,barley malt syrup,Grain
+5234,red aji limo chile,Miscellaneous
+5235,yellow aji limo chile,Miscellaneous
+5236,peach pie filling,Miscellaneous
+5237,baby lima beans,Miscellaneous
+5238,alphabet pasta,Grain
+5239,taco blend cheese,Dairy
+5240,earth balance buttery sticks,Dairy
+5241,vegan cheddar cheese,Dairy
+5242,sugar-free apricot jam,Sweetener
+5243,fat-free french dressing,Miscellaneous
+5244,buttermilk biscuit,Dairy
+5245,red grapefruit,Fruit
+5246,pink food coloring,Miscellaneous
+5247,coconut macaroons,Miscellaneous
+5248,salted nuts,Spice
+5249,smoked provolone cheese,Dairy
+5250,boneless beef rump roast,Meat
+5251,pickled hot cherry peppers,Vegetable
+5252,low-fat evaporated milk,Dairy
+5253,dried red lentils,Miscellaneous
+5254,instant pudding mix,Miscellaneous
+5255,milk chocolate candy bar,Dairy
+5256,medium rye flour,Grain
+5257,angel food cake mix,Miscellaneous
+5258,frozen fat-free whipped topping,Miscellaneous
+5259,pork shoulder blade roast,Meat
+5260,white chocolate pudding mix,Miscellaneous
+5261,hot fudge topping,Miscellaneous
+5262,homemade vegetable stock,Miscellaneous
+5263,fresh lemon rind,Fruit
+5264,pie plate,Miscellaneous
+5265,dark seedless raisins,Nut
+5266,pork leg steaks,Meat
+5267,dry salami,Miscellaneous
+5268,yogurt cheese,Dairy
+5269,achiote paste,Miscellaneous
+5270,country-style spareribs,Miscellaneous
+5271,frozen bread dough,Grain
+5272,diced pimento,Miscellaneous
+5273,raspberry liqueur,Fruit
+5274,jamon serrano,Miscellaneous
+5275,guinness draught,Miscellaneous
+5276,earth balance natural buttery spread,Dairy
+5277,truffle salt,Spice
+5278,swanson vegetable broth,Liquid
+5279,frozen southern style hash brown potatoes,Vegetable
+5280,canned mushroom slices,Miscellaneous
+5281,fisher chef's naturals slivered almonds,Seafood
+5282,fisher chef's naturals walnuts,Seafood
+5283,fisher dried sweetened cranberries,Seafood
+5284,fisher chef's naturals sliced almonds,Seafood
+5285,fisher chef's naturals walnut halves,Seafood
+5286,fat free ranch dressing,Miscellaneous
+5287,high-fiber flour tortilla,Grain
+5288,whey protein,Miscellaneous
+5289,barley flour,Grain
+5290,dried kasha,Miscellaneous
+5291,banana flowers,Fruit
+5292,cellophane noodle,Grain
+5293,rice paper sheet,Grain
+5294,chiles de arbol,Miscellaneous
+5295,dry onion flakes,Vegetable
+5296,phyllo pastry sheet,Miscellaneous
+5297,boneless bottom round roast,Miscellaneous
+5298,boneless sirloin tip roast,Miscellaneous
+5299,hot italian turkey sausage,Meat
+5300,fresh udon noodles,Grain
+5301,canned whole kernel corn,Grain
+5302,chicken strips,Meat
+5303,meatloaf mixture,Miscellaneous
+5304,unsmoked bacon,Meat
+5305,chocolate stout,Miscellaneous
+5306,pork fillet,Meat
+5307,green onions with top,Vegetable
+5308,low-fat cream of mushroom soup,Dairy
+5309,simply potatoes,Vegetable
+5310,white truffles,Miscellaneous
+5311,white chocolate curls,Miscellaneous
+5312,jars,Miscellaneous
+5313,ready-made pie crusts,Miscellaneous
+5314,chipotle paste,Miscellaneous
+5315,garlic salt with parsley,Vegetable
+5316,powdered cocoa mix,Miscellaneous
+5317,powdered coffee creamer,Dairy
+5318,chocolate chip ice cream,Dairy
+5319,coffee extract,Miscellaneous
+5320,baby back rib rack,Miscellaneous
+5321,"9"" unbaked pie shell",Miscellaneous
+5322,kraft shredded sharp cheddar cheese,Dairy
+5323,boneless short ribs,Miscellaneous
+5324,green onion stems,Vegetable
+5325,chocolate-flavored candy coating,Grain
+5326,wild mushroom,Miscellaneous
+5327,korean red pepper powder,Vegetable
+5328,kraft shredded cheddar cheese,Dairy
+5329,pomelo fruit,Fruit
+5330,fresh chili peppers,Vegetable
+5331,green pepper rings,Vegetable
+5332,fat free refried black beans,Miscellaneous
+5333,tender quick,Miscellaneous
+5334,ziploc bags,Miscellaneous
+5335,bottled chili sauce,Liquid
+5336,gluten-free ketchup,Miscellaneous
+5337,spinach tortillas,Vegetable
+5338,green chili sauce,Liquid
+5339,almond flavoring,Nut
+5340,asadero cheese,Dairy
+5341,spicy sesame oil,Oil
+5342,ginger cube,Spice
+5343,low-sodium tomato soup,Vegetable
+5344,mead,Miscellaneous
+5345,bottled vinaigrette dressing,Miscellaneous
+5346,southwest chipotle seasoning,Miscellaneous
+5347,almond bark,Nut
+5348,mixed seeds,Nut
+5349,chocolate wafer pie crust,Miscellaneous
+5350,smoked turkey legs,Meat
+5351,tagliolini,Miscellaneous
+5352,bob evans sausage,Meat
+5353,spreadable cheese with garlic and herbs,Dairy

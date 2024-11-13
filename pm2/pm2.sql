@@ -1,47 +1,36 @@
-CREATE DATABASE IF NOT EXISTS Recipeople;
-
+CREATE SCHEMA IF NOT EXISTS Recipeople;
 USE Recipeople;
 
--- Enable local infile loading
-SET GLOBAL local_infile = 1;
+-- SET GLOBAL local_infile = 1;
 
 -- Drop existing tables if they exist
 DROP TABLE IF EXISTS Reviews;
-
 DROP TABLE IF EXISTS RecipeTag;
-
 DROP TABLE IF EXISTS RecipesCalculatedData;
-
 DROP TABLE IF EXISTS RecipeIngredient;
-
 DROP TABLE IF EXISTS Nutrition;
-
 DROP TABLE IF EXISTS Interactions;
-
 DROP TABLE IF EXISTS Recipes;
-
 DROP TABLE IF EXISTS Ingredients;
-
 DROP TABLE IF EXISTS Tags;
-
-DROP TABLE IF EXISTS Followings;
-
+DROP TABLE IF EXISTS Follows;
 DROP TABLE IF EXISTS Users;
 
 -- Create Users table with modified HealthGoal column
 CREATE TABLE Users (
     UserId INT PRIMARY KEY,
     UserName VARCHAR(255) NOT NULL,
-    HealthGoal VARCHAR(50)
+    HealthGoal ENUM('MaintainWeight', 'LoseWeight', 'GainMuscle') NOT NULL
 );
 
 -- Create Followings table
-CREATE TABLE Followings (
-    FollowingId INT PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE Follows (
+    FollowId INT PRIMARY KEY AUTO_INCREMENT,
+    FollowingId INT,
     FollowerId INT,
-    FolloweeId INT,
+    FOREIGN KEY (FollowingId) REFERENCES Users (UserId) ON DELETE CASCADE,
     FOREIGN KEY (FollowerId) REFERENCES Users (UserId) ON DELETE CASCADE,
-    FOREIGN KEY (FolloweeId) REFERENCES Users (UserId) ON DELETE CASCADE
+    UNIQUE (FollowingId, FollowerId)
 );
 
 -- Create Recipes table
@@ -160,14 +149,13 @@ CREATE TABLE RecipesCalculatedData (
 
 -- Modified LOAD DATA statement for Users table
 LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Users.csv' INTO
-TABLE Users FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (UserId, UserName, HealthGoal);
+TABLE Users FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 
 -- Load data into Followings table
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Followings.csv' INTO
-TABLE Followings FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
-    FollowingId,
-    FollowerId,
-    FolloweeId
+LOAD DATA LOCAL INFILE '/Users/xiaoxuchen/Desktop/CS5200/neu-cs5200-project/data/Follows.csv' INTO
+TABLE Follows FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
+    FollowingId, 
+    FollowerId
 );
 
 -- Load data into Recipes table

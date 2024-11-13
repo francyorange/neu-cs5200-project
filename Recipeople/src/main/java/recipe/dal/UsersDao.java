@@ -9,7 +9,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -180,80 +179,38 @@ public class UsersDao {
 				deleteStmt.close();
 		}
 	}
-	
-//    public void loadUsers(String csvFilePath) throws SQLException {
-//    	String loadUsers = "LOAD DATA LOCAL INFILE ? INTO TABLE Users" + 
-//                " FIELDS TERMINATED BY ',' " +
-//                " ENCLOSED BY '\"' LINES TERMINATED BY '\n'" +
-//                " IGNORE 1 ROWS;";
-//    	Connection connection = null;
-//		PreparedStatement loadStmt = null;
-//		try {
-//			connection = connectionManager.getConnection();
-//			loadStmt = connection.prepareStatement(loadUsers);
-//			loadStmt.setString(1, csvFilePath);
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//			throw e;
-//		} finally {
-//			if (connection != null)
-//				connection.close();
-//			if (loadStmt != null)
-//				loadStmt.close();
-//		}
-//    }
-    
-    public void loadUsers(String csvFilePath) throws SQLException {
-        // SQL query to load data from a CSV file
-        String loadUsers = "LOAD DATA LOCAL INFILE '" + csvFilePath + "' INTO TABLE Users" +
-                " FIELDS TERMINATED BY ',' " +
-                " ENCLOSED BY '\"' LINES TERMINATED BY '\n'" +
-                " IGNORE 1 ROWS;";
 
-        Connection connection = null;
-        Statement loadStmt = null;
-
-        try {
-            connection = connectionManager.getConnection();
-            loadStmt = connection.createStatement();
-            loadStmt.executeUpdate(loadUsers);  // Execute the LOAD DATA query
-        } catch (SQLException e) {
-            e.printStackTrace();
-            throw e;  // Re-throw the exception
-        } finally {
-            if (connection != null) connection.close();
-            if (loadStmt != null) loadStmt.close();
-        }
-    }
-    
-    public void loadUsersFromCSV(String csvFilePath) throws SQLException, IOException {
-        String line;
-        BufferedReader br = new BufferedReader(new FileReader(csvFilePath));
-
-        // Skip the header row if present
-        br.readLine(); 
-        Connection connection = null;
-        PreparedStatement pstmt = null;
-        String insertUserSQL = "INSERT INTO Users (UserId, UserName, HealthGoal) VALUES (?, ?, ?)";
-
-        try {
-        	connection = connectionManager.getConnection();
-        	pstmt = connection.prepareStatement(insertUserSQL);
-            while ((line = br.readLine()) != null) {
-                String[] fields = line.split(","); // Assuming CSV is comma-separated
-                int userId = Integer.parseInt(fields[0]);
-                String userName = fields[1];
-                String healthGoal = fields[2];
-                
-                pstmt.setInt(1, userId);
-                pstmt.setString(2, userName);
-                pstmt.setString(3, healthGoal);
-                pstmt.executeUpdate();
-            }
-        } catch (SQLException | IOException e) {
-            e.printStackTrace();
-            throw e;
-        }
-    }
-
+	public void loadUsersFromCSV(String csvFilePath) throws SQLException, IOException {
+		String insertUserSQL = "INSERT INTO Users (UserId,UserName,HealthGoal) VALUES (?,?,?)";
+		
+		try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath));
+				Connection connection = connectionManager.getConnection();
+				PreparedStatement insertStmt = connection.prepareStatement(insertUserSQL);) {
+			br.readLine(); // Skip the header row
+			String line;
+			
+			while ((line = br.readLine()) != null) {
+				String[] fields = line.split(",");
+				if (fields.length != 3) {
+					System.err.println("Skipping invalid line" + line);
+					continue;
+				}
+				try {
+					int userId = Integer.parseInt(fields[0]);
+					String userName = fields[1];
+					String healthGoal = fields[2];
+					insertStmt.setInt(1, userId);
+					insertStmt.setString(2, userName);
+					insertStmt.setString(3, healthGoal);
+					insertStmt.executeUpdate();
+				} catch (NumberFormatException e) {
+					System.err.println("Invalid line: " + line);
+					e.printStackTrace();
+				}
+			}
+		} catch (SQLException | IOException e) {
+			e.printStackTrace();
+			throw e;
+		}
+	}
 }

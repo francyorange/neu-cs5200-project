@@ -1,4 +1,4 @@
-package review.dal;
+package recipe.dal;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,7 +20,7 @@ public class ConnectionManager {
 	private final String password = "cxx123456";
 	private final String hostName = "localhost";
 	private final int port= 3306;
-	private final String schema = "ReviewApplication";
+	private final String schema = "Recipeople";
 	private final String timezone = "UTC";
 
 	public Connection getConnection() throws SQLException {

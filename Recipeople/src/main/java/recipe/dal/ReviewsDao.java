@@ -183,7 +183,7 @@ public class ReviewsDao {
         try {
             connection = connectionManager.getConnection();
             selectStmt = connection.prepareStatement(selectReviews);
-            selectStmt.setString(1, recipe.getRecipeId());
+            selectStmt.setInt(1, recipe.getRecipeId());
             results = selectStmt.executeQuery();
 
             UsersDao usersDao = UsersDao.getInstance();
@@ -231,7 +231,7 @@ public class ReviewsDao {
         try {
             connection = connectionManager.getConnection();
             selectStmt = connection.prepareStatement(selectReviews);
-            selectStmt.setString(1, user.getUserId());
+            selectStmt.setInt(1, user.getUserId());
             results = selectStmt.executeQuery();
 
             UsersDao usersDao = UsersDao.getInstance();

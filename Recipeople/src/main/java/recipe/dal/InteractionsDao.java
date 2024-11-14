@@ -38,7 +38,7 @@ public class InteractionsDao {
 
             insertStmt.setInt(1, interaction.getUser().getUserId());
             insertStmt.setInt(2, interaction.getRecipe().getRecipeId());
-            insertStmt.setString(3, ingredient.getInteractionType().name());
+            insertStmt.setString(3, interaction.getInteractionType().name());
 
             insertStmt.executeUpdate();
 
@@ -116,8 +116,8 @@ public class InteractionsDao {
                 Recipes recipe = recipesDao.getRecipeById(recipeId);
 
                 Interactions.InteractionType interactionType = Interactions.InteractionType.valueOf(
-                    results.getString("InteractionType"));
-                )
+                    results.getString("InteractionType")
+                );
 
                 Interactions interaction = new Interactions(resultInteractionId, user, recipe, interactionType);
                 return interaction;
@@ -150,7 +150,7 @@ public class InteractionsDao {
         try {
             connection = connectionManager.getConnection();
             selectStmt = connection.prepareStatement(selectInteractions);
-            selectStmt.setString(1, recipe.getRecipeId());
+            selectStmt.setInt(1, recipe.getRecipeId());
             results = selectStmt.executeQuery();
 
             UsersDao usersDao = UsersDao.getInstance();
@@ -166,10 +166,10 @@ public class InteractionsDao {
                 Recipes resultRecipe = recipesDao.getRecipeById(recipeId);
 
                 Interactions.InteractionType interactionType = Interactions.InteractionType.valueOf(
-                    results.getString("InteractionType"));
-                )
+                    results.getString("InteractionType")
+                );
 
-                Interactions interaction = new Interactions(InteractionId, user, resultRecipe, interactionType);
+                Interactions interaction = new Interactions(interactionId, user, resultRecipe, interactionType);
                 interactions.add(interaction);
             }
         } catch (SQLException e) {
@@ -200,7 +200,7 @@ public class InteractionsDao {
         try {
             connection = connectionManager.getConnection();
             selectStmt = connection.prepareStatement(selectInteractions);
-            selectStmt.setString(1, user.getUserId());
+            selectStmt.setInt(1, user.getUserId());
             results = selectStmt.executeQuery();
 
             UsersDao usersDao = UsersDao.getInstance();
@@ -216,10 +216,10 @@ public class InteractionsDao {
                 Recipes recipe = recipesDao.getRecipeById(recipeId);
 
                 Interactions.InteractionType interactionType = Interactions.InteractionType.valueOf(
-                    results.getString("InteractionType"));
-                )
+                    results.getString("InteractionType")
+                );
 
-                Interactions interaction = new Interactions(InteractionId, resultUser, recipe, interactionType);
+                Interactions interaction = new Interactions(interactionId, resultUser, recipe, interactionType);
                 interactions.add(interaction);
             }
         } catch (SQLException e) {

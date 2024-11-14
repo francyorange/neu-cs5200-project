@@ -61,7 +61,7 @@ public class IngredientsDao {
         try {
             connection = connectionManager.getConnection();
             deleteStmt = connection.prepareStatement(deleteIngredient);
-            deleteStmt.setString(1, ingredient.getIngredientId());
+            deleteStmt.setInt(1, ingredient.getIngredientId());
             deleteStmt.executeUpdate();
 
             return null;
@@ -96,8 +96,8 @@ public class IngredientsDao {
                 int resultIngredientId = results.getInt("IngredientId");
                 String ingredientName = results.getString("IngredientName");
                 Ingredients.IngredientType ingredientType = Ingredients.IngredientType.valueOf(
-                    results.getString("IngredientType");
-                )
+                    results.getString("IngredientType")
+                );
 
                 Ingredients ingredient = new Ingredients(resultIngredientId, ingredientName, ingredientType);
                 return ingredient;

@@ -22,7 +22,7 @@
         <input id="description" name="description" value="">
     </p>
     <p>
-        <input type="submit">
+        <input type="submit" value="Submit">
     </p>
 </form>
 <br/><br/>

@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @SuppressWarnings("serial")
-@WebServlet("/userblogposts")
+@WebServlet("/recipereviews")
 public class RecipeReviews extends HttpServlet {
 
   protected ReviewsDao reviewsDao;
@@ -35,7 +35,12 @@ public class RecipeReviews extends HttpServlet {
     Map<String, String> messages = new HashMap<String, String>();
     req.setAttribute("messages", messages);
 
-    int recipeId = (int) req.getAttribute("recipeid");
+    int recipeId = -1;
+    try {
+      recipeId = Integer.parseInt(req.getParameter("recipeid"));
+    } catch (NumberFormatException e) {
+      messages.put("title", "Invalid recipeid.");
+    }
 
     if (recipeId <= 0) {
       messages.put("title", "Invalid recipeid.");
@@ -48,9 +53,12 @@ public class RecipeReviews extends HttpServlet {
       try {
         Recipes recipe = new Recipes(recipeId);
         reviews = reviewsDao.getReviewsForRecipe(recipe);
+        if (reviews == null) {
+          reviews = new ArrayList<>();
+        }
       } catch (SQLException e) {
         e.printStackTrace();
-        throw new IOException(e);
+        messages.put("title", "An error occurred while retrieving reviews.");
       }
     }
 

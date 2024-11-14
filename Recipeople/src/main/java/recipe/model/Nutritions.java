@@ -1,116 +1,103 @@
 package recipe.model;
 
-import java.sql.Timestamp;
+public class Nutritions {
+    protected float calories;
+    protected float totalFat;
+    protected float sugar;
+    protected float sodium;
+    protected float protein;
+    protected float saturatedFat;
+    protected float carbohydrates;
+    protected Recipes recipe;
 
-public class Recipes {
-
-    private int recipeId;
-    private String recipeName;
-    private int minutes;
-    private String steps;
-    private String description;
-    private Timestamp submittedAt;
-    private Users user;
-
-    public Recipes(String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
-        Users user) {
-        this.recipeName = recipeName;
-        this.minutes = minutes;
-        this.steps = steps;
-        this.description = description;
-        this.submittedAt = submittedAt;
-        this.user = user;
+    public Nutritions(float calories, float totalFat, float sugar, float sodium, float protein, float saturatedFat,
+        float carbohydrates, Recipes recipe) {
+        this.calories = calories;
+        this.totalFat = totalFat;
+        this.sugar = sugar;
+        this.sodium = sodium;
+        this.protein = protein;
+        this.saturatedFat = saturatedFat;
+        this.carbohydrates = carbohydrates;
+        this.recipe = recipe;
     }
 
-    public Recipes(int recipeId, String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
-        Users user) {
-        this.recipeId = recipeId;
-        this.recipeName = recipeName;
-        this.minutes = minutes;
-        this.steps = steps;
-        this.description = description;
-        this.submittedAt = submittedAt;
-        this.user = user;
+    public float getCalories() {
+        return calories;
     }
 
-    public Recipes(int recipeId) {
-        this.recipeId = recipeId;
+    public void setCalories(float calories) {
+        this.calories = calories;
     }
 
-    public int getRecipeId() {
-        return recipeId;
+    public float getTotalFat() {
+        return totalFat;
     }
 
-    public void setRecipeId(int recipeId) {
-        this.recipeId = recipeId;
+    public void setTotalFat(float totalFat) {
+        this.totalFat = totalFat;
     }
 
-    public String getRecipeName() {
-        return recipeName;
+    public float getSugar() {
+        return sugar;
     }
 
-    public void setRecipeName(String recipeName) {
-        this.recipeName = recipeName;
+    public void setSugar(float sugar) {
+        this.sugar = sugar;
     }
 
-    public int getMinutes() {
-        return minutes;
+    public float getSodium() {
+        return sodium;
     }
 
-    public void setMinutes(int minutes) {
-        this.minutes = minutes;
+    public void setSodium(float sodium) {
+        this.sodium = sodium;
     }
 
-    public String getSteps() {
-        return steps;
+    public float getProtein() {
+        return protein;
     }
 
-    public void setSteps(String steps) {
-        this.steps = steps;
+    public void setProtein(float protein) {
+        this.protein = protein;
     }
 
-    public String getDescription() {
-        return description;
+    public float getSaturatedFat() {
+        return saturatedFat;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setSaturatedFat(float saturatedFat) {
+        this.saturatedFat = saturatedFat;
     }
 
-    public Timestamp getSubmittedAt() {
-        return submittedAt;
+    public float getCarbohydrates() {
+        return carbohydrates;
     }
 
-    public void setSubmittedAt(Timestamp submittedAt) {
-        this.submittedAt = submittedAt;
+    public void setCarbohydrates(float carbohydrates) {
+        this.carbohydrates = carbohydrates;
     }
 
-    public Users getUser() {
-        return user;
+    public Recipes getRecipe() {
+        return recipe;
     }
 
-    public void setUser(Users user) {
-        this.user = user;
-    }
-
-    @Override
-    public String toString() {
-        return "Recipe [recipeId=" + recipeId + ", recipeName=" + recipeName + ", minutes=" + minutes + ", steps="
-            + steps + ", description=" + description + ", submittedAt=" + submittedAt + ", user="
-            + user + "]";
+    public void setRecipe(Recipes recipe) {
+        this.recipe = recipe;
     }
 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + recipeId;
-        result = prime * result + ((recipeName == null) ? 0 : recipeName.hashCode());
-        result = prime * result + minutes;
-        result = prime * result + ((steps == null) ? 0 : steps.hashCode());
-        result = prime * result + ((description == null) ? 0 : description.hashCode());
-        result = prime * result + ((submittedAt == null) ? 0 : submittedAt.hashCode());
-        result = prime * result + ((user == null) ? 0 : user.hashCode());
+        result = prime * result + Float.floatToIntBits(calories);
+        result = prime * result + Float.floatToIntBits(totalFat);
+        result = prime * result + Float.floatToIntBits(sugar);
+        result = prime * result + Float.floatToIntBits(sodium);
+        result = prime * result + Float.floatToIntBits(protein);
+        result = prime * result + Float.floatToIntBits(saturatedFat);
+        result = prime * result + Float.floatToIntBits(carbohydrates);
+        result = prime * result + ((recipe == null) ? 0 : recipe.hashCode());
         return result;
     }
 
@@ -122,33 +109,34 @@ public class Recipes {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Recipes other = (Recipes) obj;
-        if (recipeId != other.recipeId)
+        Nutritions other = (Nutritions) obj;
+        if (Float.floatToIntBits(calories) != Float.floatToIntBits(other.calories))
             return false;
-        if (recipeName == null) {
-            if (other.recipeName != null)
+        if (Float.floatToIntBits(totalFat) != Float.floatToIntBits(other.totalFat))
+            return false;
+        if (Float.floatToIntBits(sugar) != Float.floatToIntBits(other.sugar))
+            return false;
+        if (Float.floatToIntBits(sodium) != Float.floatToIntBits(other.sodium))
+            return false;
+        if (Float.floatToIntBits(protein) != Float.floatToIntBits(other.protein))
+            return false;
+        if (Float.floatToIntBits(saturatedFat) != Float.floatToIntBits(other.saturatedFat))
+            return false;
+        if (Float.floatToIntBits(carbohydrates) != Float.floatToIntBits(other.carbohydrates))
+            return false;
+        if (recipe == null) {
+            if (other.recipe != null)
                 return false;
-        } else if (!recipeName.equals(other.recipeName))
-            return false;
-        if (minutes != other.minutes)
-            return false;
-        if (steps == null) {
-            if (other.steps != null)
-                return false;
-        } else if (!steps.equals(other.steps))
-            return false;
-        if (description == null) {
-            if (other.description != null)
-                return false;
-        } else if (!description.equals(other.description))
-            return false;
-        if (submittedAt == null) {
-            if (other.submittedAt != null)
-                return false;
-        } else if (!submittedAt.equals(other.submittedAt))
-            return false;
-        if (user != other.user)
+        } else if (!recipe.equals(other.recipe))
             return false;
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Nutrition [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
+            + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
+            + ", recipe=" + recipe + "]";
+    }
+
 }

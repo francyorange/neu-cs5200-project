@@ -35,14 +35,14 @@ CREATE TABLE Follows (
 
 -- Create Recipes table
 CREATE TABLE Recipes (
-    RecipeId INT PRIMARY KEY,
+    RecipeId INT PRIMARY KEY AUTO_INCREMENT,
     RecipeName VARCHAR(255) NOT NULL,
     Minutes INT,
     Steps TEXT,
-    Description TEXT,
-    SubmittedAt TIMESTAMP,
+    Description TEXT NOT NULL,
+    SubmittedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     ContributorId INT,
-    FOREIGN KEY (ContributorId) REFERENCES Users (UserId)
+    FOREIGN KEY (ContributorId) REFERENCES Users (UserId) ON DELETE SET NULL
 );
 
 -- Create Interactions table

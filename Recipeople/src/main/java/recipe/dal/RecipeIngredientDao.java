@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 import recipe.model.*;
 
-public class RecipeIngredientDAO {
+public class RecipeIngredientDao {
   private Connection conn;
 
-  public RecipeIngredientDAO(Connection conn) {
+  public RecipeIngredientDao(Connection conn) {
     this.conn = conn;
   }
 
@@ -34,7 +34,8 @@ public class RecipeIngredientDAO {
     return null;
   }
 
-  public void updateRecipeIngredient(int recipeId, int ingredientId, RecipeIngredient recipeIngredient) throws SQLException {
+  public void updateRecipeIngredient(int recipeId, int ingredientId, RecipeIngredient recipeIngredient)
+      throws SQLException {
     String sql = "UPDATE RecipeIngredient SET RecipeId = ?, IngredientId = ? WHERE RecipeId = ? AND IngredientId = ?";
     try (PreparedStatement stmt = conn.prepareStatement(sql)) {
       stmt.setInt(1, recipeIngredient.getRecipeId());

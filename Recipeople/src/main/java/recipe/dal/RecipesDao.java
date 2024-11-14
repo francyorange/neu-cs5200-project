@@ -27,7 +27,7 @@ public class RecipesDao {
         return instance;
     }
 
-    public Recipe create(Recipe recipe) throws SQLException {
+    public Recipes create(Recipes recipe) throws SQLException {
         String insertRecipe = "INSERT INTO Recipe(RecipeName, Minutes, Steps, Description, SubmittedAt, ContributorId) VALUES(?,?,?,?,?,?);";
         Connection connection = null;
         PreparedStatement insertStmt = null;
@@ -40,7 +40,7 @@ public class RecipesDao {
             insertStmt.setString(3, recipe.getSteps());
             insertStmt.setString(4, recipe.getDescription());
             insertStmt.setTimestamp(5, recipe.getSubmittedAt());
-            insertStmt.setInt(6, recipe.getContributorId());
+            insertStmt.setInt(6, recipe.getUser().getUserId());
             insertStmt.executeUpdate();
 
             resultKey = insertStmt.getGeneratedKeys();
@@ -68,7 +68,7 @@ public class RecipesDao {
         }
     }
 
-    public Recipe getRecipeById(int recipeId) throws SQLException {
+    public Recipes getRecipeById(int recipeId) throws SQLException {
         String selectRecipe = "SELECT RecipeId, RecipeName, Minutes, Steps, Description, SubmittedAt, ContributorId FROM Recipe WHERE RecipeId=?;";
         Connection connection = null;
         PreparedStatement selectStmt = null;
@@ -78,6 +78,8 @@ public class RecipesDao {
             selectStmt = connection.prepareStatement(selectRecipe);
             selectStmt.setInt(1, recipeId);
             results = selectStmt.executeQuery();
+
+            UsersDao usersDao = UsersDao.getInstance();
             if (results.next()) {
                 int resultRecipeId = results.getInt("RecipeId");
                 String recipeName = results.getString("RecipeName");
@@ -86,8 +88,11 @@ public class RecipesDao {
                 String description = results.getString("Description");
                 Timestamp submittedAt = results.getTimestamp("SubmittedAt");
                 int contributorId = results.getInt("ContributorId");
-                Recipe recipe = new Recipe(resultRecipeId, recipeName, minutes, steps, description, submittedAt,
-                        contributorId);
+
+                Users user = usersDao.getUserById(contributorId);
+
+                Recipes recipe = new Recipes(resultRecipeId, recipeName, minutes, steps, description, submittedAt,
+                    user);
                 return recipe;
             }
         } catch (SQLException e) {
@@ -107,8 +112,8 @@ public class RecipesDao {
         return null;
     }
 
-    public List<Recipe> getRecipesByContributorId(int contributorId) throws SQLException {
-        List<Recipe> recipes = new ArrayList<Recipe>();
+    public List<Recipes> getRecipesByContributorId(int contributorId) throws SQLException {
+        List<Recipes> recipes = new ArrayList<Recipes>();
         String selectRecipes = "SELECT RecipeId, RecipeName, Minutes, Steps, Description, SubmittedAt, ContributorId FROM Recipe WHERE ContributorId=?;";
         Connection connection = null;
         PreparedStatement selectStmt = null;
@@ -118,6 +123,9 @@ public class RecipesDao {
             selectStmt = connection.prepareStatement(selectRecipes);
             selectStmt.setInt(1, contributorId);
             results = selectStmt.executeQuery();
+
+            UsersDao usersDao = UsersDao.getInstance();
+            Users user = usersDao.getUserById(contributorId);
             while (results.next()) {
                 int recipeId = results.getInt("RecipeId");
                 String recipeName = results.getString("RecipeName");
@@ -125,8 +133,9 @@ public class RecipesDao {
                 String steps = results.getString("Steps");
                 String description = results.getString("Description");
                 Timestamp submittedAt = results.getTimestamp("SubmittedAt");
-                Recipe recipe = new Recipe(recipeId, recipeName, minutes, steps, description, submittedAt,
-                        contributorId);
+
+                Recipes recipe = new Recipes(recipeId, recipeName, minutes, steps, description, submittedAt,
+                    user);
                 recipes.add(recipe);
             }
         } catch (SQLException e) {
@@ -146,7 +155,7 @@ public class RecipesDao {
         return recipes;
     }
 
-    public Recipe delete(Recipe recipe) throws SQLException {
+    public Recipes delete(Recipes recipe) throws SQLException {
         String deleteRecipe = "DELETE FROM Recipe WHERE RecipeId=?;";
         Connection connection = null;
         PreparedStatement deleteStmt = null;
@@ -169,7 +178,38 @@ public class RecipesDao {
         }
     }
 
-    public List<Recipe> getMostLikedRecipes(Integer k) {
+    public Recipes updateDescription(Recipes recipe, String newDescription) throws SQLException {
+        String updateRecipe = "UPDATE Recipes SET Description=?,SubmittedAt=? WHERE RecipeId=?;";
+        Connection connection = null;
+        PreparedStatement updateStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            updateStmt = connection.prepareStatement(updateRecipe);
+            updateStmt.setString(1, newDescription);
+
+            Timestamp newSubmittedAtTimestamp = new Timestamp(System.currentTimeMillis());
+            updateStmt.setTimestamp(2, newSubmittedAtTimestamp);
+
+            updateStmt.setInt(3, recipe.getRecipeId());
+            updateStmt.executeUpdate();
+
+            recipe.setDescription(newDescription);
+            recipe.setSubmittedAt(newSubmittedAtTimestamp);
+            return recipe;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if(connection != null) {
+                connection.close();
+            }
+            if(updateStmt != null) {
+                updateStmt.close();
+            }
+        }
+    }
+
+    public List<Recipes> getMostLikedRecipes(Integer k) {
         throw new UnsupportedOperationException("Not implemented yet.");
     }
 }

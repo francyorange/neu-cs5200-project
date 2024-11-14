@@ -1,6 +1,6 @@
 package recipe.model;
 
-public class Nutrition {
+public class Nutritions {
     protected float calories;
     protected float totalFat;
     protected float sugar;
@@ -8,10 +8,10 @@ public class Nutrition {
     protected float protein;
     protected float saturatedFat;
     protected float carbohydrates;
-    protected Recipe recipe;
+    protected Recipes recipe;
 
-    public Nutrition(float calories, float totalFat, float sugar, float sodium, float protein, float saturatedFat,
-            float carbohydrates, Recipe recipe) {
+    public Nutritions(float calories, float totalFat, float sugar, float sodium, float protein, float saturatedFat,
+        float carbohydrates, Recipes recipe) {
         this.calories = calories;
         this.totalFat = totalFat;
         this.sugar = sugar;
@@ -78,11 +78,11 @@ public class Nutrition {
         this.carbohydrates = carbohydrates;
     }
 
-    public Recipe getRecipe() {
+    public Recipes getRecipe() {
         return recipe;
     }
 
-    public void setRecipe(Recipe recipe) {
+    public void setRecipe(Recipes recipe) {
         this.recipe = recipe;
     }
 
@@ -109,7 +109,7 @@ public class Nutrition {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Nutrition other = (Nutrition) obj;
+        Nutritions other = (Nutritions) obj;
         if (Float.floatToIntBits(calories) != Float.floatToIntBits(other.calories))
             return false;
         if (Float.floatToIntBits(totalFat) != Float.floatToIntBits(other.totalFat))
@@ -135,8 +135,8 @@ public class Nutrition {
     @Override
     public String toString() {
         return "Nutrition [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
-                + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
-                + ", recipe=" + recipe + "]";
+            + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
+            + ", recipe=" + recipe + "]";
     }
 
 }

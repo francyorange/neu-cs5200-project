@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 import recipe.model.*;
 
-public class TagsDAO {
+public class TagsDao {
   private Connection conn;
 
-  public TagsDAO(Connection conn) {
+  public TagsDao(Connection conn) {
     this.conn = conn;
   }
 

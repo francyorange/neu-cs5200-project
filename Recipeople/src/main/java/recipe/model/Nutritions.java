@@ -2,7 +2,7 @@ package recipe.model;
 
 import java.sql.Timestamp;
 
-public class Recipe {
+public class Recipes {
 
     private int recipeId;
     private String recipeName;
@@ -10,27 +10,31 @@ public class Recipe {
     private String steps;
     private String description;
     private Timestamp submittedAt;
-    private int contributorId;
+    private Users user;
 
-    public Recipe(String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
-            int contributorId) {
+    public Recipes(String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
+        Users user) {
         this.recipeName = recipeName;
         this.minutes = minutes;
         this.steps = steps;
         this.description = description;
         this.submittedAt = submittedAt;
-        this.contributorId = contributorId;
+        this.user = user;
     }
 
-    public Recipe(int recipeId, String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
-            int contributorId) {
+    public Recipes(int recipeId, String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
+        Users user) {
         this.recipeId = recipeId;
         this.recipeName = recipeName;
         this.minutes = minutes;
         this.steps = steps;
         this.description = description;
         this.submittedAt = submittedAt;
-        this.contributorId = contributorId;
+        this.user = user;
+    }
+
+    public Recipes(int recipeId) {
+        this.recipeId = recipeId;
     }
 
     public int getRecipeId() {
@@ -81,19 +85,19 @@ public class Recipe {
         this.submittedAt = submittedAt;
     }
 
-    public int getContributorId() {
-        return contributorId;
+    public Users getUser() {
+        return user;
     }
 
-    public void setContributorId(int contributorId) {
-        this.contributorId = contributorId;
+    public void setUser(Users user) {
+        this.user = user;
     }
 
     @Override
     public String toString() {
         return "Recipe [recipeId=" + recipeId + ", recipeName=" + recipeName + ", minutes=" + minutes + ", steps="
-                + steps + ", description=" + description + ", submittedAt=" + submittedAt + ", contributorId="
-                + contributorId + "]";
+            + steps + ", description=" + description + ", submittedAt=" + submittedAt + ", user="
+            + user + "]";
     }
 
     @Override
@@ -106,7 +110,7 @@ public class Recipe {
         result = prime * result + ((steps == null) ? 0 : steps.hashCode());
         result = prime * result + ((description == null) ? 0 : description.hashCode());
         result = prime * result + ((submittedAt == null) ? 0 : submittedAt.hashCode());
-        result = prime * result + contributorId;
+        result = prime * result + ((user == null) ? 0 : user.hashCode());
         return result;
     }
 
@@ -118,7 +122,7 @@ public class Recipe {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Recipe other = (Recipe) obj;
+        Recipes other = (Recipes) obj;
         if (recipeId != other.recipeId)
             return false;
         if (recipeName == null) {
@@ -143,7 +147,7 @@ public class Recipe {
                 return false;
         } else if (!submittedAt.equals(other.submittedAt))
             return false;
-        if (contributorId != other.contributorId)
+        if (user != other.user)
             return false;
         return true;
     }

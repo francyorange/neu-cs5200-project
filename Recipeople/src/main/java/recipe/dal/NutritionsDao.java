@@ -1,142 +1,117 @@
-package recipe.model;
+package recipe.dal;
+import recipe.model.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-public class Nutritions {
-    protected float calories;
-    protected float totalFat;
-    protected float sugar;
-    protected float sodium;
-    protected float protein;
-    protected float saturatedFat;
-    protected float carbohydrates;
-    protected Recipes recipe;
+public class NutritionsDao {
+    protected ConnectionManager connectionManager;
+    private static NutritionsDao instance = null;
 
-    public Nutritions(float calories, float totalFat, float sugar, float sodium, float protein, float saturatedFat,
-        float carbohydrates, Recipes recipe) {
-        this.calories = calories;
-        this.totalFat = totalFat;
-        this.sugar = sugar;
-        this.sodium = sodium;
-        this.protein = protein;
-        this.saturatedFat = saturatedFat;
-        this.carbohydrates = carbohydrates;
-        this.recipe = recipe;
+    protected NutritionsDao() {
+        connectionManager = new ConnectionManager();
     }
 
-    public float getCalories() {
-        return calories;
+    public static NutritionsDao getInstance() {
+        if (instance == null) {
+            instance = new NutritionsDao();
+        }
+        return instance;
     }
 
-    public void setCalories(float calories) {
-        this.calories = calories;
+    public Nutritions create(Nutritions nutrition) throws SQLException {
+        String insertNutrition = "INSERT INTO Nutrition(Calories, TotalFat, Sugar, Sodium, Protein, SaturatedFat, Carbohydrates, RecipeId) VALUES(?,?,?,?,?,?,?,?);";
+        Connection connection = null;
+        PreparedStatement insertStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            insertStmt = connection.prepareStatement(insertNutrition, Statement.RETURN_GENERATED_KEYS);
+            insertStmt.setFloat(1, nutrition.getCalories());
+            insertStmt.setFloat(2, nutrition.getTotalFat());
+            insertStmt.setFloat(3, nutrition.getSugar());
+            insertStmt.setFloat(4, nutrition.getSodium());
+            insertStmt.setFloat(5, nutrition.getProtein());
+            insertStmt.setFloat(6, nutrition.getSaturatedFat());
+            insertStmt.setFloat(7, nutrition.getCarbohydrates());
+            insertStmt.setInt(8, nutrition.getRecipe().getRecipeId());
+            insertStmt.executeUpdate();
+            return nutrition;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (insertStmt != null) {
+                insertStmt.close();
+            }
+        }
     }
 
-    public float getTotalFat() {
-        return totalFat;
+    public Nutritions getNutritionByRecipeId(int recipeId) throws SQLException {
+        String selectNutrition = "SELECT Calories, TotalFat, Sugar, Sodium, Protein, SaturatedFat, Carbohydrates, RecipeId FROM Nutrition WHERE RecipeId=?;";
+        Connection connection = null;
+        PreparedStatement selectStmt = null;
+        ResultSet results = null;
+        try {
+            connection = connectionManager.getConnection();
+            selectStmt = connection.prepareStatement(selectNutrition);
+            selectStmt.setInt(1, recipeId);
+            results = selectStmt.executeQuery();
+            if (results.next()) {
+                float calories = results.getFloat("Calories");
+                float totalFat = results.getFloat("TotalFat");
+                float sugar = results.getFloat("Sugar");
+                float sodium = results.getFloat("Sodium");
+                float protein = results.getFloat("Protein");
+                float saturatedFat = results.getFloat("SaturatedFat");
+                float carbohydrates = results.getFloat("Carbohydrates");
+                RecipesDao recipeDao = RecipesDao.getInstance();
+                Recipe recipe = recipeDao.getRecipeById(recipeId);
+                Nutrition nutrition = new Nutrition(calories, totalFat, sugar, sodium, protein,
+                        saturatedFat, carbohydrates, recipe);
+                return nutrition;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (selectStmt != null) {
+                selectStmt.close();
+            }
+            if (results != null) {
+                results.close();
+            }
+        }
+        return null;
     }
 
-    public void setTotalFat(float totalFat) {
-        this.totalFat = totalFat;
+    public Nutritions delete(Nutritions nutrition) throws SQLException {
+        String deleteNutrition = "DELETE FROM Nutrition WHERE RecipeId=?;";
+        Connection connection = null;
+        PreparedStatement deleteStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            deleteStmt = connection.prepareStatement(deleteNutrition);
+            deleteStmt.setInt(1, nutrition.getRecipe().getRecipeId());
+            deleteStmt.executeUpdate();
+            return null;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (deleteStmt != null) {
+                deleteStmt.close();
+            }
+        }
     }
-
-    public float getSugar() {
-        return sugar;
-    }
-
-    public void setSugar(float sugar) {
-        this.sugar = sugar;
-    }
-
-    public float getSodium() {
-        return sodium;
-    }
-
-    public void setSodium(float sodium) {
-        this.sodium = sodium;
-    }
-
-    public float getProtein() {
-        return protein;
-    }
-
-    public void setProtein(float protein) {
-        this.protein = protein;
-    }
-
-    public float getSaturatedFat() {
-        return saturatedFat;
-    }
-
-    public void setSaturatedFat(float saturatedFat) {
-        this.saturatedFat = saturatedFat;
-    }
-
-    public float getCarbohydrates() {
-        return carbohydrates;
-    }
-
-    public void setCarbohydrates(float carbohydrates) {
-        this.carbohydrates = carbohydrates;
-    }
-
-    public Recipes getRecipe() {
-        return recipe;
-    }
-
-    public void setRecipe(Recipes recipe) {
-        this.recipe = recipe;
-    }
-
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + Float.floatToIntBits(calories);
-        result = prime * result + Float.floatToIntBits(totalFat);
-        result = prime * result + Float.floatToIntBits(sugar);
-        result = prime * result + Float.floatToIntBits(sodium);
-        result = prime * result + Float.floatToIntBits(protein);
-        result = prime * result + Float.floatToIntBits(saturatedFat);
-        result = prime * result + Float.floatToIntBits(carbohydrates);
-        result = prime * result + ((recipe == null) ? 0 : recipe.hashCode());
-        return result;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Nutritions other = (Nutritions) obj;
-        if (Float.floatToIntBits(calories) != Float.floatToIntBits(other.calories))
-            return false;
-        if (Float.floatToIntBits(totalFat) != Float.floatToIntBits(other.totalFat))
-            return false;
-        if (Float.floatToIntBits(sugar) != Float.floatToIntBits(other.sugar))
-            return false;
-        if (Float.floatToIntBits(sodium) != Float.floatToIntBits(other.sodium))
-            return false;
-        if (Float.floatToIntBits(protein) != Float.floatToIntBits(other.protein))
-            return false;
-        if (Float.floatToIntBits(saturatedFat) != Float.floatToIntBits(other.saturatedFat))
-            return false;
-        if (Float.floatToIntBits(carbohydrates) != Float.floatToIntBits(other.carbohydrates))
-            return false;
-        if (recipe == null) {
-            if (other.recipe != null)
-                return false;
-        } else if (!recipe.equals(other.recipe))
-            return false;
-        return true;
-    }
-
-    @Override
-    public String toString() {
-        return "Nutrition [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
-            + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
-            + ", recipe=" + recipe + "]";
-    }
-
 }

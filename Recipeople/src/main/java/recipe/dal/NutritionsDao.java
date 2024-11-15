@@ -1,4 +1,5 @@
 package recipe.dal;
+
 import recipe.model.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -70,8 +71,8 @@ public class NutritionsDao {
                 float saturatedFat = results.getFloat("SaturatedFat");
                 float carbohydrates = results.getFloat("Carbohydrates");
                 RecipesDao recipeDao = RecipesDao.getInstance();
-                Recipe recipe = recipeDao.getRecipeById(recipeId);
-                Nutrition nutrition = new Nutrition(calories, totalFat, sugar, sodium, protein,
+                Recipes recipe = recipeDao.getRecipeById(recipeId);
+                Nutritions nutrition = new Nutritions(calories, totalFat, sugar, sodium, protein,
                         saturatedFat, carbohydrates, recipe);
                 return nutrition;
             }

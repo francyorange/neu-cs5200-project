@@ -134,7 +134,7 @@ public class Nutritions {
 
     @Override
     public String toString() {
-        return "Nutrition [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
+        return "Nutritions [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
             + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
             + ", recipe=" + recipe + "]";
     }

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+@SuppressWarnings("serial")
 @WebServlet("/recipedelete")
 public class RecipeDelete extends HttpServlet {
 	
@@ -28,7 +28,7 @@ public class RecipeDelete extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-        Map<String, String> messages = new HashMap<String, String>();
+        Map<String, String> messages = new HashMap<>();
         req.setAttribute("messages", messages);
         messages.put("title", "Delete Recipe");        
         req.getRequestDispatcher("/RecipeDelete.jsp").forward(req, resp);
@@ -37,7 +37,7 @@ public class RecipeDelete extends HttpServlet {
 	@Override
     public void doPost(HttpServletRequest req, HttpServletResponse resp)
     		throws ServletException, IOException {
-        Map<String, String> messages = new HashMap<String, String>();
+        Map<String, String> messages = new HashMap<>();
         req.setAttribute("messages", messages);
 
         // Retrieve and validate RecipeId.
@@ -46,8 +46,8 @@ public class RecipeDelete extends HttpServlet {
             messages.put("title", "Invalid RecipeId");
             messages.put("disableSubmit", "true");
         } else {
-            int recipeId = Integer.parseInt(recipeIdStr);
             try {
+                int recipeId = Integer.parseInt(recipeIdStr);
                 Recipes recipe = recipesDao.getRecipeById(recipeId);
            
                 if (recipe != null) {
@@ -63,6 +63,9 @@ public class RecipeDelete extends HttpServlet {
                     messages.put("title", "Recipe with ID " + recipeId + " does not exist.");
                     messages.put("disableSubmit", "true");
                 }
+            } catch (NumberFormatException e) {
+                messages.put("title", "Invalid recipe ID format.");
+                messages.put("disableSubmit", "true");
             } catch (SQLException e) {
                 e.printStackTrace();
                 throw new IOException(e);

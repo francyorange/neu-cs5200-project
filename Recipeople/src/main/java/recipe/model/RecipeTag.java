@@ -1,19 +1,40 @@
 package recipe.model;
 
-
 public class RecipeTag {
-  private int recipeId;
-  private int tagId;
+    protected Recipes recipe;
+    protected Tags tag;
 
-  public RecipeTag(int recipeId, int tagId) {
-    this.recipeId = recipeId;
-    this.tagId = tagId;
-  }
+    public RecipeTag(Recipes recipe, Tags tag) {
+        this.recipe = recipe;
+        this.tag = tag;
+    }
 
-  // Getters and setters
-  public int getRecipeId() { return recipeId; }
-  public void setRecipeId(int recipeId) { this.recipeId = recipeId; }
+    public RecipeTag(int recipeId, int tagId) {
+        this.recipe = new Recipes(recipeId);
+        this.tag = new Tags(tagId);
+    }
 
-  public int getTagId() { return tagId; }
-  public void setTagId(int tagId) { this.tagId = tagId; }
+    public Recipes getRecipe() {
+        return recipe;
+    }
+
+    public void setRecipe(Recipes recipe) {
+        this.recipe = recipe;
+    }
+
+    public Tags getTag() {
+        return tag;
+    }
+
+    public void setTag(Tags tag) {
+        this.tag = tag;
+    }
+
+    public int getRecipeId() {
+        return recipe.getRecipeId();
+    }
+
+    public int getTagId() {
+        return tag.getTagId();
+    }
 }

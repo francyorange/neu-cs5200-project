@@ -1,69 +1,142 @@
 package recipe.dal;
 
+import recipe.model.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import recipe.model.*;
 
 public class RecipeTagDao {
-  private Connection conn;
+    protected ConnectionManager connectionManager;
 
-  public RecipeTagDao(Connection conn) {
-    this.conn = conn;
-  }
-
-  public void createRecipeTag(RecipeTag recipeTag) throws SQLException {
-    String sql = "INSERT INTO RecipeTag (RecipeId, TagId) VALUES (?, ?)";
-    try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-      stmt.setInt(1, recipeTag.getRecipeId());
-      stmt.setInt(2, recipeTag.getTagId());
-      stmt.executeUpdate();
+    private static RecipeTagDao instance = null;
+    protected RecipeTagDao() {
+        connectionManager = new ConnectionManager();
     }
-  }
-
-  public RecipeTag readRecipeTag(int recipeId, int tagId) throws SQLException {
-    String sql = "SELECT * FROM RecipeTag WHERE RecipeId = ? AND TagId = ?";
-    try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-      stmt.setInt(1, recipeId);
-      stmt.setInt(2, tagId);
-      ResultSet rs = stmt.executeQuery();
-      if (rs.next()) {
-        return new RecipeTag(rs.getInt("RecipeId"), rs.getInt("TagId"));
-      }
+    public static RecipeTagDao getInstance() {
+        if (instance == null) {
+            instance = new RecipeTagDao();
+        }
+        return instance;
     }
-    return null;
-  }
 
-  public void updateRecipeTag(int recipeId, int tagId, RecipeTag recipeTag) throws SQLException {
-    String sql = "UPDATE RecipeTag SET RecipeId = ?, TagId = ? WHERE RecipeId = ? AND TagId = ?";
-    try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-      stmt.setInt(1, recipeTag.getRecipeId());
-      stmt.setInt(2, recipeTag.getTagId());
-      stmt.setInt(3, recipeId);
-      stmt.setInt(4, tagId);
-      stmt.executeUpdate();
-    }
-  }
+    public RecipeTag create(RecipeTag recipeTag) throws SQLException {
+        String sql = "INSERT INTO RecipeTag (RecipeId, TagId) VALUES (?, ?);";
+        Connection connection = null;
+        PreparedStatement stmt = null;
 
-  public void deleteRecipeTag(int recipeId, int tagId) throws SQLException {
-    String sql = "DELETE FROM RecipeTag WHERE RecipeId = ? AND TagId = ?";
-    try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-      stmt.setInt(1, recipeId);
-      stmt.setInt(2, tagId);
-      stmt.executeUpdate();
+        try {
+            connection = connectionManager.getConnection();
+            stmt = connection.prepareStatement(sql);
+            stmt.setInt(1, recipeTag.getRecipeId());
+            stmt.setInt(2, recipeTag.getTagId());
+            stmt.executeUpdate();
+            return recipeTag;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (stmt != null) {
+                stmt.close();
+            }
+        }
     }
-  }
 
-  public List<Integer> findRecipesByTagCategory(String category) throws SQLException {
-    String sql = "SELECT RecipeId FROM RecipeTag rt JOIN Tags t ON rt.TagId = t.TagId WHERE t.Category = ?";
-    List<Integer> recipeIds = new ArrayList<>();
-    try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-      stmt.setString(1, category);
-      ResultSet rs = stmt.executeQuery();
-      while (rs.next()) {
-        recipeIds.add(rs.getInt("RecipeId"));
-      }
+    public RecipeTag getRecipeTag(int recipeId, int tagId) throws SQLException {
+        String sql = "SELECT RecipeId, TagId FROM RecipeTag WHERE RecipeId = ? AND TagId = ?;";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            connection = connectionManager.getConnection();
+            stmt = connection.prepareStatement(sql);
+            stmt.setInt(1, recipeId);
+            stmt.setInt(2, tagId);
+            rs = stmt.executeQuery();
+
+            if (rs.next()) {
+                Recipes recipe = new Recipes(rs.getInt("RecipeId"));
+                Tags tag = new Tags(rs.getInt("TagId"));
+                return new RecipeTag(recipe, tag);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (rs != null) {
+                rs.close();
+            }
+        }
+        return null;
     }
-    return recipeIds;
-  }
+
+    public RecipeTag delete(int recipeId, int tagId) throws SQLException {
+        String sql = "DELETE FROM RecipeTag WHERE RecipeId = ? AND TagId = ?;";
+        Connection connection = null;
+        PreparedStatement stmt = null;
+
+        try {
+            connection = connectionManager.getConnection();
+            stmt = connection.prepareStatement(sql);
+            stmt.setInt(1, recipeId);
+            stmt.setInt(2, tagId);
+            stmt.executeUpdate();
+            return null;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (stmt != null) {
+                stmt.close();
+            }
+        }
+    }
+
+    public List<Integer> findRecipesByTagName(String tagName) throws SQLException {
+        String sql = "SELECT rt.RecipeId FROM RecipeTag rt " +
+                     "JOIN Tags t ON rt.TagId = t.TagId " +
+                     "WHERE t.TagName = ?;";
+        List<Integer> recipeIds = new ArrayList<>();
+        Connection connection = null;
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            connection = connectionManager.getConnection();
+            stmt = connection.prepareStatement(sql);
+            stmt.setString(1, tagName);
+            rs = stmt.executeQuery();
+
+            while (rs.next()) {
+                recipeIds.add(rs.getInt("RecipeId"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw e;
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (rs != null) {
+                rs.close();
+            }
+        }
+        return recipeIds;
+    }
 }
+

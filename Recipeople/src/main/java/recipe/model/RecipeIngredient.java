@@ -1,17 +1,40 @@
 package recipe.model;
+
 public class RecipeIngredient {
-  private int recipeId;
-  private int ingredientId;
+    protected Recipes recipe;
+    protected Ingredients ingredient;
 
-  public RecipeIngredient(int recipeId, int ingredientId) {
-    this.recipeId = recipeId;
-    this.ingredientId = ingredientId;
-  }
+    public RecipeIngredient(Recipes recipe, Ingredients ingredient) {
+        this.recipe = recipe;
+        this.ingredient = ingredient;
+    }
 
-  // Getters and setters
-  public int getRecipeId() { return recipeId; }
-  public void setRecipeId(int recipeId) { this.recipeId = recipeId; }
+    public RecipeIngredient(int recipeId, int ingredientId) {
+        this.recipe = new Recipes(recipeId);
+        this.ingredient = new Ingredients(ingredientId);
+    }
 
-  public int getIngredientId() { return ingredientId; }
-  public void setIngredientId(int ingredientId) { this.ingredientId = ingredientId; }
+    public Recipes getRecipe() {
+        return recipe;
+    }
+
+    public void setRecipe(Recipes recipe) {
+        this.recipe = recipe;
+    }
+
+    public Ingredients getIngredient() {
+        return ingredient;
+    }
+
+    public void setIngredient(Ingredients ingredient) {
+        this.ingredient = ingredient;
+    }
+
+    public int getRecipeId() {
+        return recipe.getRecipeId();
+    }
+
+    public int getIngredientId() {
+        return ingredient.getIngredientId();
+    }
 }

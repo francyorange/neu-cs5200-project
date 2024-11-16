@@ -19,7 +19,7 @@ import java.util.Properties;
 public class ConnectionManager {
 
 	private final String user = "root";
-	private final String password = "123456";
+	private final String password = "20010518Abc!";
 	private final String hostName = "localhost";
 
 	private final int port= 3306;

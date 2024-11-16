@@ -11,7 +11,7 @@ public class Nutritions {
     protected Recipes recipe;
 
     public Nutritions(float calories, float totalFat, float sugar, float sodium, float protein, float saturatedFat,
-        float carbohydrates, Recipes recipe) {
+            float carbohydrates, Recipes recipe) {
         this.calories = calories;
         this.totalFat = totalFat;
         this.sugar = sugar;
@@ -134,9 +134,9 @@ public class Nutritions {
 
     @Override
     public String toString() {
-        return "Nutritions [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
-            + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
-            + ", recipe=" + recipe + "]";
+        return "Nutrition [calories=" + calories + ", totalFat=" + totalFat + ", sugar=" + sugar + ", sodium=" + sodium
+                + ", protein=" + protein + ", saturatedFat=" + saturatedFat + ", carbohydrates=" + carbohydrates
+                + ", recipe=" + recipe + "]";
     }
 
 }

@@ -28,7 +28,7 @@ public class RecipesDao {
     }
 
     public Recipes create(Recipes recipe) throws SQLException {
-        String insertRecipe = "INSERT INTO Recipe(RecipeName, Minutes, Steps, Description, SubmittedAt, ContributorId) VALUES(?,?,?,?,?,?);";
+        String insertRecipe = "INSERT INTO Recipes(RecipeName, Minutes, Steps, Description, SubmittedAt, ContributorId) VALUES(?,?,?,?,?,?);";
         Connection connection = null;
         PreparedStatement insertStmt = null;
         ResultSet resultKey = null;
@@ -78,7 +78,7 @@ public class RecipesDao {
             selectStmt = connection.prepareStatement(selectRecipe);
             selectStmt.setInt(1, recipeId);
             results = selectStmt.executeQuery();
-
+            
             UsersDao usersDao = UsersDao.getInstance();
             if (results.next()) {
                 int resultRecipeId = results.getInt("RecipeId");
@@ -88,11 +88,11 @@ public class RecipesDao {
                 String description = results.getString("Description");
                 Timestamp submittedAt = results.getTimestamp("SubmittedAt");
                 int contributorId = results.getInt("ContributorId");
-
+                
                 Users user = usersDao.getUserById(contributorId);
-
+                
                 Recipes recipe = new Recipes(resultRecipeId, recipeName, minutes, steps, description, submittedAt,
-                        user);
+                		user);
                 return recipe;
             }
         } catch (SQLException e) {
@@ -118,13 +118,13 @@ public class RecipesDao {
         Connection connection = null;
         PreparedStatement selectStmt = null;
         ResultSet results = null;
-
+        
         try {
             connection = connectionManager.getConnection();
             selectStmt = connection.prepareStatement(selectContributors);
             selectStmt.setInt(1, recipe.getRecipeId());
             results = selectStmt.executeQuery();
-
+            
             UsersDao usersDao = UsersDao.getInstance();
             while (results.next()) {
                 int contributorId = results.getInt("ContributorId");
@@ -170,7 +170,7 @@ public class RecipesDao {
             }
         }
     }
-
+    
     public Recipes updateDescription(Recipes recipe, String newDescription) throws SQLException {
         String updateRecipe = "UPDATE Recipes SET Description=?,SubmittedAt=? WHERE RecipeId=?;";
         Connection connection = null;
@@ -193,10 +193,10 @@ public class RecipesDao {
             e.printStackTrace();
             throw e;
         } finally {
-            if (connection != null) {
+            if(connection != null) {
                 connection.close();
             }
-            if (updateStmt != null) {
+            if(updateStmt != null) {
                 updateStmt.close();
             }
         }
@@ -204,50 +204,5 @@ public class RecipesDao {
 
     public List<Recipes> getMostLikedRecipes(Integer k) {
         throw new UnsupportedOperationException("Not implemented yet.");
-    }
-
-    public List<Recipes> getRecipesByName(String recipeName) throws SQLException {
-        List<Recipes> recipes = new ArrayList<Recipes>();
-        String selectRecipes = "SELECT RecipeId, RecipeName, Minutes, Steps, Description, SubmittedAt, ContributorId FROM Recipes WHERE RecipeName LIKE ?;";
-        Connection connection = null;
-        PreparedStatement selectStmt = null;
-        ResultSet results = null;
-        try {
-            connection = connectionManager.getConnection();
-            selectStmt = connection.prepareStatement(selectRecipes);
-            selectStmt.setString(1, "%" + recipeName + "%");
-            results = selectStmt.executeQuery();
-
-            UsersDao usersDao = UsersDao.getInstance();
-            while (results.next()) {
-                int recipeId = results.getInt("RecipeId");
-                String resultRecipeName = results.getString("RecipeName");
-                int minutes = results.getInt("Minutes");
-                String steps = results.getString("Steps");
-                String description = results.getString("Description");
-                Timestamp submittedAt = results.getTimestamp("SubmittedAt");
-                int contributorId = results.getInt("ContributorId");
-
-                Users user = usersDao.getUserById(contributorId);
-
-                Recipes recipe = new Recipes(recipeId, resultRecipeName, minutes, steps, description, submittedAt,
-                        user);
-                recipes.add(recipe);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-            throw e;
-        } finally {
-            if (connection != null) {
-                connection.close();
-            }
-            if (selectStmt != null) {
-                selectStmt.close();
-            }
-            if (results != null) {
-                results.close();
-            }
-        }
-        return recipes;
     }
 }

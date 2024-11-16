@@ -13,7 +13,7 @@ public class Recipes {
     private Users user;
 
     public Recipes(String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
-        Users user) {
+            Users user) {
         this.recipeName = recipeName;
         this.minutes = minutes;
         this.steps = steps;
@@ -23,7 +23,7 @@ public class Recipes {
     }
 
     public Recipes(int recipeId, String recipeName, int minutes, String steps, String description, Timestamp submittedAt,
-        Users user) {
+    		Users user) {
         this.recipeId = recipeId;
         this.recipeName = recipeName;
         this.minutes = minutes;
@@ -32,7 +32,7 @@ public class Recipes {
         this.submittedAt = submittedAt;
         this.user = user;
     }
-
+    
     public Recipes(int recipeId) {
         this.recipeId = recipeId;
     }
@@ -96,8 +96,8 @@ public class Recipes {
     @Override
     public String toString() {
         return "Recipe [recipeId=" + recipeId + ", recipeName=" + recipeName + ", minutes=" + minutes + ", steps="
-            + steps + ", description=" + description + ", submittedAt=" + submittedAt + ", user="
-            + user + "]";
+                + steps + ", description=" + description + ", submittedAt=" + submittedAt + ", user="
+                + user + "]";
     }
 
     @Override

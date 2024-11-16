@@ -9,6 +9,7 @@ import java.sql.Statement;
 
 public class NutritionsDao {
     protected ConnectionManager connectionManager;
+
     private static NutritionsDao instance = null;
 
     protected NutritionsDao() {
@@ -38,6 +39,7 @@ public class NutritionsDao {
             insertStmt.setFloat(7, nutrition.getCarbohydrates());
             insertStmt.setInt(8, nutrition.getRecipe().getRecipeId());
             insertStmt.executeUpdate();
+
             return nutrition;
         } catch (SQLException e) {
             e.printStackTrace();

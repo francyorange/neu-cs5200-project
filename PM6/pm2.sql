@@ -152,13 +152,13 @@ CREATE TABLE RecipesCalculatedData (
 );
 
 -- Load data into tables
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Users.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Users.csv' INTO
 TABLE Users FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Follows.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Follows.csv' INTO
 TABLE Follows FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (FollowingId, FollowerId);
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Recipes.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Recipes.csv' INTO
 TABLE Recipes FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
     RecipeId,
     RecipeName,
@@ -169,7 +169,7 @@ TABLE Recipes FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' 
     ContributorId
 );
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Interactions.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Interactions.csv' INTO
 TABLE Interactions FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
     InteractionId,
     UserId,
@@ -177,7 +177,7 @@ TABLE Interactions FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY 
     InteractionType
 );
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Reviews.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Reviews.csv' INTO
 TABLE Reviews FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
     ReviewId,
     Content,
@@ -187,17 +187,17 @@ TABLE Reviews FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' 
     RecipeId
 );
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Ingredients.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Ingredients.csv' INTO
 TABLE Ingredients FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
     IngredientId,
     IngredientName,
     IngredientType
 );
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/RecipeIngredient.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/RecipeIngredient.csv' INTO
 TABLE RecipeIngredient FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (RecipeId, IngredientId);
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Nutrition.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Nutrition.csv' INTO
 TABLE Nutrition FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
     RecipeId,
     Calories,
@@ -209,10 +209,10 @@ TABLE Nutrition FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n
     Carbohydrates
 );
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/Tags.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/Tags.csv' INTO
 TABLE Tags FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (TagId, TagName, Category);
 
-LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/data/RecipeTag.csv' INTO
+LOAD DATA LOCAL INFILE '/workspaces/neu-cs5200-project/PM6/data/RecipeTag.csv' INTO
 TABLE RecipeTag FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (RecipeId, TagId);
 
 -- Query to check row counts

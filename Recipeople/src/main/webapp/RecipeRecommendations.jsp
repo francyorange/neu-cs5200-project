@@ -56,7 +56,9 @@
                                     <fmt:formatDate value="${recipe.submittedAt}" pattern="MM-dd-yyyy hh:mm:ss" />
                                 </td>
                                 <td>
-                                    <c:out value="${recipe.user.userId}" />
+                                    <a href="recipecontributors?recipeid=${recipe.recipeId}">
+                                        <c:out value="${recipe.user.userId}" />
+                                    </a>
                                 </td>
                                 <td><a href="recipedelete?recipeid=${recipe.recipeId}">Delete</a></td>
                                 <td><a href="recipeupdate?recipeid=${recipe.recipeId}">Update</a></td>

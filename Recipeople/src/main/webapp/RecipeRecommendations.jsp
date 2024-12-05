@@ -12,27 +12,21 @@
                 </head>
 
                 <body>
-                    <form action="findrecipes" method="post">
-                        <h1>Search for a Recipe by ID or Tag Name</h1>
+                    <form action="reciperecommendations" method="post">
+                        <h1>Recommend for Recipes for User</h1>
                         <p>
-                            <label for="recipeId">Recipe ID</label>
-                            <input id="recipeId" name="recipeId" value="${fn:escapeXml(param.recipeId)}">
+                            <label for="userId">User ID</label>
+                            <input id="userId" name="userId" value="${fn:escapeXml(param.userId)}">
                         </p>
                         <p>
-                            <label for="tagName">Tag Name</label>
-                            <input id="tagName" name="tagName" value="${fn:escapeXml(param.tagName)}">
-                        </p>
-                        <p>
-                            <input type="submit" value="Search">
+                            <input type="submit" value="Recommend">
                             <br /><br /><br />
                             <span id="successMessage"><b>${messages.success}</b></span>
                         </p>
                     </form>
                     <br />
-                    <div id="recipeCreate"><a href="recipecreate">Create Recipe</a></div>
-                    <div id="reciperecommendations"><a href="reciperecommendations">Recommend Recipes</a></div>
                     <br />
-                    <h1>Matching Recipes</h1>
+                    <h1>Recommending Recipes</h1>
                     <table border="1">
                         <tr>
                             <th>Recipe Name</th>
@@ -49,7 +43,6 @@
                                 <td><a href="recipereviews?recipeid=${recipe.recipeId}">
                                         <c:out value="${recipe.recipeName}" />
                                     </a></td>
-
                                 <td>
                                     <c:out value="${recipe.minutes}" />
                                 </td>

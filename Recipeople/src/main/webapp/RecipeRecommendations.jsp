@@ -58,8 +58,8 @@
                                 <td>
                                     <c:out value="${recipe.user.userId}" />
                                 </td>
-                                <td><a href="recipedelete?recipeId=${recipe.recipeId}">Delete</a></td>
-                                <td><a href="recipeupdate?recipeId=${recipe.recipeId}">Update</a></td>
+                                <td><a href="recipedelete?recipeid=${recipe.recipeId}">Delete</a></td>
+                                <td><a href="recipeupdate?recipeid=${recipe.recipeId}">Update</a></td>
                             </tr>
                         </c:forEach>
                     </table>

@@ -63,7 +63,7 @@ public class RecipeCreate extends HttpServlet {
 					// Create new recipe
 					Recipes recipe = new Recipes(recipeName, minutes, steps, description, submittedAt, contributor);
 					recipe = recipesDao.create(recipe);
-					messages.put("message", "Successfully created recipe: " + recipeName);
+					messages.put("message", "Successfully created recipe ID: " + recipe.getRecipeId());
 				}
 			} catch (NumberFormatException e) {
 				messages.put("message", "Invalid number format for minutes or contributor ID.");
